@@ -294,7 +294,7 @@ MonoBehaviour:
   _unreliableMtu: 1023
   _ipv4BindAddress: 172.86.113.170
   _enableIpv6: 1
-  _ipv6BindAddress: 172.86.113.170
+  _ipv6BindAddress: 
   _port: 7781
   _maximumClients: 5000
   _clientAddress: 127.0.0.1
@@ -550,7 +550,7 @@ MonoBehaviour:
     CertificatePassword: 
     SslProtocol: 0
   _mtu: 1023
-  _port: 7770
+  _port: 7781
   _maximumClients: 2000
   _clientAddress: localhost
 --- !u!1660057539 &9223372036854775807
