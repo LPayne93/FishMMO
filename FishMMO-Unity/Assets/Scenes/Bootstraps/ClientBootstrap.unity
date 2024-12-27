@@ -5438,8 +5438,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1040231679}
   m_HandleRect: {fileID: 1040231678}
   m_Direction: 0
-  m_Value: -0.000030516647
-  m_Size: 0.99739575
+  m_Value: -0.000045776367
+  m_Size: 0.9973958
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9630,10 +9630,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ReconnectAttempts: 5
   ReconnectAttemptWaitTime: 5
-  LoginServerAddresses: []
+  LoginServerAddresses:
+  - address: 172.86.113.170
+    port: 7770
   HijackKeyCodes: 120000001b000000700000007100000072000000730000007400000075000000760000007700000078000000
   NetworkManager: {fileID: 567623046510845244}
   LoginAuthenticator: {fileID: 2516426190219138202}
+  AudioListener: {fileID: 0}
 --- !u!4 &1045518713
 Transform:
   m_ObjectHideFlags: 0
@@ -10625,7 +10628,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0.000045776367, y: 191.49998}
+  m_AnchoredPosition: {x: 0.000045776367, y: 191.50003}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1123188957
@@ -14948,7 +14951,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 656819719}
   m_HandleRect: {fileID: 656819718}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -15578,7 +15581,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1182307136}
   m_HandleRect: {fileID: 1182307135}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -27967,7 +27970,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 689114121}
   m_HandleRect: {fileID: 689114120}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -29727,12 +29730,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dontRoute: 0
   _unreliableMtu: 1023
-  _ipv4BindAddress: 172.86.113.170
+  _ipv4BindAddress: 
   _enableIpv6: 1
   _ipv6BindAddress: 
-  _port: 7769
+  _port: 7770
   _maximumClients: 5000
-  _clientAddress: 127.0.0.1
+  _clientAddress: 172.86.113.170
 --- !u!114 &153750138959953147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32770,8 +32773,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 685128214670113313}
   m_HandleRect: {fileID: 1068888720331819316}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 0.5
+  m_Value: 1
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -32906,7 +32909,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -0.00061035156, y: 91.500015}
+  m_AnchoredPosition: {x: -0.00061035156, y: 91.49996}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1044085219738693208
@@ -48895,7 +48898,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 7479644878855407370}
   m_Direction: 0
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.9999999
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -56584,7 +56587,7 @@ MonoBehaviour:
   _mtu: 1023
   _port: 7770
   _maximumClients: 2000
-  _clientAddress: localhost
+  _clientAddress: 172.86.113.170
 --- !u!114 &6789225648064425146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61433,7 +61436,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7893287529803971337}
   m_HandleRect: {fileID: 7893287529803971336}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
