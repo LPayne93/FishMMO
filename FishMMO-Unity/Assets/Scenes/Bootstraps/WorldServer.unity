@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,13 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -67,9 +65,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -181,9 +176,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dontRoute: 0
   _unreliableMtu: 1023
-  _ipv4BindAddress: 0.0.0.0
+  _ipv4BindAddress: 172.86.113.170
   _enableIpv6: 1
-  _ipv6BindAddress: 
+  _ipv6BindAddress: 172.86.113.170
   _port: 7780
   _maximumClients: 5000
   _clientAddress: 127.0.0.1
@@ -231,10 +226,10 @@ MonoBehaviour:
   _refreshDefaultPrefabs: 1
   _runInBackground: 1
   _dontDestroyOnLoad: 1
-  _objectPool: {fileID: 3984622616507089276}
+  _objectPool: {fileID: 0}
   _persistence: 0
   _logging: {fileID: 11400000, guid: c66ed2b42bcd6b14194a796e70a740e0, type: 2}
-  _spawnablePrefabs: {fileID: 11400000, guid: 7d40862968a2aed4f859067648b24444, type: 2}
+  _spawnablePrefabs: {fileID: 11400000, guid: 2ccf38a23b919bc4e9fc8406834e4a29, type: 2}
 --- !u!114 &984075724013670904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,7 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68828c85278210948b9d50a8db3aab74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _authenticator: {fileID: 452158361366794860}
+  _authenticator: {fileID: 0}
   _remoteClientTimeout: 0
   _remoteClientTimeoutDuration: 60
   _allowPredictedSpawning: 0
@@ -385,8 +380,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d331f979d46e8e4a9fc90070c596d44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enableNetworkLod: 0
-  _levelOfDetailDistances: []
   _updateHostVisibility: 1
   _maximumTimedObserversDuration: 10
   _defaultConditions:
@@ -472,7 +465,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dropExcessiveReplicates: 1
   _maximumServerReplicates: 15
+  _createLocalStates: 1
   _stateInterpolation: 1
+  _stateOrder: 1
 --- !u!114 &6776049994908595652
 MonoBehaviour:
   m_ObjectHideFlags: 0

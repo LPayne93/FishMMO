@@ -14,7 +14,7 @@ namespace FishMMO.Shared
 			public static readonly string UpdaterExecutable = "Updater.exe";
 			public static readonly string SetupDirectory = "FishMMO-Setup";
 
-			public static readonly string IPFetchHost = "https://127.0.0.1:8080/";
+			public static readonly string IPFetchHost = "https://172.86.113.170:8080/";
 
 			public static readonly string DatabaseDirectory = "FishMMO-Database";
 			public static readonly string DatabaseProjectDirectory = "FishMMO-DB";

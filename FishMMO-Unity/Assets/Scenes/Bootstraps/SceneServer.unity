@@ -292,9 +292,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dontRoute: 0
   _unreliableMtu: 1023
-  _ipv4BindAddress: 0.0.0.0
+  _ipv4BindAddress: 172.86.113.170
   _enableIpv6: 1
-  _ipv6BindAddress: 
+  _ipv6BindAddress: 172.86.113.170
   _port: 7781
   _maximumClients: 5000
   _clientAddress: 127.0.0.1
@@ -329,10 +329,10 @@ MonoBehaviour:
   _refreshDefaultPrefabs: 1
   _runInBackground: 1
   _dontDestroyOnLoad: 1
-  _objectPool: {fileID: 8097462252018206291}
+  _objectPool: {fileID: 0}
   _persistence: 0
   _logging: {fileID: 11400000, guid: c66ed2b42bcd6b14194a796e70a740e0, type: 2}
-  _spawnablePrefabs: {fileID: 11400000, guid: 7d40862968a2aed4f859067648b24444, type: 2}
+  _spawnablePrefabs: {fileID: 11400000, guid: 2ccf38a23b919bc4e9fc8406834e4a29, type: 2}
 --- !u!114 &984075723737156061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,7 +345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68828c85278210948b9d50a8db3aab74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _authenticator: {fileID: 2946536618568869384}
+  _authenticator: {fileID: 0}
   _remoteClientTimeout: 0
   _remoteClientTimeoutDuration: 60
   _allowPredictedSpawning: 0
