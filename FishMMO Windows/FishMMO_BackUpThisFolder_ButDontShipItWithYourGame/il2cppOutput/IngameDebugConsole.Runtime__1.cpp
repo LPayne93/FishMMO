@@ -1,0 +1,3950 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+
+struct Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB;
+struct CircularBuffer_1_t6F1B957F4957913743FE1DFC2F4F0B05E471128A;
+struct Comparison_1_t9FCAC8C8CE160A96C5AAD2DE1D353DCE8A2FEEFC;
+struct DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20;
+struct DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F;
+struct DebugLogIndexList_1_tEAA88C51C8606A932FC4BE3F7712E0C6E3A4094B;
+struct Dictionary_2_tB23E4199E91AADB75313D2B9E6C2D0AF4F9F9E22;
+struct Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA;
+struct Dictionary_2_tA965C5A4E6C3C31E96C82CD6C43F5283BAAB30F7;
+struct Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E;
+struct DynamicCircularBuffer_1_t64462704C0D9E57163662FF29719C92F9B1C9BEA;
+struct DynamicCircularBuffer_1_tBF936640484CF43115B5EB2600C146DACC75D965;
+struct IEqualityComparer_1_tDBFC8496F14612776AF930DBF84AFE7D06D1F0E9;
+struct KeyCollection_t1DD4E23A70A3D35A332C93226D049F56278CD515;
+struct List_1_tA5BDE435C735A082941CD33D212F97F4AE9FA55F;
+struct List_1_t77A2CF97AA1B05C81783D84584405B0B9A8484F4;
+struct List_1_tD2C16B8727E0DB675306A92C1FBBE60BFE8BE983;
+struct List_1_tB8FCB3FF6EF5999674312ED4AB0DBCCC0252FBA6;
+struct List_1_tB8BF7A03E29B1B7F2ED48ABF90D4F6B19C804C14;
+struct List_1_tF2FE88545EFEC788CAAE6C74EC2F78E937FCCAC3;
+struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B;
+struct List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19;
+struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73;
+struct List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48;
+struct List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A;
+struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
+struct UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C;
+struct UnityAction_1_t8FBFBC01962B7293F0E33F9D6F1CEAF2896D8669;
+struct UnityAction_1_tC5C168260FDBBEDACD1D1996850C58AA3E9C2259;
+struct UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A;
+struct UnityAction_2_t742C43FA6EAABE0458C753DFE15FDDFAE01EA73F;
+struct UnityEvent_1_t9A868DD8EBFC0D9D8134D903A170ECBDEE567932;
+struct UnityEvent_1_t2A2840A12C919146C6D21E86D7DAA8E3DAB74030;
+struct ValueCollection_tCA4EBB242775E59481F7C3AA2F79A22601A91AC0;
+struct EntryU5BU5D_tC0263C3EB62F224BA85554A1ADF69D6BBBE83B07;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct DebugLogEntryU5BU5D_tD7A340701CFF6219ED046F42D1A4B726AFBB6192;
+struct DebugLogEntryTimestampU5BU5D_t8E5BB7892CC61C2FD0065B78005D54E21811CDA8;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C;
+struct BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F;
+struct BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1;
+struct BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832;
+struct Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26;
+struct CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094;
+struct CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD;
+struct DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230;
+struct DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8;
+struct DebugLogPopup_t521468752FCF53CE80E2E8989D7A42A10D8E216B;
+struct DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2;
+struct DebugLogResizeListener_tAEB6FDAE1D37AD856CBD82204674E6AC4C1764B5;
+struct DebugsOnScrollListener_t2E15E040AD7FE915FC4F583966EBDE135A4C0DB0;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707;
+struct EventSystemHandler_t682DE68ECD4C260AC11B771D2754D93C88E2AB5E;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E;
+struct InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140;
+struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25;
+struct PlayerPrefsCommands_tF5F2E282C801F0F5C1CF7F530FD96CD9B70ECEC0;
+struct PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB;
+struct RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670;
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5;
+struct SceneCommands_tD919696B0B3F4F289ECA77E9E677A51579914472;
+struct ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E;
+struct Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3;
+struct Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99;
+struct String_t;
+struct StringBuilder_t;
+struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct TimeCommands_t6DE00ACD4923F4291E15DF7C6CE0C4F9FE100901;
+struct UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7;
+struct VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8;
+struct ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24;
+struct ScrollRectEvent_t812C011901E6101F2A0FFC34C66AC5F65C0DEC26;
+
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_t8FBFBC01962B7293F0E33F9D6F1CEAF2896D8669_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral14EFC2C6E9EEDD3D7AD722A958977C463EF508F0;
+IL2CPP_EXTERN_C String_t* _stringLiteral813C79655CE3ED707AE14612C0DEA0D767D00F51;
+IL2CPP_EXTERN_C String_t* _stringLiteralFFA301E93C47E7C4218CADE5DC51C7C8F9CF76EA;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E_mD5D105BD6034A3131A91D7B6534D7E74834D72AD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DebugLogIndexList_1_get_Count_m46CDE42795EF3FAC3875E976F29B28B2C83BB383_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DebugLogIndexList_1_get_Item_mA9248B86B3BA915825FBD000D0D4A222B9756695_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DebugLogIndexList_1_get_Item_mBD673B6FAE1EA8BC2A674EE0E0E62A3CDE59D37A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* DebugLogRecycledListView_U3CAwakeU3Eb__25_0_m46F3DED084709344721E369E0D3AC052735594A5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_m9D7BB18AA4AB86EFE14E4557DE16B27241E87691_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m66E6C05B4FDC3BEA15F9B57F7F885C886492C1D7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_m11CA9CFE0B08B5F7D60812584F934FEFEEE7CA67_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EventSystemHandler_OnSceneLoaded_m3560B76815CA8D42F09021ADB3C1482E117A0030_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* EventSystemHandler_OnSceneUnloaded_m8F8FBCA629625A8DDBDBB7865D294FA4E2E4729F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mAD8D296FC12456C956E6FE44ECAE3E1F11204C78_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_m745BF2FAC35C508F889804F26D66321FE3785685_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnityEvent_1_AddListener_m2B74313C91E347D6AD24CE5B036E190E77E70851_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20  : public RuntimeObject
+{
+	DebugLogEntryTimestampU5BU5D_t8E5BB7892CC61C2FD0065B78005D54E21811CDA8* ___indices;
+	int32_t ___size;
+};
+struct DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___indices;
+	int32_t ___size;
+};
+struct Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets;
+	EntryU5BU5D_tC0263C3EB62F224BA85554A1ADF69D6BBBE83B07* ____entries;
+	int32_t ____count;
+	int32_t ____freeList;
+	int32_t ____freeCount;
+	int32_t ____version;
+	RuntimeObject* ____comparer;
+	KeyCollection_t1DD4E23A70A3D35A332C93226D049F56278CD515* ____keys;
+	ValueCollection_tCA4EBB242775E59481F7C3AA2F79A22601A91AC0* ____values;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tD2C16B8727E0DB675306A92C1FBBE60BFE8BE983  : public RuntimeObject
+{
+	DebugLogEntryU5BU5D_tD7A340701CFF6219ED046F42D1A4B726AFBB6192* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_t1ECF1A9E3F556408EC04BFACA61EAE2314C16DF1  : public RuntimeObject
+{
+};
+struct AbstractEventData_tAE1A127ED657117548181D29FFE4B1B14D8E67F7  : public RuntimeObject
+{
+	bool ___m_Used;
+};
+struct DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD  : public RuntimeObject
+{
+	String_t* ___logString;
+	String_t* ___stackTrace;
+	String_t* ___completeLog;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___logTypeSpriteRepresentation;
+	int32_t ___count;
+	int32_t ___hashValue;
+};
+struct PlayerPrefsCommands_tF5F2E282C801F0F5C1CF7F530FD96CD9B70ECEC0  : public RuntimeObject
+{
+};
+struct SceneCommands_tD919696B0B3F4F289ECA77E9E677A51579914472  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct TimeCommands_t6DE00ACD4923F4291E15DF7C6CE0C4F9FE100901  : public RuntimeObject
+{
+};
+struct UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8  : public RuntimeObject
+{
+	InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382* ___m_Calls;
+	PersistentCallGroup_tB826EDF15DC80F71BCBCD8E410FD959A04C33F25* ___m_PersistentCalls;
+	bool ___m_CallsDirty;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D  : public RuntimeObject
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+};
+typedef Il2CppFullySharedGenericStruct Nullable_1_t71C4EA4E848DBD7A4A97704069FB951159A3A339;
+struct UnityEvent_1_t9A868DD8EBFC0D9D8134D903A170ECBDEE567932  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray;
+};
+struct BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F  : public AbstractEventData_tAE1A127ED657117548181D29FFE4B1B14D8E67F7
+{
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___m_EventSystem;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D 
+{
+	uint64_t ____dateData;
+};
+struct DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1__padding[1];
+	};
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D 
+{
+	float ___m_XMin;
+	float ___m_YMin;
+	float ___m_Width;
+	float ___m_Height;
+};
+struct Scene_tA1DC762B79745EB5140F054C884855B922318356 
+{
+	int32_t ___m_Handle;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A 
+{
+	int64_t ____ticks;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D1088_t536EA087711A70B3A9276BD063CCAE52B7942CEC 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D1088_t536EA087711A70B3A9276BD063CCAE52B7942CEC__padding[1088];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D813_tD88D24DF2B6703E3FCF9EE6B479F2179B92CD856 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D813_tD88D24DF2B6703E3FCF9EE6B479F2179B92CD856__padding[813];
+	};
+};
+#pragma pack(pop, tp)
+struct UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182 
+{
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem;
+	bool ___sendEvents;
+	bool ___createPanelGameObjectsOnStart;
+};
+struct UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_marshaled_pinvoke
+{
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem;
+	int32_t ___sendEvents;
+	int32_t ___createPanelGameObjectsOnStart;
+};
+struct UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182_marshaled_com
+{
+	EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* ___activeEventSystem;
+	int32_t ___sendEvents;
+	int32_t ___createPanelGameObjectsOnStart;
+};
+struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	intptr_t ___m_Ptr;
+	Action_1_tE8693FF0E67CDBA52BAFB211BFF1844D076ABAFB* ___m_completeCallback;
+};
+struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+	Il2CppMethodPointer ___m_completeCallback;
+};
+struct AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	intptr_t ___m_Ptr;
+	Il2CppMethodPointer ___m_completeCallback;
+};
+struct Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Center;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Extents;
+};
+struct DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 
+{
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___dateTime;
+	float ___elapsedSeconds;
+	int32_t ___frameCount;
+};
+struct DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97_marshaled_pinvoke
+{
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___dateTime;
+	float ___elapsedSeconds;
+	int32_t ___frameCount;
+};
+struct DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97_marshaled_com
+{
+	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___dateTime;
+	float ___elapsedSeconds;
+	int32_t ___frameCount;
+};
+struct DebugLogFilter_t176E0D1D099B26C4BF6E395F35ECE3B95446D218 
+{
+	int32_t ___value__;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct KeyCode_t75B9ECCC26D858F55040DDFF9523681E996D17E9 
+{
+	int32_t ___value__;
+};
+struct LoadSceneMode_t3E17ADA25A3C4F14ECF6026741219437DA054963 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct PenStatus_tCAD6543115EF443E17410B52D37EC67BCC88ABB8 
+{
+	int32_t ___value__;
+};
+struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject;
+	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module;
+	float ___distance;
+	float ___index;
+	int32_t ___depth;
+	int32_t ___sortingGroupID;
+	int32_t ___sortingGroupOrder;
+	int32_t ___sortingLayer;
+	int32_t ___sortingOrder;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition;
+	int32_t ___displayIndex;
+};
+struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_pinvoke
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject;
+	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module;
+	float ___distance;
+	float ___index;
+	int32_t ___depth;
+	int32_t ___sortingGroupID;
+	int32_t ___sortingGroupOrder;
+	int32_t ___sortingLayer;
+	int32_t ___sortingOrder;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition;
+	int32_t ___displayIndex;
+};
+struct RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023_marshaled_com
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_GameObject;
+	BaseRaycaster_t7DC8158FD3CA0193455344379DD5FF7CD5F1F832* ___module;
+	float ___distance;
+	float ___index;
+	int32_t ___depth;
+	int32_t ___sortingGroupID;
+	int32_t ___sortingGroupOrder;
+	int32_t ___sortingLayer;
+	int32_t ___sortingOrder;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldPosition;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___worldNormal;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___screenPosition;
+	int32_t ___displayIndex;
+};
+struct FillMethod_t36837ED12068DF1582CC20489D571B0BCAA7AD19 
+{
+	int32_t ___value__;
+};
+struct Type_t81D6F138C2FC745112D5247CD91BD483EDFFC041 
+{
+	int32_t ___value__;
+};
+struct InputButton_t7F40241CC7C406EBD574D426F736CB744DE86CDA 
+{
+	int32_t ___value__;
+};
+struct MovementType_t35B76DF2E479A4C67D7768854404EFB47BF1BBB6 
+{
+	int32_t ___value__;
+};
+struct ScrollRectEvent_t812C011901E6101F2A0FFC34C66AC5F65C0DEC26  : public UnityEvent_1_t9A868DD8EBFC0D9D8134D903A170ECBDEE567932
+{
+};
+struct ScrollbarVisibility_t04A8B197CECE292E71BBB9145B1CA95BD450383E 
+{
+	int32_t ___value__;
+};
+struct Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41 
+{
+	bool ___hasValue;
+	DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 ___value;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB  : public BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CpointerEnterU3Ek__BackingField;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_PointerPress;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3ClastPressU3Ek__BackingField;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CrawPointerPressU3Ek__BackingField;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CpointerDragU3Ek__BackingField;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CpointerClickU3Ek__BackingField;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 ___U3CpointerCurrentRaycastU3Ek__BackingField;
+	RaycastResult_tEC6A7B7CABA99C386F054F01E498AEC426CF8023 ___U3CpointerPressRaycastU3Ek__BackingField;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___hovered;
+	bool ___U3CeligibleForClickU3Ek__BackingField;
+	int32_t ___U3CdisplayIndexU3Ek__BackingField;
+	int32_t ___U3CpointerIdU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CpositionU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CdeltaU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CpressPositionU3Ek__BackingField;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CworldPositionU3Ek__BackingField;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CworldNormalU3Ek__BackingField;
+	float ___U3CclickTimeU3Ek__BackingField;
+	int32_t ___U3CclickCountU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CscrollDeltaU3Ek__BackingField;
+	bool ___U3CuseDragThresholdU3Ek__BackingField;
+	bool ___U3CdraggingU3Ek__BackingField;
+	int32_t ___U3CbuttonU3Ek__BackingField;
+	float ___U3CpressureU3Ek__BackingField;
+	float ___U3CtangentialPressureU3Ek__BackingField;
+	float ___U3CaltitudeAngleU3Ek__BackingField;
+	float ___U3CazimuthAngleU3Ek__BackingField;
+	float ___U3CtwistU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CtiltU3Ek__BackingField;
+	int32_t ___U3CpenStatusU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CradiusU3Ek__BackingField;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___U3CradiusVarianceU3Ek__BackingField;
+	bool ___U3CfullyExitedU3Ek__BackingField;
+	bool ___U3CreenteredU3Ek__BackingField;
+};
+struct UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C  : public MulticastDelegate_t
+{
+};
+struct UnityAction_1_t8FBFBC01962B7293F0E33F9D6F1CEAF2896D8669  : public MulticastDelegate_t
+{
+};
+struct UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A  : public MulticastDelegate_t
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5  : public Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1
+{
+};
+struct DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___transformComponent;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___imageComponent;
+	CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ___canvasGroupComponent;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___logText;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___logTypeImage;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___logCountParent;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___logCountText;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___copyLogButton;
+	DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD* ___logEntry;
+	Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41 ___logEntryTimestamp;
+	int32_t ___entryIndex;
+	bool ___isExpanded;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___logTextOriginalPosition;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___logTextOriginalSize;
+	float ___copyLogButtonHeight;
+	DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* ___listView;
+};
+struct DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	bool ___singleton;
+	float ___minimumHeight;
+	bool ___enableHorizontalResizing;
+	bool ___resizeFromRight;
+	float ___minimumWidth;
+	bool ___enablePopup;
+	bool ___startInPopupMode;
+	bool ___startMinimized;
+	bool ___toggleWithKey;
+	int32_t ___toggleKey;
+	bool ___enableSearchbar;
+	float ___topSearchbarMinWidth;
+	bool ___receiveLogsWhileInactive;
+	bool ___receiveInfoLogs;
+	bool ___receiveWarningLogs;
+	bool ___receiveErrorLogs;
+	bool ___receiveExceptionLogs;
+	bool ___captureLogTimestamps;
+	bool ___alwaysDisplayTimestamps;
+	int32_t ___queuedLogLimit;
+	bool ___clearCommandAfterExecution;
+	int32_t ___commandHistorySize;
+	bool ___showCommandSuggestions;
+	bool ___receiveLogcatLogsInAndroid;
+	String_t* ___logcatArguments;
+	bool ___avoidScreenCutout;
+	bool ___popupAvoidsScreenCutout;
+	int32_t ___maxLogLength;
+	bool ___autoFocusOnCommandInputField;
+	DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* ___logItemPrefab;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___commandSuggestionPrefab;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___infoLog;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___warningLog;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___errorLog;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___resizeIconAllDirections;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___resizeIconVerticalOnly;
+	Dictionary_2_tA965C5A4E6C3C31E96C82CD6C43F5283BAAB30F7* ___logSpriteRepresentations;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___collapseButtonNormalColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___collapseButtonSelectedColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___filterButtonsNormalColor;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___filterButtonsSelectedColor;
+	String_t* ___commandSuggestionHighlightStart;
+	String_t* ___commandSuggestionHighlightEnd;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___logWindowTR;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___canvasTR;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___logItemsContainer;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___commandSuggestionsContainer;
+	InputField_tABEA115F23FBD374EBE80D4FAC1D15BD6E37A140* ___commandInputField;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___hideButton;
+	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___clearButton;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___collapseButton;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___filterInfoButton;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___filterWarningButton;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___filterErrorButton;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___infoEntryCountText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___warningEntryCountText;
+	Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* ___errorEntryCountText;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___searchbar;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___searchbarSlotTop;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___searchbarSlotBottom;
+	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___resizeButton;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___snapToBottomButton;
+	CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ___logWindowCanvasGroup;
+	DebugLogPopup_t521468752FCF53CE80E2E8989D7A42A10D8E216B* ___popupManager;
+	ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* ___logItemsScrollRect;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___logItemsScrollRectTR;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___logItemsScrollRectOriginalSize;
+	DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* ___recycledListView;
+	bool ___isLogWindowVisible;
+	bool ___screenDimensionsChanged;
+	float ___logWindowPreviousWidth;
+	int32_t ___infoEntryCount;
+	int32_t ___warningEntryCount;
+	int32_t ___errorEntryCount;
+	bool ___entryCountTextsDirty;
+	int32_t ___newInfoEntryCount;
+	int32_t ___newWarningEntryCount;
+	int32_t ___newErrorEntryCount;
+	bool ___isCollapseOn;
+	int32_t ___logFilter;
+	String_t* ___searchTerm;
+	bool ___isInSearchMode;
+	bool ___snapToBottom;
+	List_1_tD2C16B8727E0DB675306A92C1FBBE60BFE8BE983* ___collapsedLogEntries;
+	List_1_tB8FCB3FF6EF5999674312ED4AB0DBCCC0252FBA6* ___collapsedLogEntriesTimestamps;
+	Dictionary_2_tB23E4199E91AADB75313D2B9E6C2D0AF4F9F9E22* ___collapsedLogEntriesMap;
+	DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F* ___uncollapsedLogEntriesIndices;
+	DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20* ___uncollapsedLogEntriesTimestamps;
+	DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F* ___indicesOfListEntriesToShow;
+	DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20* ___timestampsOfListEntriesToShow;
+	int32_t ___indexOfLogEntryToSelectAndFocus;
+	bool ___shouldUpdateRecycledListView;
+	DynamicCircularBuffer_1_tBF936640484CF43115B5EB2600C146DACC75D965* ___queuedLogEntries;
+	DynamicCircularBuffer_1_t64462704C0D9E57163662FF29719C92F9B1C9BEA* ___queuedLogEntriesTimestamps;
+	RuntimeObject* ___logEntriesLock;
+	int32_t ___pendingLogToAutoExpand;
+	List_1_tF2BD894424997346355BE3D3F0A728DBF10DCF48* ___commandSuggestionInstances;
+	int32_t ___visibleCommandSuggestionInstances;
+	List_1_t77A2CF97AA1B05C81783D84584405B0B9A8484F4* ___matchingCommandSuggestions;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___commandCaretIndexIncrements;
+	String_t* ___commandInputFieldPrevCommand;
+	String_t* ___commandInputFieldPrevCommandName;
+	int32_t ___commandInputFieldPrevParamCount;
+	int32_t ___commandInputFieldPrevCaretPos;
+	int32_t ___commandInputFieldPrevCaretArgumentIndex;
+	String_t* ___commandInputFieldAutoCompleteBase;
+	bool ___commandInputFieldAutoCompletedNow;
+	List_1_tD2C16B8727E0DB675306A92C1FBBE60BFE8BE983* ___pooledLogEntries;
+	List_1_tB8BF7A03E29B1B7F2ED48ABF90D4F6B19C804C14* ___pooledLogItems;
+	CircularBuffer_1_t6F1B957F4957913743FE1DFC2F4F0B05E471128A* ___commandHistory;
+	int32_t ___commandHistoryIndex;
+	String_t* ___unfinishedCommand;
+	StringBuilder_t* ___sharedStringBuilder;
+	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___localTimeUtcOffset;
+	float ___lastElapsedSeconds;
+	int32_t ___lastFrameCount;
+	DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 ___dummyLogEntryTimestamp;
+	PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___nullPointerEventData;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnLogWindowShown;
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnLogWindowHidden;
+};
+struct DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___transformComponent;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___viewportTransform;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___logItemNormalColor1;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___logItemNormalColor2;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___logItemSelectedColor;
+	DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* ___manager;
+	ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* ___scrollView;
+	float ___logItemHeight;
+	float ____1OverLogItemHeight;
+	float ___viewportHeight;
+	List_1_tD2C16B8727E0DB675306A92C1FBBE60BFE8BE983* ___collapsedLogEntries;
+	DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F* ___indicesOfEntriesToShow;
+	DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20* ___timestampsOfEntriesToShow;
+	int32_t ___indexOfSelectedLogEntry;
+	float ___positionOfSelectedLogEntry;
+	float ___heightOfSelectedLogEntry;
+	float ___deltaHeightOfSelectedLogEntry;
+	Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA* ___logItemsAtIndices;
+	bool ___isCollapseOn;
+	int32_t ___currentTopIndex;
+	int32_t ___currentBottomIndex;
+};
+struct DebugLogResizeListener_tAEB6FDAE1D37AD856CBD82204674E6AC4C1764B5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* ___debugManager;
+};
+struct DebugsOnScrollListener_t2E15E040AD7FE915FC4F583966EBDE135A4C0DB0  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* ___debugsScrollRect;
+	DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* ___debugLogManager;
+};
+struct EventSystemHandler_t682DE68ECD4C260AC11B771D2754D93C88E2AB5E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___embeddedEventSystem;
+};
+struct UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	List_1_tA5BDE435C735A082941CD33D212F97F4AE9FA55F* ___m_SystemInputModules;
+	BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1* ___m_CurrentInputModule;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_FirstSelected;
+	bool ___m_sendNavigationEvents;
+	int32_t ___m_DragThreshold;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_CurrentSelected;
+	bool ___m_HasFocus;
+	bool ___m_SelectionGuard;
+	BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___m_DummyData;
+	bool ___m_Started;
+	bool ___m_IsTrackingUIToolkitPanels;
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_Material;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___m_Color;
+	bool ___m_SkipLayoutUpdate;
+	bool ___m_SkipMaterialUpdate;
+	bool ___m_RaycastTarget;
+	bool ___m_RaycastTargetCache;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___m_RaycastPadding;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_RectTransform;
+	CanvasRenderer_tAB9A55A976C4E3B2B37D0CE5616E5685A8B43860* ___m_CanvasRenderer;
+	Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* ___m_Canvas;
+	bool ___m_VertsDirty;
+	bool ___m_MaterialDirty;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyLayoutCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyVertsCallback;
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___m_OnDirtyMaterialCallback;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___m_CachedMesh;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___m_CachedUvs;
+	TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4* ___m_ColorTweenRunner;
+	bool ___U3CuseLegacyMeshGenerationU3Ek__BackingField;
+};
+struct ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
+{
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_Content;
+	bool ___m_Horizontal;
+	bool ___m_Vertical;
+	int32_t ___m_MovementType;
+	float ___m_Elasticity;
+	bool ___m_Inertia;
+	float ___m_DecelerationRate;
+	float ___m_ScrollSensitivity;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_Viewport;
+	Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* ___m_HorizontalScrollbar;
+	Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3* ___m_VerticalScrollbar;
+	int32_t ___m_HorizontalScrollbarVisibility;
+	int32_t ___m_VerticalScrollbarVisibility;
+	float ___m_HorizontalScrollbarSpacing;
+	float ___m_VerticalScrollbarSpacing;
+	ScrollRectEvent_t812C011901E6101F2A0FFC34C66AC5F65C0DEC26* ___m_OnValueChanged;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PointerStartLocalCursor;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_ContentStartPosition;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_ViewRect;
+	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___m_ContentBounds;
+	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___m_ViewBounds;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_Velocity;
+	bool ___m_Dragging;
+	bool ___m_Scrolling;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_PrevPosition;
+	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___m_PrevContentBounds;
+	Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___m_PrevViewBounds;
+	bool ___m_HasRebuiltLayout;
+	bool ___m_HSliderExpand;
+	bool ___m_VSliderExpand;
+	float ___m_HSliderHeight;
+	float ___m_VSliderWidth;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_Rect;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_HorizontalScrollbarRect;
+	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___m_VerticalScrollbarRect;
+	DrivenRectTransformTracker_tFB0706C933E3C68E4F377C204FCEEF091F1EE0B1 ___m_Tracker;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
+};
+struct MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E  : public Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931
+{
+	bool ___m_ShouldRecalculateStencil;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___m_MaskMaterial;
+	RectMask2D_tACF92BE999C791A665BD1ADEABF5BCEB82846670* ___m_ParentMask;
+	bool ___m_Maskable;
+	bool ___m_IsMaskingGraphic;
+	bool ___m_IncludeForMasking;
+	CullStateChangedEvent_t6073CD0D951EC1256BF74B8F9107D68FC89B99B8* ___m_OnCullStateChanged;
+	bool ___m_ShouldRecalculate;
+	int32_t ___m_StencilValue;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___m_Corners;
+};
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E  : public MaskableGraphic_tFC5B6BE351C90DE53744DF2A70940242774B361E
+{
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_Sprite;
+	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_OverrideSprite;
+	int32_t ___m_Type;
+	bool ___m_PreserveAspect;
+	bool ___m_FillCenter;
+	int32_t ___m_FillMethod;
+	float ___m_FillAmount;
+	bool ___m_FillClockwise;
+	int32_t ___m_FillOrigin;
+	float ___m_AlphaHitTestMinimumThreshold;
+	bool ___m_Tracked;
+	bool ___m_UseSpriteMesh;
+	float ___m_PixelsPerUnitMultiplier;
+	float ___m_CachedReferencePixelsPerUnit;
+};
+struct List_1_tD2C16B8727E0DB675306A92C1FBBE60BFE8BE983_StaticFields
+{
+	DebugLogEntryU5BU5D_tD7A340701CFF6219ED046F42D1A4B726AFBB6192* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_t1ECF1A9E3F556408EC04BFACA61EAE2314C16DF1_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D1088_t536EA087711A70B3A9276BD063CCAE52B7942CEC ___1D49FA979CF050F30C9146F0A030AD1BBC527119D02C6D7DA94BA5304183D0B8;
+	__StaticArrayInitTypeSizeU3D813_tD88D24DF2B6703E3FCF9EE6B479F2179B92CD856 ___FFF11A4784C029C5EFFC15594ABB227B627E488CF08254DE93E8561BA4256938;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5_StaticFields
+{
+	ReapplyDrivenProperties_t3482EA130A01FF7EE2EEFE37F66A5215D08CFE24* ___reapplyDrivenProperties;
+};
+struct DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8_StaticFields
+{
+	DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* ___U3CInstanceU3Ek__BackingField;
+};
+struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_StaticFields
+{
+	List_1_tF2FE88545EFEC788CAAE6C74EC2F78E937FCCAC3* ___m_EventSystems;
+	Comparison_1_t9FCAC8C8CE160A96C5AAD2DE1D353DCE8A2FEEFC* ___s_RaycastComparer;
+	UIToolkitOverrideConfig_t4E6B4528E38BCA7DA72C45424634806200A50182 ___s_UIToolkitOverride;
+};
+struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_DefaultUI;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___s_WhiteTexture;
+	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___s_Mesh;
+	VertexHelper_tB905FCB02AE67CBEE5F265FE37A5938FC5D136FE* ___s_VertexHelper;
+};
+struct Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E_StaticFields
+{
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___s_ETC1DefaultUI;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_VertScratch;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_UVScratch;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Xy;
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_Uv;
+	List_1_tE6BB71ABF15905EFA2BE92C38A2716547AEADB19* ___m_TrackedTexturelessImages;
+	bool ___s_Initialized;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Component_GetComponentInParent_TisIl2CppFullySharedGenericAny_mC623E57DF1C1113E52B35DF8F5130A698B7174A5_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_1__ctor_m5CDE58421961A2EE0BCD97B9A4F3602910C2CE29_gshared (UnityAction_1_tC5C168260FDBBEDACD1D1996850C58AA3E9C2259* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityEvent_1_AddListener_mCF6F788014D8853604DCD25C8AFB5C342F032F9D_gshared (UnityEvent_1_t2A2840A12C919146C6D21E86D7DAA8E3DAB74030* __this, UnityAction_1_tC5C168260FDBBEDACD1D1996850C58AA3E9C2259* ___0_call, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_get_Item_m2E96908E9716367701CD737FA54C884EB2A8C3EA_gshared (Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E* __this, Il2CppFullySharedGenericAny ___0_key, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogIndexList_1_get_Item_mFD62A6ACD1EC6B3CECCA462C59C00C6D168FD989_gshared (DebugLogIndexList_1_tEAA88C51C8606A932FC4BE3F7712E0C6E3A4094B* __this, int32_t ___0_index, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_get_Item_m6E4BA37C1FB558E4A62AE4324212E45D09C5C937_gshared (List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A* __this, int32_t ___0_index, Il2CppFullySharedGenericAny* il2cppRetVal, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m4257D7FF23A495D1B204F20330FBDED58248E4CC_gshared (Nullable_1_t71C4EA4E848DBD7A4A97704069FB951159A3A339* __this, Il2CppFullySharedGenericStruct ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_m7519D765EAF1E8A7D3137C2F1B7B3A01D15A1692_gshared (Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E* __this, Il2CppFullySharedGenericAny ___0_key, Il2CppFullySharedGenericAny* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DebugLogIndexList_1_get_Count_mE399583C48C4F29A7B277BB318A9844949E4FDAB_gshared (DebugLogIndexList_1_tEAA88C51C8606A932FC4BE3F7712E0C6E3A4094B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_m4C6841170DD11AED683D2D71919F362A4CFF4A80_gshared (Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E* __this, Il2CppFullySharedGenericAny ___0_key, Il2CppFullySharedGenericAny ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_mA5BF8973642D67EF56303F2867C75190756C3012_gshared (Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E* __this, int32_t ___0_capacity, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityAction_2__ctor_m17203366119014F4963976DF6B8E83DE49274252_gshared (UnityAction_2_t742C43FA6EAABE0458C753DFE15FDDFAE01EA73F* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+
+inline ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* Component_GetComponentInParent_TisScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E_mD5D105BD6034A3131A91D7B6534D7E74834D72AD (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* il2cppRetVal;
+	((  void (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, Il2CppFullySharedGenericAny*, const RuntimeMethod*))Component_GetComponentInParent_TisIl2CppFullySharedGenericAny_mC623E57DF1C1113E52B35DF8F5130A698B7174A5_gshared)((Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*)__this, (Il2CppFullySharedGenericAny*)&il2cppRetVal, method);
+	return il2cppRetVal;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ScrollRectEvent_t812C011901E6101F2A0FFC34C66AC5F65C0DEC26* ScrollRect_get_onValueChanged_mA6AF3832A97E82D31BB8C20BCD6E87A300E56C05 (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, const RuntimeMethod* method) ;
+inline void UnityAction_1__ctor_m71C125B79EE35648CFC416CA7DBBC27C8DBAD45A (UnityAction_1_t8FBFBC01962B7293F0E33F9D6F1CEAF2896D8669* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (UnityAction_1_t8FBFBC01962B7293F0E33F9D6F1CEAF2896D8669*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m5CDE58421961A2EE0BCD97B9A4F3602910C2CE29_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline void UnityEvent_1_AddListener_m2B74313C91E347D6AD24CE5B036E190E77E70851 (UnityEvent_1_t9A868DD8EBFC0D9D8134D903A170ECBDEE567932* __this, UnityAction_1_t8FBFBC01962B7293F0E33F9D6F1CEAF2896D8669* ___0_call, const RuntimeMethod* method)
+{
+	((  void (*) (UnityEvent_1_t9A868DD8EBFC0D9D8134D903A170ECBDEE567932*, UnityAction_1_t8FBFBC01962B7293F0E33F9D6F1CEAF2896D8669*, const RuntimeMethod*))UnityEvent_1_AddListener_mCF6F788014D8853604DCD25C8AFB5C342F032F9D_gshared)(__this, ___0_call, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D RectTransform_get_rect_mC82A60F8C3805ED9833508CCC233689641207488 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DebugLogItem_get_Index_mAE7C163DD212089A2276418AC74D1F118C4AE0E1 (DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_OnLogItemClickedInternal_m9C3AA7CA2C2C65BC15F72C0AA4AA9310F724707E (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, int32_t ___0_itemIndex, DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* ___1_referenceItem, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollRect_set_verticalNormalizedPosition_m4AF461113925E6710BF04F46A49CF1F856F7738C (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_InverseLerp_mBD7EC6A7173CE082226077E1557D5BC2D2AE0D9D_inline (float ___0_a, float ___1_b, float ___2_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogManager_SetSnapToBottom_m869F0D298244C064CF9C7611B3D11F198433D6BC (DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* __this, bool ___0_snapToBottom, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_DeselectSelectedLogItem_m04DC7746AB16AF9D1B7E9D9747ACA6B70787BF63 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_UpdateItemsInTheList_mFA3693DC343B8C587ADB84C71BEFF417EA3710EA (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, bool ___0_updateAllVisibleItemContents, const RuntimeMethod* method) ;
+inline DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7 (Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA* __this, int32_t ___0_key, const RuntimeMethod* method)
+{
+	DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* il2cppRetVal;
+	((  void (*) (Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E*, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny*, const RuntimeMethod*))Dictionary_2_get_Item_m2E96908E9716367701CD737FA54C884EB2A8C3EA_gshared)((Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E*)__this, (Il2CppFullySharedGenericAny)&___0_key, (Il2CppFullySharedGenericAny*)&il2cppRetVal, method);
+	return il2cppRetVal;
+}
+inline int32_t DebugLogIndexList_1_get_Item_mBD673B6FAE1EA8BC2A674EE0E0E62A3CDE59D37A (DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	int32_t il2cppRetVal;
+	((  void (*) (DebugLogIndexList_1_tEAA88C51C8606A932FC4BE3F7712E0C6E3A4094B*, int32_t, Il2CppFullySharedGenericAny*, const RuntimeMethod*))DebugLogIndexList_1_get_Item_mFD62A6ACD1EC6B3CECCA462C59C00C6D168FD989_gshared)((DebugLogIndexList_1_tEAA88C51C8606A932FC4BE3F7712E0C6E3A4094B*)__this, ___0_index, (Il2CppFullySharedGenericAny*)&il2cppRetVal, method);
+	return il2cppRetVal;
+}
+inline DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD* List_1_get_Item_mAD8D296FC12456C956E6FE44ECAE3E1F11204C78 (List_1_tD2C16B8727E0DB675306A92C1FBBE60BFE8BE983* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD* il2cppRetVal;
+	((  void (*) (List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A*, int32_t, Il2CppFullySharedGenericAny*, const RuntimeMethod*))List_1_get_Item_m6E4BA37C1FB558E4A62AE4324212E45D09C5C937_gshared)((List_1_tDBA89B0E21BAC58CFBD3C1F76E4668E3B562761A*)__this, ___0_index, (Il2CppFullySharedGenericAny*)&il2cppRetVal, method);
+	return il2cppRetVal;
+}
+inline DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 DebugLogIndexList_1_get_Item_mA9248B86B3BA915825FBD000D0D4A222B9756695 (DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 il2cppRetVal;
+	((  void (*) (DebugLogIndexList_1_tEAA88C51C8606A932FC4BE3F7712E0C6E3A4094B*, int32_t, Il2CppFullySharedGenericAny*, const RuntimeMethod*))DebugLogIndexList_1_get_Item_mFD62A6ACD1EC6B3CECCA462C59C00C6D168FD989_gshared)((DebugLogIndexList_1_tEAA88C51C8606A932FC4BE3F7712E0C6E3A4094B*)__this, ___0_index, (Il2CppFullySharedGenericAny*)&il2cppRetVal, method);
+	return il2cppRetVal;
+}
+inline void Nullable_1__ctor_m745BF2FAC35C508F889804F26D66321FE3785685 (Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41* __this, DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (Nullable_1_t71C4EA4E848DBD7A4A97704069FB951159A3A339*, Il2CppFullySharedGenericStruct, const RuntimeMethod*))Nullable_1__ctor_m4257D7FF23A495D1B204F20330FBDED58248E4CC_gshared)((Nullable_1_t71C4EA4E848DBD7A4A97704069FB951159A3A339*)__this, (Il2CppFullySharedGenericStruct)&___0_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DebugLogItem_CalculateExpandedHeight_m55309AF097A86F270D520E266A7C3ACA00BA0EFC (DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* __this, DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD* ___0_logEntry, Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41 ___1_logEntryTimestamp, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_ColorLogItem_m46DD7992FD72641EC61AE079E99B244472429CF3 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* ___0_logItem, int32_t ___1_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_CalculateContentHeight_m88EBCC3CBDBDE451B6F798EA318B87B9D443ABCB (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_HardResetItems_mFF51258835419129C8C059D5EC869EF1998DEB55 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogManager_ValidateScrollPosition_m2A11C6555ED058C996C5116F208E953848D479FF (DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* __this, const RuntimeMethod* method) ;
+inline bool Dictionary_2_TryGetValue_m9D7BB18AA4AB86EFE14E4557DE16B27241E87691 (Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA* __this, int32_t ___0_key, DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230** ___1_value, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E*, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny*, const RuntimeMethod*))Dictionary_2_TryGetValue_m7519D765EAF1E8A7D3137C2F1B7B3A01D15A1692_gshared)((Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E*)__this, (Il2CppFullySharedGenericAny)&___0_key, (Il2CppFullySharedGenericAny*)___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogItem_ShowCount_m370DD836F4F51DE3090FBA4E46F0D5DAE4F6E7A4 (DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogItem_UpdateTimestamp_m727217AF90E45BF3F269237C89C9477D0EC3CEB0 (DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* __this, DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 ___0_timestamp, const RuntimeMethod* method) ;
+inline int32_t DebugLogIndexList_1_get_Count_m46CDE42795EF3FAC3875E976F29B28B2C83BB383 (DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F*, const RuntimeMethod*))DebugLogIndexList_1_get_Count_mE399583C48C4F29A7B277BB318A9844949E4FDAB_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_DestroyLogItemsBetweenIndices_m85E1847758B9863E284951C77E3BB2DEF9A8E4A6 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, int32_t ___0_topIndex, int32_t ___1_bottomIndex, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_CreateLogItemsBetweenIndices_mDB2C5AA2319B2CBF70A1FD041F20EF1DD420FD8C (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, int32_t ___0_topIndex, int32_t ___1_bottomIndex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_UpdateLogItemContentsBetweenIndices_m9A78E2D3DFCB338642E1CAA287A6EE18D4120490 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, int32_t ___0_topIndex, int32_t ___1_bottomIndex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_CreateLogItemAtIndex_mDB380A0813676996CF1295C0064548546D724006 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* DebugLogManager_PopLogItem_m854ED51B251AD048C1097A5BF3F6E8518504E0EA (DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* DebugLogItem_get_Transform_mBAA5D6E01F83683FF29CE440C3D2F4D5616E6466 (DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
+inline void Dictionary_2_set_Item_m11CA9CFE0B08B5F7D60812584F934FEFEEE7CA67 (Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA* __this, int32_t ___0_key, DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E*, Il2CppFullySharedGenericAny, Il2CppFullySharedGenericAny, const RuntimeMethod*))Dictionary_2_set_Item_m4C6841170DD11AED683D2D71919F362A4CFF4A80_gshared)((Dictionary_2_t5C32AF17A5801FB3109E5B0E622BA8402A04E08E*)__this, (Il2CppFullySharedGenericAny)&___0_key, (Il2CppFullySharedGenericAny)___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogManager_PoolLogItem_m50869AD2E15FB447682B47A83D7B06DED349B736 (DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* __this, DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* ___0_logItem, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogItem_SetContent_mAA060346F58906FAA676D025BF7B440DEBA1C7E3 (DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* __this, DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD* ___0_logEntry, Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41 ___1_logEntryTimestamp, int32_t ___2_entryIndex, bool ___3_isExpanded, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogItem_HideCount_m74445C719C5941D4DD597C50988526E5FAF7DBD2 (DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* DebugLogItem_get_Image_m19E45CDC961A393E891617E0AE8196EEC60827E2 (DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* __this, const RuntimeMethod* method) ;
+inline void Dictionary_2__ctor_m66E6C05B4FDC3BEA15F9B57F7F885C886492C1D7 (Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA* __this, int32_t ___0_capacity, const RuntimeMethod* method)
+{
+	((  void (*) (Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA*, int32_t, const RuntimeMethod*))Dictionary_2__ctor_mA5BF8973642D67EF56303F2867C75190756C3012_gshared)(__this, ___0_capacity, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogManager_Resize_m0F28C37B4111332354C18770A29BD3D3277DD0E4 (DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DebugsOnScrollListener_IsScrollbarAtBottom_mD32894983625F436CB103115886010DE782D5A8D (DebugsOnScrollListener_t2E15E040AD7FE915FC4F583966EBDE135A4C0DB0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ScrollRect_get_verticalNormalizedPosition_m4FE766F04272C1805FDE2A4B72D80F6190841FA1 (ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* __this, const RuntimeMethod* method) ;
+inline void UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041 (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_2__ctor_m17203366119014F4963976DF6B8E83DE49274252_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_remove_sceneLoaded_m72A7C2A1B8EF1C21A208A9A015375577768B3978 (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_add_sceneLoaded_m14BEBCC5E4A8DD2C806A48D79A4773315CB434C6 (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* ___0_value, const RuntimeMethod* method) ;
+inline void UnityAction_1__ctor_m3D196ADE59DE13B9FDC5D827B1A6D00CBEF1F6DF (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C*, RuntimeObject*, intptr_t, const RuntimeMethod*))UnityAction_1__ctor_m5CDE58421961A2EE0BCD97B9A4F3602910C2CE29_gshared)(__this, ___0_object, ___1_method, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_remove_sceneUnloaded_m2CACDB3F47DED2C92E6AA1912906F7E2C61424EB (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_add_sceneUnloaded_mC3BAE77FFFA0DBA3F6EE3303CA78400A3932F029 (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_ActivateEventSystemIfNeeded_m162A2AECC9C9CB151849DD89B25485FAFC30313B (EventSystemHandler_t682DE68ECD4C260AC11B771D2754D93C88E2AB5E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_DeactivateEventSystem_m45036C26C5322BD6DF68716964C1C53BB19C90F8 (EventSystemHandler_t682DE68ECD4C260AC11B771D2754D93C88E2AB5E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayerPrefs_HasKey_mCA5C64BBA6BF8B230BC3BC92B4761DD3B11D4668 (String_t* ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987 (String_t* ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948 (String_t* ___0_key, int32_t ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB (String_t* ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972 (float* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285 (String_t* ___0_key, float ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE (String_t* ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256 (String_t* ___0_key, String_t* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_DeleteKey_mF3A7857B52DCEF4139843CD28716788624C2AD30 (String_t* ___0_key, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefs_DeleteAll_m7687D47AE64203DB76AC6754EC276DFFD0DFAB0E (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneCommands_LoadSceneInternal_m44750C6CBF099D1649D013DE26C8E6C838AA234B (String_t* ___0_sceneName, bool ___1_isAsync, int32_t ___2_mode, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 SceneManager_GetSceneByName_m2A70CB2D1C586ED6747E82693785CA86F99FA9B9 (String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Scene_IsValid_m0D5200731D3E26ECBBB55803F9242965A14A4599 (Scene_tA1DC762B79745EB5140F054C884855B922318356* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* SceneManager_LoadSceneAsync_m29D55D2C6CB7A019B26DA3F44C0881FF6AC491EC (String_t* ___0_sceneName, int32_t ___1_mode, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m2841705C02C450E42A44B5EEE2A6A2C4261FA3AF (String_t* ___0_sceneName, int32_t ___1_mode, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* SceneManager_UnloadSceneAsync_mF6F4161EF48C6622AA1B5BC66B4A2CA736C4D2B2 (String_t* ___0_sceneName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Scene_tA1DC762B79745EB5140F054C884855B922318356 SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Scene_get_name_m3C818DFA663E159274DAD823B780C7616C5E2A8C (Scene_tA1DC762B79745EB5140F054C884855B922318356* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331 (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_timeScale_m1F45A413D4EEA08B1E0988022512C137F6C1E616 (const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 130983
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DebugLogRecycledListView_get_ItemHeight_m4FBFACEF0C31D99C4745209391D410234EAE6A80 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:52>
+		float L_0 = __this->___logItemHeight;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:52>
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 130984
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float DebugLogRecycledListView_get_SelectedItemHeight_m55C399776D3C681426A1E7BB96D17799AAF17358 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:53>
+		float L_0 = __this->___heightOfSelectedLogEntry;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:53>
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 130985
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_Awake_mB17543BD466BD4A736547268AAC2680CC75BC5B3 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E_mD5D105BD6034A3131A91D7B6534D7E74834D72AD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugLogRecycledListView_U3CAwakeU3Eb__25_0_m46F3DED084709344721E369E0D3AC052735594A5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t8FBFBC01962B7293F0E33F9D6F1CEAF2896D8669_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_AddListener_m2B74313C91E347D6AD24CE5B036E190E77E70851_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:57>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___viewportTransform;
+		NullCheck(L_0);
+		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_1;
+		L_1 = Component_GetComponentInParent_TisScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E_mD5D105BD6034A3131A91D7B6534D7E74834D72AD(L_0, Component_GetComponentInParent_TisScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E_mD5D105BD6034A3131A91D7B6534D7E74834D72AD_RuntimeMethod_var);
+		__this->___scrollView = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___scrollView), (void*)L_1);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:58>
+		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_2 = __this->___scrollView;
+		NullCheck(L_2);
+		ScrollRectEvent_t812C011901E6101F2A0FFC34C66AC5F65C0DEC26* L_3;
+		L_3 = ScrollRect_get_onValueChanged_mA6AF3832A97E82D31BB8C20BCD6E87A300E56C05(L_2, NULL);
+		UnityAction_1_t8FBFBC01962B7293F0E33F9D6F1CEAF2896D8669* L_4 = (UnityAction_1_t8FBFBC01962B7293F0E33F9D6F1CEAF2896D8669*)il2cpp_codegen_object_new(UnityAction_1_t8FBFBC01962B7293F0E33F9D6F1CEAF2896D8669_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m71C125B79EE35648CFC416CA7DBBC27C8DBAD45A(L_4, __this, (intptr_t)((void*)DebugLogRecycledListView_U3CAwakeU3Eb__25_0_m46F3DED084709344721E369E0D3AC052735594A5_RuntimeMethod_var), NULL);
+		NullCheck(L_3);
+		UnityEvent_1_AddListener_m2B74313C91E347D6AD24CE5B036E190E77E70851(L_3, L_4, UnityEvent_1_AddListener_m2B74313C91E347D6AD24CE5B036E190E77E70851_RuntimeMethod_var);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:60>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = __this->___viewportTransform;
+		NullCheck(L_5);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_6;
+		L_6 = RectTransform_get_rect_mC82A60F8C3805ED9833508CCC233689641207488(L_5, NULL);
+		V_0 = L_6;
+		float L_7;
+		L_7 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline((&V_0), NULL);
+		__this->___viewportHeight = L_7;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:61>
+		return;
+	}
+}
+// Method Definition Index: 130986
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_Initialize_mAF57AB488F6259FDDE530279AB805F5B96EC6404 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* ___0_manager, List_1_tD2C16B8727E0DB675306A92C1FBBE60BFE8BE983* ___1_collapsedLogEntries, DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F* ___2_indicesOfEntriesToShow, DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20* ___3_timestampsOfEntriesToShow, float ___4_logItemHeight, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:65>
+		DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* L_0 = ___0_manager;
+		__this->___manager = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___manager), (void*)L_0);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:66>
+		List_1_tD2C16B8727E0DB675306A92C1FBBE60BFE8BE983* L_1 = ___1_collapsedLogEntries;
+		__this->___collapsedLogEntries = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___collapsedLogEntries), (void*)L_1);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:67>
+		DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F* L_2 = ___2_indicesOfEntriesToShow;
+		__this->___indicesOfEntriesToShow = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___indicesOfEntriesToShow), (void*)L_2);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:68>
+		DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20* L_3 = ___3_timestampsOfEntriesToShow;
+		__this->___timestampsOfEntriesToShow = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___timestampsOfEntriesToShow), (void*)L_3);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:69>
+		float L_4 = ___4_logItemHeight;
+		__this->___logItemHeight = L_4;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:70>
+		float L_5 = ___4_logItemHeight;
+		__this->____1OverLogItemHeight = ((float)((1.0f)/L_5));
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:71>
+		return;
+	}
+}
+// Method Definition Index: 130987
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_SetCollapseMode_m8B9F13CBAB315B685DBFBFFBD9FF546DC3AEAFC2 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, bool ___0_collapse, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:75>
+		bool L_0 = ___0_collapse;
+		__this->___isCollapseOn = L_0;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:76>
+		return;
+	}
+}
+// Method Definition Index: 130988
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_OnLogItemClicked_m884D345CF8F6ACB003D53075D9A8B6F8B4BB19B2 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* ___0_item, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:81>
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_0 = ___0_item;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = DebugLogItem_get_Index_mAE7C163DD212089A2276418AC74D1F118C4AE0E1(L_0, NULL);
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_2 = ___0_item;
+		DebugLogRecycledListView_OnLogItemClickedInternal_m9C3AA7CA2C2C65BC15F72C0AA4AA9310F724707E(__this, L_1, L_2, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:82>
+		return;
+	}
+}
+// Method Definition Index: 130989
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_SelectAndFocusOnLogItemAtIndex_m76E2D97A52AD52976B1A9ACCEBDC1253B9A07BC9 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, int32_t ___0_itemIndex, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	bool V_3 = false;
+	bool V_4 = false;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:87>
+		int32_t L_0 = __this->___indexOfSelectedLogEntry;
+		int32_t L_1 = ___0_itemIndex;
+		V_3 = (bool)((((int32_t)((((int32_t)L_0) == ((int32_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_2 = V_3;
+		if (!L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:88>
+		int32_t L_3 = ___0_itemIndex;
+		DebugLogRecycledListView_OnLogItemClickedInternal_m9C3AA7CA2C2C65BC15F72C0AA4AA9310F724707E(__this, L_3, (DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230*)NULL, NULL);
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:90>
+		float L_4 = __this->___viewportHeight;
+		V_0 = ((float)il2cpp_codegen_multiply(L_4, (0.5f)));
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:91>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = __this->___transformComponent;
+		NullCheck(L_5);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6;
+		L_6 = RectTransform_get_sizeDelta_m822A8493F2035677384F1540A2E9E5ACE63010BB(L_5, NULL);
+		float L_7 = L_6.___y;
+		float L_8 = __this->___viewportHeight;
+		V_1 = ((float)il2cpp_codegen_subtract(L_7, ((float)il2cpp_codegen_multiply(L_8, (0.5f)))));
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:92>
+		int32_t L_9 = ___0_itemIndex;
+		float L_10 = __this->___logItemHeight;
+		float L_11 = __this->___viewportHeight;
+		V_2 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)L_9), L_10)), ((float)il2cpp_codegen_multiply(L_11, (0.5f)))));
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:93>
+		float L_12 = V_0;
+		float L_13 = V_1;
+		V_4 = (bool)((((float)L_12) == ((float)L_13))? 1 : 0);
+		bool L_14 = V_4;
+		if (!L_14)
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:94>
+		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_15 = __this->___scrollView;
+		NullCheck(L_15);
+		ScrollRect_set_verticalNormalizedPosition_m4AF461113925E6710BF04F46A49CF1F856F7738C(L_15, (0.5f), NULL);
+		goto IL_0092;
+	}
+
+IL_0079:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:96>
+		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_16 = __this->___scrollView;
+		float L_17 = V_1;
+		float L_18 = V_0;
+		float L_19 = V_2;
+		float L_20;
+		L_20 = Mathf_InverseLerp_mBD7EC6A7173CE082226077E1557D5BC2D2AE0D9D_inline(L_17, L_18, L_19, NULL);
+		float L_21;
+		L_21 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_20, NULL);
+		NullCheck(L_16);
+		ScrollRect_set_verticalNormalizedPosition_m4AF461113925E6710BF04F46A49CF1F856F7738C(L_16, L_21, NULL);
+	}
+
+IL_0092:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:98>
+		DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* L_22 = __this->___manager;
+		NullCheck(L_22);
+		DebugLogManager_SetSnapToBottom_m869F0D298244C064CF9C7611B3D11F198433D6BC(L_22, (bool)0, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:99>
+		return;
+	}
+}
+// Method Definition Index: 130990
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_OnLogItemClickedInternal_m9C3AA7CA2C2C65BC15F72C0AA4AA9310F724707E (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, int32_t ___0_itemIndex, DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* ___1_referenceItem, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugLogIndexList_1_get_Item_mA9248B86B3BA915825FBD000D0D4A222B9756695_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugLogIndexList_1_get_Item_mBD673B6FAE1EA8BC2A674EE0E0E62A3CDE59D37A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mAD8D296FC12456C956E6FE44ECAE3E1F11204C78_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_m745BF2FAC35C508F889804F26D66321FE3785685_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	bool V_2 = false;
+	Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	bool V_4 = false;
+	DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD* G_B7_0 = NULL;
+	DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* G_B7_1 = NULL;
+	DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* G_B7_2 = NULL;
+	DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD* G_B6_0 = NULL;
+	DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* G_B6_1 = NULL;
+	DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* G_B6_2 = NULL;
+	Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41 G_B8_0;
+	memset((&G_B8_0), 0, sizeof(G_B8_0));
+	DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD* G_B8_1 = NULL;
+	DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* G_B8_2 = NULL;
+	DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* G_B8_3 = NULL;
+	int32_t G_B13_0 = 0;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:103>
+		int32_t L_0 = __this->___indexOfSelectedLogEntry;
+		int32_t L_1 = ___0_itemIndex;
+		V_0 = (bool)((((int32_t)((((int32_t)L_0) == ((int32_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_00d3;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:105>
+		DebugLogRecycledListView_DeselectSelectedLogItem_m04DC7746AB16AF9D1B7E9D9747ACA6B70787BF63(__this, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:107>
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_3 = ___1_referenceItem;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_3, NULL);
+		V_1 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
+		bool L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:109>
+		int32_t L_6 = __this->___currentTopIndex;
+		V_2 = (bool)((((int32_t)L_6) == ((int32_t)(-1)))? 1 : 0);
+		bool L_7 = V_2;
+		if (!L_7)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:110>
+		DebugLogRecycledListView_UpdateItemsInTheList_mFA3693DC343B8C587ADB84C71BEFF417EA3710EA(__this, (bool)0, NULL);
+	}
+
+IL_003f:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:112>
+		Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA* L_8 = __this->___logItemsAtIndices;
+		int32_t L_9 = __this->___currentTopIndex;
+		NullCheck(L_8);
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_10;
+		L_10 = Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7(L_8, L_9, Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7_RuntimeMethod_var);
+		___1_referenceItem = L_10;
+	}
+
+IL_0053:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:115>
+		int32_t L_11 = ___0_itemIndex;
+		__this->___indexOfSelectedLogEntry = L_11;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:116>
+		int32_t L_12 = ___0_itemIndex;
+		float L_13 = __this->___logItemHeight;
+		__this->___positionOfSelectedLogEntry = ((float)il2cpp_codegen_multiply(((float)L_12), L_13));
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:117>
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_14 = ___1_referenceItem;
+		List_1_tD2C16B8727E0DB675306A92C1FBBE60BFE8BE983* L_15 = __this->___collapsedLogEntries;
+		DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F* L_16 = __this->___indicesOfEntriesToShow;
+		int32_t L_17 = ___0_itemIndex;
+		NullCheck(L_16);
+		int32_t L_18;
+		L_18 = DebugLogIndexList_1_get_Item_mBD673B6FAE1EA8BC2A674EE0E0E62A3CDE59D37A(L_16, L_17, DebugLogIndexList_1_get_Item_mBD673B6FAE1EA8BC2A674EE0E0E62A3CDE59D37A_RuntimeMethod_var);
+		NullCheck(L_15);
+		DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD* L_19;
+		L_19 = List_1_get_Item_mAD8D296FC12456C956E6FE44ECAE3E1F11204C78(L_15, L_18, List_1_get_Item_mAD8D296FC12456C956E6FE44ECAE3E1F11204C78_RuntimeMethod_var);
+		DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20* L_20 = __this->___timestampsOfEntriesToShow;
+		if (L_20)
+		{
+			G_B7_0 = L_19;
+			G_B7_1 = L_14;
+			G_B7_2 = __this;
+			goto IL_0095;
+		}
+		G_B6_0 = L_19;
+		G_B6_1 = L_14;
+		G_B6_2 = __this;
+	}
+	{
+		il2cpp_codegen_initobj((&V_3), sizeof(Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41));
+		Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41 L_21 = V_3;
+		G_B8_0 = L_21;
+		G_B8_1 = G_B6_0;
+		G_B8_2 = G_B6_1;
+		G_B8_3 = G_B6_2;
+		goto IL_00a6;
+	}
+
+IL_0095:
+	{
+		DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20* L_22 = __this->___timestampsOfEntriesToShow;
+		int32_t L_23 = ___0_itemIndex;
+		NullCheck(L_22);
+		DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 L_24;
+		L_24 = DebugLogIndexList_1_get_Item_mA9248B86B3BA915825FBD000D0D4A222B9756695(L_22, L_23, DebugLogIndexList_1_get_Item_mA9248B86B3BA915825FBD000D0D4A222B9756695_RuntimeMethod_var);
+		Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41 L_25;
+		memset((&L_25), 0, sizeof(L_25));
+		Nullable_1__ctor_m745BF2FAC35C508F889804F26D66321FE3785685((&L_25), L_24, Nullable_1__ctor_m745BF2FAC35C508F889804F26D66321FE3785685_RuntimeMethod_var);
+		G_B8_0 = L_25;
+		G_B8_1 = G_B7_0;
+		G_B8_2 = G_B7_1;
+		G_B8_3 = G_B7_2;
+	}
+
+IL_00a6:
+	{
+		NullCheck(G_B8_2);
+		float L_26;
+		L_26 = DebugLogItem_CalculateExpandedHeight_m55309AF097A86F270D520E266A7C3ACA00BA0EFC(G_B8_2, G_B8_1, G_B8_0, NULL);
+		NullCheck(G_B8_3);
+		G_B8_3->___heightOfSelectedLogEntry = L_26;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:118>
+		float L_27 = __this->___heightOfSelectedLogEntry;
+		float L_28 = __this->___logItemHeight;
+		__this->___deltaHeightOfSelectedLogEntry = ((float)il2cpp_codegen_subtract(L_27, L_28));
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:120>
+		DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* L_29 = __this->___manager;
+		NullCheck(L_29);
+		DebugLogManager_SetSnapToBottom_m869F0D298244C064CF9C7611B3D11F198433D6BC(L_29, (bool)0, NULL);
+		goto IL_00da;
+	}
+
+IL_00d3:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:123>
+		DebugLogRecycledListView_DeselectSelectedLogItem_m04DC7746AB16AF9D1B7E9D9747ACA6B70787BF63(__this, NULL);
+	}
+
+IL_00da:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:125>
+		int32_t L_30 = __this->___indexOfSelectedLogEntry;
+		int32_t L_31 = __this->___currentTopIndex;
+		if ((((int32_t)L_30) < ((int32_t)L_31)))
+		{
+			goto IL_00fb;
+		}
+	}
+	{
+		int32_t L_32 = __this->___indexOfSelectedLogEntry;
+		int32_t L_33 = __this->___currentBottomIndex;
+		G_B13_0 = ((((int32_t)((((int32_t)L_32) > ((int32_t)L_33))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_00fc;
+	}
+
+IL_00fb:
+	{
+		G_B13_0 = 0;
+	}
+
+IL_00fc:
+	{
+		V_4 = (bool)G_B13_0;
+		bool L_34 = V_4;
+		if (!L_34)
+		{
+			goto IL_0120;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:126>
+		Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA* L_35 = __this->___logItemsAtIndices;
+		int32_t L_36 = __this->___indexOfSelectedLogEntry;
+		NullCheck(L_35);
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_37;
+		L_37 = Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7(L_35, L_36, Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7_RuntimeMethod_var);
+		int32_t L_38 = __this->___indexOfSelectedLogEntry;
+		DebugLogRecycledListView_ColorLogItem_m46DD7992FD72641EC61AE079E99B244472429CF3(__this, L_37, L_38, NULL);
+	}
+
+IL_0120:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:128>
+		DebugLogRecycledListView_CalculateContentHeight_m88EBCC3CBDBDE451B6F798EA318B87B9D443ABCB(__this, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:130>
+		DebugLogRecycledListView_HardResetItems_mFF51258835419129C8C059D5EC869EF1998DEB55(__this, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:131>
+		DebugLogRecycledListView_UpdateItemsInTheList_mFA3693DC343B8C587ADB84C71BEFF417EA3710EA(__this, (bool)1, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:133>
+		DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* L_39 = __this->___manager;
+		NullCheck(L_39);
+		DebugLogManager_ValidateScrollPosition_m2A11C6555ED058C996C5116F208E953848D479FF(L_39, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:134>
+		return;
+	}
+}
+// Method Definition Index: 130991
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_DeselectSelectedLogItem_m04DC7746AB16AF9D1B7E9D9747ACA6B70787BF63 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:139>
+		int32_t L_0 = __this->___indexOfSelectedLogEntry;
+		V_0 = L_0;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:140>
+		__this->___indexOfSelectedLogEntry = ((int32_t)2147483647LL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:142>
+		__this->___positionOfSelectedLogEntry = ((std::numeric_limits<float>::max)());
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:143>
+		float L_1 = (0.0f);
+		V_1 = L_1;
+		__this->___deltaHeightOfSelectedLogEntry = L_1;
+		float L_2 = V_1;
+		__this->___heightOfSelectedLogEntry = L_2;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:145>
+		int32_t L_3 = V_0;
+		int32_t L_4 = __this->___currentTopIndex;
+		if ((((int32_t)L_3) < ((int32_t)L_4)))
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		int32_t L_5 = V_0;
+		int32_t L_6 = __this->___currentBottomIndex;
+		G_B3_0 = ((((int32_t)((((int32_t)L_5) > ((int32_t)L_6))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_004a;
+	}
+
+IL_0049:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_004a:
+	{
+		V_2 = (bool)G_B3_0;
+		bool L_7 = V_2;
+		if (!L_7)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:146>
+		Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA* L_8 = __this->___logItemsAtIndices;
+		int32_t L_9 = V_0;
+		NullCheck(L_8);
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_10;
+		L_10 = Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7(L_8, L_9, Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7_RuntimeMethod_var);
+		int32_t L_11 = V_0;
+		DebugLogRecycledListView_ColorLogItem_m46DD7992FD72641EC61AE079E99B244472429CF3(__this, L_10, L_11, NULL);
+	}
+
+IL_0062:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:147>
+		return;
+	}
+}
+// Method Definition Index: 130992
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_OnLogEntriesUpdated_m31B75B0BEFE49F0A6C735132A24575ED537259F1 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, bool ___0_updateAllVisibleItemContents, const RuntimeMethod* method) 
+{
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:152>
+		DebugLogRecycledListView_CalculateContentHeight_m88EBCC3CBDBDE451B6F798EA318B87B9D443ABCB(__this, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:153>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___viewportTransform;
+		NullCheck(L_0);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1;
+		L_1 = RectTransform_get_rect_mC82A60F8C3805ED9833508CCC233689641207488(L_0, NULL);
+		V_0 = L_1;
+		float L_2;
+		L_2 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline((&V_0), NULL);
+		__this->___viewportHeight = L_2;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:155>
+		bool L_3 = ___0_updateAllVisibleItemContents;
+		V_1 = L_3;
+		bool L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:156>
+		DebugLogRecycledListView_HardResetItems_mFF51258835419129C8C059D5EC869EF1998DEB55(__this, NULL);
+	}
+
+IL_002d:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:158>
+		bool L_5 = ___0_updateAllVisibleItemContents;
+		DebugLogRecycledListView_UpdateItemsInTheList_mFA3693DC343B8C587ADB84C71BEFF417EA3710EA(__this, L_5, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:159>
+		return;
+	}
+}
+// Method Definition Index: 130993
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_OnCollapsedLogEntryAtIndexUpdated_m83CA66274FC922C662D9A56A137F308EC39F1DDB (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, int32_t ___0_index, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugLogIndexList_1_get_Item_mA9248B86B3BA915825FBD000D0D4A222B9756695_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_m9D7BB18AA4AB86EFE14E4557DE16B27241E87691_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* V_0 = NULL;
+	bool V_1 = false;
+	bool V_2 = false;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:165>
+		Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA* L_0 = __this->___logItemsAtIndices;
+		int32_t L_1 = ___0_index;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = Dictionary_2_TryGetValue_m9D7BB18AA4AB86EFE14E4557DE16B27241E87691(L_0, L_1, (&V_0), Dictionary_2_TryGetValue_m9D7BB18AA4AB86EFE14E4557DE16B27241E87691_RuntimeMethod_var);
+		V_1 = L_2;
+		bool L_3 = V_1;
+		if (!L_3)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:167>
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_4 = V_0;
+		NullCheck(L_4);
+		DebugLogItem_ShowCount_m370DD836F4F51DE3090FBA4E46F0D5DAE4F6E7A4(L_4, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:169>
+		DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20* L_5 = __this->___timestampsOfEntriesToShow;
+		V_2 = (bool)((!(((RuntimeObject*)(DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20*)L_5) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_6 = V_2;
+		if (!L_6)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:170>
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_7 = V_0;
+		DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20* L_8 = __this->___timestampsOfEntriesToShow;
+		int32_t L_9 = ___0_index;
+		NullCheck(L_8);
+		DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 L_10;
+		L_10 = DebugLogIndexList_1_get_Item_mA9248B86B3BA915825FBD000D0D4A222B9756695(L_8, L_9, DebugLogIndexList_1_get_Item_mA9248B86B3BA915825FBD000D0D4A222B9756695_RuntimeMethod_var);
+		NullCheck(L_7);
+		DebugLogItem_UpdateTimestamp_m727217AF90E45BF3F269237C89C9477D0EC3CEB0(L_7, L_10, NULL);
+	}
+
+IL_003b:
+	{
+	}
+
+IL_003c:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:172>
+		return;
+	}
+}
+// Method Definition Index: 130994
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_OnViewportWidthChanged_mC15FBC039660C721E52590BFA3E6A08320AF6C4D (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugLogIndexList_1_get_Count_m46CDE42795EF3FAC3875E976F29B28B2C83BB383_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugLogIndexList_1_get_Item_mA9248B86B3BA915825FBD000D0D4A222B9756695_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugLogIndexList_1_get_Item_mBD673B6FAE1EA8BC2A674EE0E0E62A3CDE59D37A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mAD8D296FC12456C956E6FE44ECAE3E1F11204C78_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_m745BF2FAC35C508F889804F26D66321FE3785685_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* V_0 = NULL;
+	bool V_1 = false;
+	bool V_2 = false;
+	bool V_3 = false;
+	Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD* G_B8_0 = NULL;
+	DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* G_B8_1 = NULL;
+	DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* G_B8_2 = NULL;
+	DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD* G_B7_0 = NULL;
+	DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* G_B7_1 = NULL;
+	DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* G_B7_2 = NULL;
+	Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41 G_B9_0;
+	memset((&G_B9_0), 0, sizeof(G_B9_0));
+	DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD* G_B9_1 = NULL;
+	DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* G_B9_2 = NULL;
+	DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* G_B9_3 = NULL;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:177>
+		int32_t L_0 = __this->___indexOfSelectedLogEntry;
+		DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F* L_1 = __this->___indicesOfEntriesToShow;
+		NullCheck(L_1);
+		int32_t L_2;
+		L_2 = DebugLogIndexList_1_get_Count_m46CDE42795EF3FAC3875E976F29B28B2C83BB383(L_1, DebugLogIndexList_1_get_Count_m46CDE42795EF3FAC3875E976F29B28B2C83BB383_RuntimeMethod_var);
+		V_1 = (bool)((((int32_t)((((int32_t)L_0) < ((int32_t)L_2))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_3 = V_1;
+		if (!L_3)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:178>
+		goto IL_00e2;
+	}
+
+IL_0020:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:180>
+		int32_t L_4 = __this->___currentTopIndex;
+		V_2 = (bool)((((int32_t)L_4) == ((int32_t)(-1)))? 1 : 0);
+		bool L_5 = V_2;
+		if (!L_5)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:182>
+		DebugLogRecycledListView_UpdateItemsInTheList_mFA3693DC343B8C587ADB84C71BEFF417EA3710EA(__this, (bool)0, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:183>
+		int32_t L_6 = __this->___currentTopIndex;
+		V_3 = (bool)((((int32_t)L_6) == ((int32_t)(-1)))? 1 : 0);
+		bool L_7 = V_3;
+		if (!L_7)
+		{
+			goto IL_0048;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:184>
+		goto IL_00e2;
+	}
+
+IL_0048:
+	{
+	}
+
+IL_0049:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:187>
+		Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA* L_8 = __this->___logItemsAtIndices;
+		int32_t L_9 = __this->___currentTopIndex;
+		NullCheck(L_8);
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_10;
+		L_10 = Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7(L_8, L_9, Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7_RuntimeMethod_var);
+		V_0 = L_10;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:189>
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_11 = V_0;
+		List_1_tD2C16B8727E0DB675306A92C1FBBE60BFE8BE983* L_12 = __this->___collapsedLogEntries;
+		DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F* L_13 = __this->___indicesOfEntriesToShow;
+		int32_t L_14 = __this->___indexOfSelectedLogEntry;
+		NullCheck(L_13);
+		int32_t L_15;
+		L_15 = DebugLogIndexList_1_get_Item_mBD673B6FAE1EA8BC2A674EE0E0E62A3CDE59D37A(L_13, L_14, DebugLogIndexList_1_get_Item_mBD673B6FAE1EA8BC2A674EE0E0E62A3CDE59D37A_RuntimeMethod_var);
+		NullCheck(L_12);
+		DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD* L_16;
+		L_16 = List_1_get_Item_mAD8D296FC12456C956E6FE44ECAE3E1F11204C78(L_12, L_15, List_1_get_Item_mAD8D296FC12456C956E6FE44ECAE3E1F11204C78_RuntimeMethod_var);
+		DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20* L_17 = __this->___timestampsOfEntriesToShow;
+		if (L_17)
+		{
+			G_B8_0 = L_16;
+			G_B8_1 = L_11;
+			G_B8_2 = __this;
+			goto IL_008d;
+		}
+		G_B7_0 = L_16;
+		G_B7_1 = L_11;
+		G_B7_2 = __this;
+	}
+	{
+		il2cpp_codegen_initobj((&V_4), sizeof(Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41));
+		Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41 L_18 = V_4;
+		G_B9_0 = L_18;
+		G_B9_1 = G_B7_0;
+		G_B9_2 = G_B7_1;
+		G_B9_3 = G_B7_2;
+		goto IL_00a3;
+	}
+
+IL_008d:
+	{
+		DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20* L_19 = __this->___timestampsOfEntriesToShow;
+		int32_t L_20 = __this->___indexOfSelectedLogEntry;
+		NullCheck(L_19);
+		DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 L_21;
+		L_21 = DebugLogIndexList_1_get_Item_mA9248B86B3BA915825FBD000D0D4A222B9756695(L_19, L_20, DebugLogIndexList_1_get_Item_mA9248B86B3BA915825FBD000D0D4A222B9756695_RuntimeMethod_var);
+		Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41 L_22;
+		memset((&L_22), 0, sizeof(L_22));
+		Nullable_1__ctor_m745BF2FAC35C508F889804F26D66321FE3785685((&L_22), L_21, Nullable_1__ctor_m745BF2FAC35C508F889804F26D66321FE3785685_RuntimeMethod_var);
+		G_B9_0 = L_22;
+		G_B9_1 = G_B8_0;
+		G_B9_2 = G_B8_1;
+		G_B9_3 = G_B8_2;
+	}
+
+IL_00a3:
+	{
+		NullCheck(G_B9_2);
+		float L_23;
+		L_23 = DebugLogItem_CalculateExpandedHeight_m55309AF097A86F270D520E266A7C3ACA00BA0EFC(G_B9_2, G_B9_1, G_B9_0, NULL);
+		NullCheck(G_B9_3);
+		G_B9_3->___heightOfSelectedLogEntry = L_23;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:190>
+		float L_24 = __this->___heightOfSelectedLogEntry;
+		float L_25 = __this->___logItemHeight;
+		__this->___deltaHeightOfSelectedLogEntry = ((float)il2cpp_codegen_subtract(L_24, L_25));
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:192>
+		DebugLogRecycledListView_CalculateContentHeight_m88EBCC3CBDBDE451B6F798EA318B87B9D443ABCB(__this, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:194>
+		DebugLogRecycledListView_HardResetItems_mFF51258835419129C8C059D5EC869EF1998DEB55(__this, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:195>
+		DebugLogRecycledListView_UpdateItemsInTheList_mFA3693DC343B8C587ADB84C71BEFF417EA3710EA(__this, (bool)1, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:197>
+		DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* L_26 = __this->___manager;
+		NullCheck(L_26);
+		DebugLogManager_ValidateScrollPosition_m2A11C6555ED058C996C5116F208E953848D479FF(L_26, NULL);
+	}
+
+IL_00e2:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:198>
+		return;
+	}
+}
+// Method Definition Index: 130995
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_OnViewportHeightChanged_mC257005C0AC4AAB23CAB212ABC2B3CD3311E2484 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, const RuntimeMethod* method) 
+{
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:203>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_0 = __this->___viewportTransform;
+		NullCheck(L_0);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1;
+		L_1 = RectTransform_get_rect_mC82A60F8C3805ED9833508CCC233689641207488(L_0, NULL);
+		V_0 = L_1;
+		float L_2;
+		L_2 = Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline((&V_0), NULL);
+		__this->___viewportHeight = L_2;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:204>
+		DebugLogRecycledListView_UpdateItemsInTheList_mFA3693DC343B8C587ADB84C71BEFF417EA3710EA(__this, (bool)0, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:205>
+		return;
+	}
+}
+// Method Definition Index: 130996
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_HardResetItems_mFF51258835419129C8C059D5EC869EF1998DEB55 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:209>
+		int32_t L_0 = __this->___currentTopIndex;
+		V_0 = (bool)((((int32_t)((((int32_t)L_0) == ((int32_t)(-1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:211>
+		int32_t L_2 = __this->___currentTopIndex;
+		int32_t L_3 = __this->___currentBottomIndex;
+		DebugLogRecycledListView_DestroyLogItemsBetweenIndices_m85E1847758B9863E284951C77E3BB2DEF9A8E4A6(__this, L_2, L_3, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:212>
+		__this->___currentTopIndex = (-1);
+	}
+
+IL_002d:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:214>
+		return;
+	}
+}
+// Method Definition Index: 130997
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_CalculateContentHeight_m88EBCC3CBDBDE451B6F798EA318B87B9D443ABCB (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugLogIndexList_1_get_Count_m46CDE42795EF3FAC3875E976F29B28B2C83BB383_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:218>
+		DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F* L_0 = __this->___indicesOfEntriesToShow;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = DebugLogIndexList_1_get_Count_m46CDE42795EF3FAC3875E976F29B28B2C83BB383(L_0, DebugLogIndexList_1_get_Count_m46CDE42795EF3FAC3875E976F29B28B2C83BB383_RuntimeMethod_var);
+		float L_2 = __this->___logItemHeight;
+		float L_3 = __this->___deltaHeightOfSelectedLogEntry;
+		float L_4;
+		L_4 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((1.0f), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(((float)L_1), L_2)), L_3)), NULL);
+		V_0 = L_4;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:219>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_5 = __this->___transformComponent;
+		float L_6 = V_0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7;
+		memset((&L_7), 0, sizeof(L_7));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_7), (0.0f), L_6, NULL);
+		NullCheck(L_5);
+		RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5(L_5, L_7, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:220>
+		return;
+	}
+}
+// Method Definition Index: 130998
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_UpdateItemsInTheList_mFA3693DC343B8C587ADB84C71BEFF417EA3710EA (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, bool ___0_updateAllVisibleItemContents, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugLogIndexList_1_get_Count_m46CDE42795EF3FAC3875E976F29B28B2C83BB383_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	bool V_5 = false;
+	bool V_6 = false;
+	bool V_7 = false;
+	bool V_8 = false;
+	bool V_9 = false;
+	bool V_10 = false;
+	bool V_11 = false;
+	bool V_12 = false;
+	bool V_13 = false;
+	bool V_14 = false;
+	bool V_15 = false;
+	bool V_16 = false;
+	bool V_17 = false;
+	bool V_18 = false;
+	bool V_19 = false;
+	bool V_20 = false;
+	int32_t G_B21_0 = 0;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:227>
+		DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F* L_0 = __this->___indicesOfEntriesToShow;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = DebugLogIndexList_1_get_Count_m46CDE42795EF3FAC3875E976F29B28B2C83BB383(L_0, DebugLogIndexList_1_get_Count_m46CDE42795EF3FAC3875E976F29B28B2C83BB383_RuntimeMethod_var);
+		V_0 = (bool)((((int32_t)L_1) > ((int32_t)0))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_028a;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:229>
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_3 = __this->___transformComponent;
+		NullCheck(L_3);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
+		L_4 = RectTransform_get_anchoredPosition_m38F25A4253B0905BB058BE73DBF43C7172CE0680(L_3, NULL);
+		float L_5 = L_4.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, (1.0f)));
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:230>
+		float L_6 = V_1;
+		float L_7 = __this->___viewportHeight;
+		V_2 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_6, L_7)), (2.0f)));
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:232>
+		float L_8 = __this->___positionOfSelectedLogEntry;
+		float L_9 = V_2;
+		V_5 = (bool)((((int32_t)((!(((float)L_8) <= ((float)L_9)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_10 = V_5;
+		if (!L_10)
+		{
+			goto IL_00e3;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:234>
+		float L_11 = __this->___positionOfSelectedLogEntry;
+		float L_12 = V_1;
+		V_6 = (bool)((((int32_t)((!(((float)L_11) <= ((float)L_12)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_13 = V_6;
+		if (!L_13)
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:236>
+		float L_14 = V_1;
+		float L_15 = __this->___deltaHeightOfSelectedLogEntry;
+		V_1 = ((float)il2cpp_codegen_subtract(L_14, L_15));
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:237>
+		float L_16 = V_2;
+		float L_17 = __this->___deltaHeightOfSelectedLogEntry;
+		V_2 = ((float)il2cpp_codegen_subtract(L_16, L_17));
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:239>
+		float L_18 = V_1;
+		float L_19 = __this->___positionOfSelectedLogEntry;
+		V_7 = (bool)((((float)L_18) < ((float)((float)il2cpp_codegen_subtract(L_19, (1.0f)))))? 1 : 0);
+		bool L_20 = V_7;
+		if (!L_20)
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:240>
+		float L_21 = __this->___positionOfSelectedLogEntry;
+		V_1 = ((float)il2cpp_codegen_subtract(L_21, (1.0f)));
+	}
+
+IL_009a:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:242>
+		float L_22 = V_2;
+		float L_23 = V_1;
+		V_8 = (bool)((((float)L_22) < ((float)((float)il2cpp_codegen_add(L_23, (2.0f)))))? 1 : 0);
+		bool L_24 = V_8;
+		if (!L_24)
+		{
+			goto IL_00b2;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:243>
+		float L_25 = V_1;
+		V_2 = ((float)il2cpp_codegen_add(L_25, (2.0f)));
+	}
+
+IL_00b2:
+	{
+		goto IL_00e2;
+	}
+
+IL_00b5:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:247>
+		float L_26 = V_2;
+		float L_27 = __this->___deltaHeightOfSelectedLogEntry;
+		V_2 = ((float)il2cpp_codegen_subtract(L_26, L_27));
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:248>
+		float L_28 = V_2;
+		float L_29 = __this->___positionOfSelectedLogEntry;
+		V_9 = (bool)((((float)L_28) < ((float)((float)il2cpp_codegen_add(L_29, (1.0f)))))? 1 : 0);
+		bool L_30 = V_9;
+		if (!L_30)
+		{
+			goto IL_00e1;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:249>
+		float L_31 = __this->___positionOfSelectedLogEntry;
+		V_2 = ((float)il2cpp_codegen_add(L_31, (1.0f)));
+	}
+
+IL_00e1:
+	{
+	}
+
+IL_00e2:
+	{
+	}
+
+IL_00e3:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:253>
+		float L_32 = V_1;
+		float L_33 = __this->____1OverLogItemHeight;
+		V_3 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_32, L_33)));
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:254>
+		float L_34 = V_2;
+		float L_35 = __this->____1OverLogItemHeight;
+		V_4 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_34, L_35)));
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:256>
+		int32_t L_36 = V_3;
+		V_10 = (bool)((((int32_t)L_36) < ((int32_t)0))? 1 : 0);
+		bool L_37 = V_10;
+		if (!L_37)
+		{
+			goto IL_0104;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:257>
+		V_3 = 0;
+	}
+
+IL_0104:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:259>
+		int32_t L_38 = V_4;
+		DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F* L_39 = __this->___indicesOfEntriesToShow;
+		NullCheck(L_39);
+		int32_t L_40;
+		L_40 = DebugLogIndexList_1_get_Count_m46CDE42795EF3FAC3875E976F29B28B2C83BB383(L_39, DebugLogIndexList_1_get_Count_m46CDE42795EF3FAC3875E976F29B28B2C83BB383_RuntimeMethod_var);
+		V_11 = (bool)((((int32_t)L_38) > ((int32_t)((int32_t)il2cpp_codegen_subtract(L_40, 1))))? 1 : 0);
+		bool L_41 = V_11;
+		if (!L_41)
+		{
+			goto IL_012a;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:260>
+		DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F* L_42 = __this->___indicesOfEntriesToShow;
+		NullCheck(L_42);
+		int32_t L_43;
+		L_43 = DebugLogIndexList_1_get_Count_m46CDE42795EF3FAC3875E976F29B28B2C83BB383(L_42, DebugLogIndexList_1_get_Count_m46CDE42795EF3FAC3875E976F29B28B2C83BB383_RuntimeMethod_var);
+		V_4 = ((int32_t)il2cpp_codegen_subtract(L_43, 1));
+	}
+
+IL_012a:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:262>
+		int32_t L_44 = __this->___currentTopIndex;
+		V_12 = (bool)((((int32_t)L_44) == ((int32_t)(-1)))? 1 : 0);
+		bool L_45 = V_12;
+		if (!L_45)
+		{
+			goto IL_015c;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:266>
+		___0_updateAllVisibleItemContents = (bool)1;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:268>
+		int32_t L_46 = V_3;
+		__this->___currentTopIndex = L_46;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:269>
+		int32_t L_47 = V_4;
+		__this->___currentBottomIndex = L_47;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:271>
+		int32_t L_48 = V_3;
+		int32_t L_49 = V_4;
+		DebugLogRecycledListView_CreateLogItemsBetweenIndices_mDB2C5AA2319B2CBF70A1FD041F20EF1DD420FD8C(__this, L_48, L_49, NULL);
+		goto IL_026b;
+	}
+
+IL_015c:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:277>
+		int32_t L_50 = V_4;
+		int32_t L_51 = __this->___currentTopIndex;
+		if ((((int32_t)L_50) < ((int32_t)L_51)))
+		{
+			goto IL_0172;
+		}
+	}
+	{
+		int32_t L_52 = V_3;
+		int32_t L_53 = __this->___currentBottomIndex;
+		G_B21_0 = ((((int32_t)L_52) > ((int32_t)L_53))? 1 : 0);
+		goto IL_0173;
+	}
+
+IL_0172:
+	{
+		G_B21_0 = 1;
+	}
+
+IL_0173:
+	{
+		V_13 = (bool)G_B21_0;
+		bool L_54 = V_13;
+		if (!L_54)
+		{
+			goto IL_01a0;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:282>
+		___0_updateAllVisibleItemContents = (bool)1;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:284>
+		int32_t L_55 = __this->___currentTopIndex;
+		int32_t L_56 = __this->___currentBottomIndex;
+		DebugLogRecycledListView_DestroyLogItemsBetweenIndices_m85E1847758B9863E284951C77E3BB2DEF9A8E4A6(__this, L_55, L_56, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:285>
+		int32_t L_57 = V_3;
+		int32_t L_58 = V_4;
+		DebugLogRecycledListView_CreateLogItemsBetweenIndices_mDB2C5AA2319B2CBF70A1FD041F20EF1DD420FD8C(__this, L_57, L_58, NULL);
+		goto IL_025b;
+	}
+
+IL_01a0:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:292>
+		int32_t L_59 = V_3;
+		int32_t L_60 = __this->___currentTopIndex;
+		V_14 = (bool)((((int32_t)L_59) > ((int32_t)L_60))? 1 : 0);
+		bool L_61 = V_14;
+		if (!L_61)
+		{
+			goto IL_01c0;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:293>
+		int32_t L_62 = __this->___currentTopIndex;
+		int32_t L_63 = V_3;
+		DebugLogRecycledListView_DestroyLogItemsBetweenIndices_m85E1847758B9863E284951C77E3BB2DEF9A8E4A6(__this, L_62, ((int32_t)il2cpp_codegen_subtract(L_63, 1)), NULL);
+	}
+
+IL_01c0:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:295>
+		int32_t L_64 = V_4;
+		int32_t L_65 = __this->___currentBottomIndex;
+		V_15 = (bool)((((int32_t)L_64) < ((int32_t)L_65))? 1 : 0);
+		bool L_66 = V_15;
+		if (!L_66)
+		{
+			goto IL_01e1;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:296>
+		int32_t L_67 = V_4;
+		int32_t L_68 = __this->___currentBottomIndex;
+		DebugLogRecycledListView_DestroyLogItemsBetweenIndices_m85E1847758B9863E284951C77E3BB2DEF9A8E4A6(__this, ((int32_t)il2cpp_codegen_add(L_67, 1)), L_68, NULL);
+	}
+
+IL_01e1:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:298>
+		int32_t L_69 = V_3;
+		int32_t L_70 = __this->___currentTopIndex;
+		V_16 = (bool)((((int32_t)L_69) < ((int32_t)L_70))? 1 : 0);
+		bool L_71 = V_16;
+		if (!L_71)
+		{
+			goto IL_021c;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:300>
+		int32_t L_72 = V_3;
+		int32_t L_73 = __this->___currentTopIndex;
+		DebugLogRecycledListView_CreateLogItemsBetweenIndices_mDB2C5AA2319B2CBF70A1FD041F20EF1DD420FD8C(__this, L_72, ((int32_t)il2cpp_codegen_subtract(L_73, 1)), NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:305>
+		bool L_74 = ___0_updateAllVisibleItemContents;
+		V_17 = (bool)((((int32_t)L_74) == ((int32_t)0))? 1 : 0);
+		bool L_75 = V_17;
+		if (!L_75)
+		{
+			goto IL_021b;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:306>
+		int32_t L_76 = V_3;
+		int32_t L_77 = __this->___currentTopIndex;
+		DebugLogRecycledListView_UpdateLogItemContentsBetweenIndices_m9A78E2D3DFCB338642E1CAA287A6EE18D4120490(__this, L_76, ((int32_t)il2cpp_codegen_subtract(L_77, 1)), NULL);
+	}
+
+IL_021b:
+	{
+	}
+
+IL_021c:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:309>
+		int32_t L_78 = V_4;
+		int32_t L_79 = __this->___currentBottomIndex;
+		V_18 = (bool)((((int32_t)L_78) > ((int32_t)L_79))? 1 : 0);
+		bool L_80 = V_18;
+		if (!L_80)
+		{
+			goto IL_025a;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:311>
+		int32_t L_81 = __this->___currentBottomIndex;
+		int32_t L_82 = V_4;
+		DebugLogRecycledListView_CreateLogItemsBetweenIndices_mDB2C5AA2319B2CBF70A1FD041F20EF1DD420FD8C(__this, ((int32_t)il2cpp_codegen_add(L_81, 1)), L_82, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:316>
+		bool L_83 = ___0_updateAllVisibleItemContents;
+		V_19 = (bool)((((int32_t)L_83) == ((int32_t)0))? 1 : 0);
+		bool L_84 = V_19;
+		if (!L_84)
+		{
+			goto IL_0259;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:317>
+		int32_t L_85 = __this->___currentBottomIndex;
+		int32_t L_86 = V_4;
+		DebugLogRecycledListView_UpdateLogItemContentsBetweenIndices_m9A78E2D3DFCB338642E1CAA287A6EE18D4120490(__this, ((int32_t)il2cpp_codegen_add(L_85, 1)), L_86, NULL);
+	}
+
+IL_0259:
+	{
+	}
+
+IL_025a:
+	{
+	}
+
+IL_025b:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:321>
+		int32_t L_87 = V_3;
+		__this->___currentTopIndex = L_87;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:322>
+		int32_t L_88 = V_4;
+		__this->___currentBottomIndex = L_88;
+	}
+
+IL_026b:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:325>
+		bool L_89 = ___0_updateAllVisibleItemContents;
+		V_20 = L_89;
+		bool L_90 = V_20;
+		if (!L_90)
+		{
+			goto IL_0287;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:328>
+		int32_t L_91 = __this->___currentTopIndex;
+		int32_t L_92 = __this->___currentBottomIndex;
+		DebugLogRecycledListView_UpdateLogItemContentsBetweenIndices_m9A78E2D3DFCB338642E1CAA287A6EE18D4120490(__this, L_91, L_92, NULL);
+	}
+
+IL_0287:
+	{
+		goto IL_0291;
+	}
+
+IL_028a:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:332>
+		DebugLogRecycledListView_HardResetItems_mFF51258835419129C8C059D5EC869EF1998DEB55(__this, NULL);
+	}
+
+IL_0291:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:333>
+		return;
+	}
+}
+// Method Definition Index: 130999
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_CreateLogItemsBetweenIndices_mDB2C5AA2319B2CBF70A1FD041F20EF1DD420FD8C (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, int32_t ___0_topIndex, int32_t ___1_bottomIndex, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:337>
+		int32_t L_0 = ___0_topIndex;
+		V_0 = L_0;
+		goto IL_0011;
+	}
+
+IL_0005:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:338>
+		int32_t L_1 = V_0;
+		DebugLogRecycledListView_CreateLogItemAtIndex_mDB380A0813676996CF1295C0064548546D724006(__this, L_1, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:337>
+		int32_t L_2 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_2, 1));
+	}
+
+IL_0011:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:337>
+		int32_t L_3 = V_0;
+		int32_t L_4 = ___1_bottomIndex;
+		V_1 = (bool)((((int32_t)((((int32_t)L_3) > ((int32_t)L_4))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_5 = V_1;
+		if (L_5)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:339>
+		return;
+	}
+}
+// Method Definition Index: 131000
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_CreateLogItemAtIndex_mDB380A0813676996CF1295C0064548546D724006 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, int32_t ___0_index, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_m11CA9CFE0B08B5F7D60812584F934FEFEEE7CA67_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* V_0 = NULL;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:344>
+		DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* L_0 = __this->___manager;
+		NullCheck(L_0);
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_1;
+		L_1 = DebugLogManager_PopLogItem_m854ED51B251AD048C1097A5BF3F6E8518504E0EA(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:347>
+		int32_t L_2 = ___0_index;
+		float L_3 = __this->___logItemHeight;
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_1), (1.0f), ((float)il2cpp_codegen_multiply(((float)((-L_2))), L_3)), NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:348>
+		int32_t L_4 = ___0_index;
+		int32_t L_5 = __this->___indexOfSelectedLogEntry;
+		V_2 = (bool)((((int32_t)L_4) > ((int32_t)L_5))? 1 : 0);
+		bool L_6 = V_2;
+		if (!L_6)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:349>
+		float* L_7 = (float*)(&(&V_1)->___y);
+		float* L_8 = L_7;
+		float L_9 = *((float*)L_8);
+		float L_10 = __this->___deltaHeightOfSelectedLogEntry;
+		*((float*)L_8) = (float)((float)il2cpp_codegen_subtract(L_9, L_10));
+	}
+
+IL_0041:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:351>
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_11 = V_0;
+		NullCheck(L_11);
+		RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* L_12;
+		L_12 = DebugLogItem_get_Transform_mBAA5D6E01F83683FF29CE440C3D2F4D5616E6466(L_11, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13 = V_1;
+		NullCheck(L_12);
+		RectTransform_set_anchoredPosition_mF903ACE04F6959B1CD67E2B94FABC0263068F965(L_12, L_13, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:354>
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_14 = V_0;
+		int32_t L_15 = ___0_index;
+		DebugLogRecycledListView_ColorLogItem_m46DD7992FD72641EC61AE079E99B244472429CF3(__this, L_14, L_15, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:357>
+		Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA* L_16 = __this->___logItemsAtIndices;
+		int32_t L_17 = ___0_index;
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_18 = V_0;
+		NullCheck(L_16);
+		Dictionary_2_set_Item_m11CA9CFE0B08B5F7D60812584F934FEFEEE7CA67(L_16, L_17, L_18, Dictionary_2_set_Item_m11CA9CFE0B08B5F7D60812584F934FEFEEE7CA67_RuntimeMethod_var);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:358>
+		return;
+	}
+}
+// Method Definition Index: 131001
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_DestroyLogItemsBetweenIndices_m85E1847758B9863E284951C77E3BB2DEF9A8E4A6 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, int32_t ___0_topIndex, int32_t ___1_bottomIndex, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:362>
+		int32_t L_0 = ___0_topIndex;
+		V_0 = L_0;
+		goto IL_0021;
+	}
+
+IL_0005:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:363>
+		DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* L_1 = __this->___manager;
+		Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA* L_2 = __this->___logItemsAtIndices;
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_4;
+		L_4 = Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7(L_2, L_3, Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7_RuntimeMethod_var);
+		NullCheck(L_1);
+		DebugLogManager_PoolLogItem_m50869AD2E15FB447682B47A83D7B06DED349B736(L_1, L_4, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:362>
+		int32_t L_5 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_5, 1));
+	}
+
+IL_0021:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:362>
+		int32_t L_6 = V_0;
+		int32_t L_7 = ___1_bottomIndex;
+		V_1 = (bool)((((int32_t)((((int32_t)L_6) > ((int32_t)L_7))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_8 = V_1;
+		if (L_8)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:364>
+		return;
+	}
+}
+// Method Definition Index: 131002
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_UpdateLogItemContentsBetweenIndices_m9A78E2D3DFCB338642E1CAA287A6EE18D4120490 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, int32_t ___0_topIndex, int32_t ___1_bottomIndex, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugLogIndexList_1_get_Item_mA9248B86B3BA915825FBD000D0D4A222B9756695_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DebugLogIndexList_1_get_Item_mBD673B6FAE1EA8BC2A674EE0E0E62A3CDE59D37A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mAD8D296FC12456C956E6FE44ECAE3E1F11204C78_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_m745BF2FAC35C508F889804F26D66321FE3785685_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* V_0 = NULL;
+	int32_t V_1 = 0;
+	Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	bool V_3 = false;
+	bool V_4 = false;
+	DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD* G_B3_0 = NULL;
+	DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* G_B3_1 = NULL;
+	DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD* G_B2_0 = NULL;
+	DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* G_B2_1 = NULL;
+	Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41 G_B4_0;
+	memset((&G_B4_0), 0, sizeof(G_B4_0));
+	DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD* G_B4_1 = NULL;
+	DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* G_B4_2 = NULL;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:369>
+		int32_t L_0 = ___0_topIndex;
+		V_1 = L_0;
+		goto IL_007e;
+	}
+
+IL_0005:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:371>
+		Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA* L_1 = __this->___logItemsAtIndices;
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_3;
+		L_3 = Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7(L_1, L_2, Dictionary_2_get_Item_m1DC8B222AF21BC8AD4757DA8F6F245232C5A7AA7_RuntimeMethod_var);
+		V_0 = L_3;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:372>
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_4 = V_0;
+		List_1_tD2C16B8727E0DB675306A92C1FBBE60BFE8BE983* L_5 = __this->___collapsedLogEntries;
+		DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F* L_6 = __this->___indicesOfEntriesToShow;
+		int32_t L_7 = V_1;
+		NullCheck(L_6);
+		int32_t L_8;
+		L_8 = DebugLogIndexList_1_get_Item_mBD673B6FAE1EA8BC2A674EE0E0E62A3CDE59D37A(L_6, L_7, DebugLogIndexList_1_get_Item_mBD673B6FAE1EA8BC2A674EE0E0E62A3CDE59D37A_RuntimeMethod_var);
+		NullCheck(L_5);
+		DebugLogEntry_tC2ACB64C8D5A84F9683A36DFD7F1532D1EADF5CD* L_9;
+		L_9 = List_1_get_Item_mAD8D296FC12456C956E6FE44ECAE3E1F11204C78(L_5, L_8, List_1_get_Item_mAD8D296FC12456C956E6FE44ECAE3E1F11204C78_RuntimeMethod_var);
+		DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20* L_10 = __this->___timestampsOfEntriesToShow;
+		if (L_10)
+		{
+			G_B3_0 = L_9;
+			G_B3_1 = L_4;
+			goto IL_003e;
+		}
+		G_B2_0 = L_9;
+		G_B2_1 = L_4;
+	}
+	{
+		il2cpp_codegen_initobj((&V_2), sizeof(Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41));
+		Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41 L_11 = V_2;
+		G_B4_0 = L_11;
+		G_B4_1 = G_B2_0;
+		G_B4_2 = G_B2_1;
+		goto IL_004f;
+	}
+
+IL_003e:
+	{
+		DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20* L_12 = __this->___timestampsOfEntriesToShow;
+		int32_t L_13 = V_1;
+		NullCheck(L_12);
+		DebugLogEntryTimestamp_t30582C9C3760265FDEF8895133213267986BFA97 L_14;
+		L_14 = DebugLogIndexList_1_get_Item_mA9248B86B3BA915825FBD000D0D4A222B9756695(L_12, L_13, DebugLogIndexList_1_get_Item_mA9248B86B3BA915825FBD000D0D4A222B9756695_RuntimeMethod_var);
+		Nullable_1_tE058FF1EF75E02B10E5B388F885D29B83C8F2B41 L_15;
+		memset((&L_15), 0, sizeof(L_15));
+		Nullable_1__ctor_m745BF2FAC35C508F889804F26D66321FE3785685((&L_15), L_14, Nullable_1__ctor_m745BF2FAC35C508F889804F26D66321FE3785685_RuntimeMethod_var);
+		G_B4_0 = L_15;
+		G_B4_1 = G_B3_0;
+		G_B4_2 = G_B3_1;
+	}
+
+IL_004f:
+	{
+		int32_t L_16 = V_1;
+		int32_t L_17 = V_1;
+		int32_t L_18 = __this->___indexOfSelectedLogEntry;
+		NullCheck(G_B4_2);
+		DebugLogItem_SetContent_mAA060346F58906FAA676D025BF7B440DEBA1C7E3(G_B4_2, G_B4_1, G_B4_0, L_16, (bool)((((int32_t)L_17) == ((int32_t)L_18))? 1 : 0), NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:374>
+		bool L_19 = __this->___isCollapseOn;
+		V_3 = L_19;
+		bool L_20 = V_3;
+		if (!L_20)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:375>
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_21 = V_0;
+		NullCheck(L_21);
+		DebugLogItem_ShowCount_m370DD836F4F51DE3090FBA4E46F0D5DAE4F6E7A4(L_21, NULL);
+		goto IL_0079;
+	}
+
+IL_0072:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:377>
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_22 = V_0;
+		NullCheck(L_22);
+		DebugLogItem_HideCount_m74445C719C5941D4DD597C50988526E5FAF7DBD2(L_22, NULL);
+	}
+
+IL_0079:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:369>
+		int32_t L_23 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_23, 1));
+	}
+
+IL_007e:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:369>
+		int32_t L_24 = V_1;
+		int32_t L_25 = ___1_bottomIndex;
+		V_4 = (bool)((((int32_t)((((int32_t)L_24) > ((int32_t)L_25))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_26 = V_4;
+		if (L_26)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:379>
+		return;
+	}
+}
+// Method Definition Index: 131003
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_ColorLogItem_m46DD7992FD72641EC61AE079E99B244472429CF3 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* ___0_logItem, int32_t ___1_index, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:384>
+		int32_t L_0 = ___1_index;
+		int32_t L_1 = __this->___indexOfSelectedLogEntry;
+		V_0 = (bool)((((int32_t)L_0) == ((int32_t)L_1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:385>
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_3 = ___0_logItem;
+		NullCheck(L_3);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_4;
+		L_4 = DebugLogItem_get_Image_m19E45CDC961A393E891617E0AE8196EEC60827E2(L_3, NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5 = __this->___logItemSelectedColor;
+		NullCheck(L_4);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_4, L_5);
+		goto IL_0052;
+	}
+
+IL_0022:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:386>
+		int32_t L_6 = ___1_index;
+		V_1 = (bool)((((int32_t)((int32_t)(L_6%2))) == ((int32_t)0))? 1 : 0);
+		bool L_7 = V_1;
+		if (!L_7)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:387>
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_8 = ___0_logItem;
+		NullCheck(L_8);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_9;
+		L_9 = DebugLogItem_get_Image_m19E45CDC961A393E891617E0AE8196EEC60827E2(L_8, NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10 = __this->___logItemNormalColor1;
+		NullCheck(L_9);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_9, L_10);
+		goto IL_0052;
+	}
+
+IL_0040:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:389>
+		DebugLogItem_t88B4590FC214B8270C22089685CFF96ED51D5230* L_11 = ___0_logItem;
+		NullCheck(L_11);
+		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_12;
+		L_12 = DebugLogItem_get_Image_m19E45CDC961A393E891617E0AE8196EEC60827E2(L_11, NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_13 = __this->___logItemNormalColor2;
+		NullCheck(L_12);
+		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_12, L_13);
+	}
+
+IL_0052:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:390>
+		return;
+	}
+}
+// Method Definition Index: 131004
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView__ctor_m187BC9A3FCE5156FCDA97401BF5431EB4BAC164A (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2__ctor_m66E6C05B4FDC3BEA15F9B57F7F885C886492C1D7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:33>
+		__this->___collapsedLogEntries = (List_1_tD2C16B8727E0DB675306A92C1FBBE60BFE8BE983*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___collapsedLogEntries), (void*)(List_1_tD2C16B8727E0DB675306A92C1FBBE60BFE8BE983*)NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:36>
+		__this->___indicesOfEntriesToShow = (DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___indicesOfEntriesToShow), (void*)(DebugLogIndexList_1_tEEDE92BFACFE51B19B2D06107792886E42AE2B7F*)NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:37>
+		__this->___timestampsOfEntriesToShow = (DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___timestampsOfEntriesToShow), (void*)(DebugLogIndexList_1_t7289A41B311FC7ED41C890065D87008A160F0D20*)NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:39>
+		__this->___indexOfSelectedLogEntry = ((int32_t)2147483647LL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:40>
+		__this->___positionOfSelectedLogEntry = ((std::numeric_limits<float>::max)());
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:45>
+		Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA* L_0 = (Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA*)il2cpp_codegen_object_new(Dictionary_2_t89E54B010F23511FCFA9B00E49CFAFA701E99DCA_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m66E6C05B4FDC3BEA15F9B57F7F885C886492C1D7(L_0, ((int32_t)256), Dictionary_2__ctor_m66E6C05B4FDC3BEA15F9B57F7F885C886492C1D7_RuntimeMethod_var);
+		__this->___logItemsAtIndices = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___logItemsAtIndices), (void*)L_0);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:47>
+		__this->___isCollapseOn = (bool)0;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:50>
+		__this->___currentTopIndex = (-1);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:50>
+		__this->___currentBottomIndex = (-1);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 131005
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogRecycledListView_U3CAwakeU3Eb__25_0_m46F3DED084709344721E369E0D3AC052735594A5 (DebugLogRecycledListView_t0A7F681EE9C1FB66CB45C36B2F919B018A18FEE2* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_pos, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogRecycledListView.cs:58>
+		DebugLogRecycledListView_UpdateItemsInTheList_mFA3693DC343B8C587ADB84C71BEFF417EA3710EA(__this, (bool)0, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 131006
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogResizeListener_UnityEngine_EventSystems_IBeginDragHandler_OnBeginDrag_mA23891E13947BF5553F8E9463958B5733DCDAEAF (DebugLogResizeListener_tAEB6FDAE1D37AD856CBD82204674E6AC4C1764B5* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogResizeListener.cs:17>
+		return;
+	}
+}
+// Method Definition Index: 131007
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogResizeListener_UnityEngine_EventSystems_IDragHandler_OnDrag_m34D99B83889FBD661DE942A7C59522A8ABB0AD3A (DebugLogResizeListener_tAEB6FDAE1D37AD856CBD82204674E6AC4C1764B5* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_eventData, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogResizeListener.cs:21>
+		DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* L_0 = __this->___debugManager;
+		PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* L_1 = ___0_eventData;
+		NullCheck(L_0);
+		DebugLogManager_Resize_m0F28C37B4111332354C18770A29BD3D3277DD0E4(L_0, L_1, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugLogResizeListener.cs:22>
+		return;
+	}
+}
+// Method Definition Index: 131008
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugLogResizeListener__ctor_m9891E2D11D53F3900EB79C88301C937AD4FB8B33 (DebugLogResizeListener_tAEB6FDAE1D37AD856CBD82204674E6AC4C1764B5* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 131009
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugsOnScrollListener_OnScroll_m12A82295EEFBA395210BFDF1C80BA59B7438D8F2 (DebugsOnScrollListener_t2E15E040AD7FE915FC4F583966EBDE135A4C0DB0* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_data, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:19>
+		bool L_0;
+		L_0 = DebugsOnScrollListener_IsScrollbarAtBottom_mD32894983625F436CB103115886010DE782D5A8D(__this, NULL);
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:20>
+		DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* L_2 = __this->___debugLogManager;
+		NullCheck(L_2);
+		DebugLogManager_SetSnapToBottom_m869F0D298244C064CF9C7611B3D11F198433D6BC(L_2, (bool)1, NULL);
+		goto IL_0027;
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:22>
+		DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* L_3 = __this->___debugLogManager;
+		NullCheck(L_3);
+		DebugLogManager_SetSnapToBottom_m869F0D298244C064CF9C7611B3D11F198433D6BC(L_3, (bool)0, NULL);
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:23>
+		return;
+	}
+}
+// Method Definition Index: 131010
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugsOnScrollListener_OnBeginDrag_mDA693E6910C47EFFFB1C9E749BACF843BE7680DB (DebugsOnScrollListener_t2E15E040AD7FE915FC4F583966EBDE135A4C0DB0* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_data, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:27>
+		DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* L_0 = __this->___debugLogManager;
+		NullCheck(L_0);
+		DebugLogManager_SetSnapToBottom_m869F0D298244C064CF9C7611B3D11F198433D6BC(L_0, (bool)0, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:28>
+		return;
+	}
+}
+// Method Definition Index: 131011
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugsOnScrollListener_OnEndDrag_m73CCC8AC42E0FC185F490DE8829D51554E59968E (DebugsOnScrollListener_t2E15E040AD7FE915FC4F583966EBDE135A4C0DB0* __this, PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB* ___0_data, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:32>
+		bool L_0;
+		L_0 = DebugsOnScrollListener_IsScrollbarAtBottom_mD32894983625F436CB103115886010DE782D5A8D(__this, NULL);
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:33>
+		DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* L_2 = __this->___debugLogManager;
+		NullCheck(L_2);
+		DebugLogManager_SetSnapToBottom_m869F0D298244C064CF9C7611B3D11F198433D6BC(L_2, (bool)1, NULL);
+		goto IL_0027;
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:35>
+		DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* L_3 = __this->___debugLogManager;
+		NullCheck(L_3);
+		DebugLogManager_SetSnapToBottom_m869F0D298244C064CF9C7611B3D11F198433D6BC(L_3, (bool)0, NULL);
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:36>
+		return;
+	}
+}
+// Method Definition Index: 131012
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugsOnScrollListener_OnScrollbarDragStart_mC24D5BD9F61D0BC49F91808A5D9B20E59A13D30E (DebugsOnScrollListener_t2E15E040AD7FE915FC4F583966EBDE135A4C0DB0* __this, BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___0_data, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:40>
+		DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* L_0 = __this->___debugLogManager;
+		NullCheck(L_0);
+		DebugLogManager_SetSnapToBottom_m869F0D298244C064CF9C7611B3D11F198433D6BC(L_0, (bool)0, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:41>
+		return;
+	}
+}
+// Method Definition Index: 131013
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugsOnScrollListener_OnScrollbarDragEnd_mB867BC08242DE9B5EDD968AB6A01DBA5F96626F9 (DebugsOnScrollListener_t2E15E040AD7FE915FC4F583966EBDE135A4C0DB0* __this, BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F* ___0_data, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:45>
+		bool L_0;
+		L_0 = DebugsOnScrollListener_IsScrollbarAtBottom_mD32894983625F436CB103115886010DE782D5A8D(__this, NULL);
+		V_0 = L_0;
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:46>
+		DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* L_2 = __this->___debugLogManager;
+		NullCheck(L_2);
+		DebugLogManager_SetSnapToBottom_m869F0D298244C064CF9C7611B3D11F198433D6BC(L_2, (bool)1, NULL);
+		goto IL_0027;
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:48>
+		DebugLogManager_t4D04EF5680196548275960FC70628E2E857857A8* L_3 = __this->___debugLogManager;
+		NullCheck(L_3);
+		DebugLogManager_SetSnapToBottom_m869F0D298244C064CF9C7611B3D11F198433D6BC(L_3, (bool)0, NULL);
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:49>
+		return;
+	}
+}
+// Method Definition Index: 131014
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DebugsOnScrollListener_IsScrollbarAtBottom_mD32894983625F436CB103115886010DE782D5A8D (DebugsOnScrollListener_t2E15E040AD7FE915FC4F583966EBDE135A4C0DB0* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	bool V_2 = false;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:53>
+		ScrollRect_t17D2F2939CA8953110180DF53164CFC3DC88D70E* L_0 = __this->___debugsScrollRect;
+		NullCheck(L_0);
+		float L_1;
+		L_1 = ScrollRect_get_verticalNormalizedPosition_m4FE766F04272C1805FDE2A4B72D80F6190841FA1(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:54>
+		float L_2 = V_0;
+		V_1 = (bool)((((int32_t)((!(((float)L_2) <= ((float)(9.99999997E-07f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_3 = V_1;
+		if (!L_3)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:55>
+		V_2 = (bool)1;
+		goto IL_0024;
+	}
+
+IL_0020:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:57>
+		V_2 = (bool)0;
+		goto IL_0024;
+	}
+
+IL_0024:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/DebugsOnScrollListener.cs:58>
+		bool L_4 = V_2;
+		return L_4;
+	}
+}
+// Method Definition Index: 131015
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugsOnScrollListener__ctor_mC599E1B72DE41CF49476C9F2C121DDAE4B9F4B1F (DebugsOnScrollListener_t2E15E040AD7FE915FC4F583966EBDE135A4C0DB0* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 131016
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_OnEnable_mBE644BBFCA0529C37CB7C4BDEAA166858EF1545E (EventSystemHandler_t682DE68ECD4C260AC11B771D2754D93C88E2AB5E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventSystemHandler_OnSceneLoaded_m3560B76815CA8D42F09021ADB3C1482E117A0030_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventSystemHandler_OnSceneUnloaded_m8F8FBCA629625A8DDBDBB7865D294FA4E2E4729F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:33>
+		UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* L_0 = (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A*)il2cpp_codegen_object_new(UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var);
+		UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041(L_0, __this, (intptr_t)((void*)EventSystemHandler_OnSceneLoaded_m3560B76815CA8D42F09021ADB3C1482E117A0030_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_remove_sceneLoaded_m72A7C2A1B8EF1C21A208A9A015375577768B3978(L_0, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:34>
+		UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* L_1 = (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A*)il2cpp_codegen_object_new(UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var);
+		UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041(L_1, __this, (intptr_t)((void*)EventSystemHandler_OnSceneLoaded_m3560B76815CA8D42F09021ADB3C1482E117A0030_RuntimeMethod_var), NULL);
+		SceneManager_add_sceneLoaded_m14BEBCC5E4A8DD2C806A48D79A4773315CB434C6(L_1, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:35>
+		UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C* L_2 = (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C*)il2cpp_codegen_object_new(UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m3D196ADE59DE13B9FDC5D827B1A6D00CBEF1F6DF(L_2, __this, (intptr_t)((void*)EventSystemHandler_OnSceneUnloaded_m8F8FBCA629625A8DDBDBB7865D294FA4E2E4729F_RuntimeMethod_var), NULL);
+		SceneManager_remove_sceneUnloaded_m2CACDB3F47DED2C92E6AA1912906F7E2C61424EB(L_2, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:36>
+		UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C* L_3 = (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C*)il2cpp_codegen_object_new(UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m3D196ADE59DE13B9FDC5D827B1A6D00CBEF1F6DF(L_3, __this, (intptr_t)((void*)EventSystemHandler_OnSceneUnloaded_m8F8FBCA629625A8DDBDBB7865D294FA4E2E4729F_RuntimeMethod_var), NULL);
+		SceneManager_add_sceneUnloaded_mC3BAE77FFFA0DBA3F6EE3303CA78400A3932F029(L_3, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:38>
+		EventSystemHandler_ActivateEventSystemIfNeeded_m162A2AECC9C9CB151849DD89B25485FAFC30313B(__this, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:39>
+		return;
+	}
+}
+// Method Definition Index: 131017
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_OnDisable_mEDA7BEC448D249FC070F53363E935967AF5FB97F (EventSystemHandler_t682DE68ECD4C260AC11B771D2754D93C88E2AB5E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventSystemHandler_OnSceneLoaded_m3560B76815CA8D42F09021ADB3C1482E117A0030_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventSystemHandler_OnSceneUnloaded_m8F8FBCA629625A8DDBDBB7865D294FA4E2E4729F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:43>
+		UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A* L_0 = (UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A*)il2cpp_codegen_object_new(UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A_il2cpp_TypeInfo_var);
+		UnityAction_2__ctor_m0E0C01B7056EB1CB1E6C6F4FC457EBCA3F6B0041(L_0, __this, (intptr_t)((void*)EventSystemHandler_OnSceneLoaded_m3560B76815CA8D42F09021ADB3C1482E117A0030_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_remove_sceneLoaded_m72A7C2A1B8EF1C21A208A9A015375577768B3978(L_0, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:44>
+		UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C* L_1 = (UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C*)il2cpp_codegen_object_new(UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m3D196ADE59DE13B9FDC5D827B1A6D00CBEF1F6DF(L_1, __this, (intptr_t)((void*)EventSystemHandler_OnSceneUnloaded_m8F8FBCA629625A8DDBDBB7865D294FA4E2E4729F_RuntimeMethod_var), NULL);
+		SceneManager_remove_sceneUnloaded_m2CACDB3F47DED2C92E6AA1912906F7E2C61424EB(L_1, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:46>
+		EventSystemHandler_DeactivateEventSystem_m45036C26C5322BD6DF68716964C1C53BB19C90F8(__this, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:47>
+		return;
+	}
+}
+// Method Definition Index: 131018
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_OnSceneLoaded_m3560B76815CA8D42F09021ADB3C1482E117A0030 (EventSystemHandler_t682DE68ECD4C260AC11B771D2754D93C88E2AB5E* __this, Scene_tA1DC762B79745EB5140F054C884855B922318356 ___0_scene, int32_t ___1_mode, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:52>
+		EventSystemHandler_DeactivateEventSystem_m45036C26C5322BD6DF68716964C1C53BB19C90F8(__this, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:54>
+		EventSystemHandler_ActivateEventSystemIfNeeded_m162A2AECC9C9CB151849DD89B25485FAFC30313B(__this, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:55>
+		return;
+	}
+}
+// Method Definition Index: 131019
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_OnSceneUnloaded_m8F8FBCA629625A8DDBDBB7865D294FA4E2E4729F (EventSystemHandler_t682DE68ECD4C260AC11B771D2754D93C88E2AB5E* __this, Scene_tA1DC762B79745EB5140F054C884855B922318356 ___0_current, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:60>
+		EventSystemHandler_DeactivateEventSystem_m45036C26C5322BD6DF68716964C1C53BB19C90F8(__this, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:61>
+		return;
+	}
+}
+// Method Definition Index: 131020
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_ActivateEventSystemIfNeeded_m162A2AECC9C9CB151849DD89B25485FAFC30313B (EventSystemHandler_t682DE68ECD4C260AC11B771D2754D93C88E2AB5E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:65>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___embeddedEventSystem;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707_il2cpp_TypeInfo_var);
+		EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707* L_2;
+		L_2 = EventSystem_get_current_mC87C69FB418563DC2A571A10E2F9DB59A6785016(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_2, NULL);
+		G_B3_0 = ((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
+		goto IL_001e;
+	}
+
+IL_001d:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_001e:
+	{
+		V_0 = (bool)G_B3_0;
+		bool L_4 = V_0;
+		if (!L_4)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:66>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___embeddedEventSystem;
+		NullCheck(L_5);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_5, (bool)1, NULL);
+	}
+
+IL_002f:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:67>
+		return;
+	}
+}
+// Method Definition Index: 131021
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler_DeactivateEventSystem_m45036C26C5322BD6DF68716964C1C53BB19C90F8 (EventSystemHandler_t682DE68ECD4C260AC11B771D2754D93C88E2AB5E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:71>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___embeddedEventSystem;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		V_0 = L_1;
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:72>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___embeddedEventSystem;
+		NullCheck(L_3);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)0, NULL);
+	}
+
+IL_001d:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/EventSystemHandler.cs:73>
+		return;
+	}
+}
+// Method Definition Index: 131022
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EventSystemHandler__ctor_m2FD41F48C7ED26C15E12B40EDFBAAC64C9A40448 (EventSystemHandler_t682DE68ECD4C260AC11B771D2754D93C88E2AB5E* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 131023
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerPrefsCommands_PlayerPrefsGetInt_m1AD5262F09DF794049854B79B4072FB73FB5AC0D (String_t* ___0_key, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFFA301E93C47E7C4218CADE5DC51C7C8F9CF76EA);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	String_t* V_1 = NULL;
+	int32_t V_2 = 0;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:10>
+		String_t* L_0 = ___0_key;
+		bool L_1;
+		L_1 = PlayerPrefs_HasKey_mCA5C64BBA6BF8B230BC3BC92B4761DD3B11D4668(L_0, NULL);
+		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:10>
+		V_1 = _stringLiteralFFA301E93C47E7C4218CADE5DC51C7C8F9CF76EA;
+		goto IL_0027;
+	}
+
+IL_0016:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:11>
+		String_t* L_3 = ___0_key;
+		int32_t L_4;
+		L_4 = PlayerPrefs_GetInt_m4D859DBEABAD3FB406C94485A0B2638A0C7F2987(L_3, NULL);
+		V_2 = L_4;
+		String_t* L_5;
+		L_5 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
+		V_1 = L_5;
+		goto IL_0027;
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:12>
+		String_t* L_6 = V_1;
+		return L_6;
+	}
+}
+// Method Definition Index: 131024
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefsCommands_PlayerPrefsSetInt_mEF0B86F030CFDDD28CC85611A1C6A9B0BAAA3878 (String_t* ___0_key, int32_t ___1_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:17>
+		String_t* L_0 = ___0_key;
+		int32_t L_1 = ___1_value;
+		PlayerPrefs_SetInt_m956D3E2DB966F20CF42F842880DDF9E2BE94D948(L_0, L_1, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:18>
+		return;
+	}
+}
+// Method Definition Index: 131025
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerPrefsCommands_PlayerPrefsGetFloat_m1653BE431D3C516BB82CA035D00B165D2368CAB1 (String_t* ___0_key, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFFA301E93C47E7C4218CADE5DC51C7C8F9CF76EA);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	String_t* V_1 = NULL;
+	float V_2 = 0.0f;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:23>
+		String_t* L_0 = ___0_key;
+		bool L_1;
+		L_1 = PlayerPrefs_HasKey_mCA5C64BBA6BF8B230BC3BC92B4761DD3B11D4668(L_0, NULL);
+		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:23>
+		V_1 = _stringLiteralFFA301E93C47E7C4218CADE5DC51C7C8F9CF76EA;
+		goto IL_0027;
+	}
+
+IL_0016:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:24>
+		String_t* L_3 = ___0_key;
+		float L_4;
+		L_4 = PlayerPrefs_GetFloat_m81F89D571E11218ED76DC9234CF8FAC2515FA7CB(L_3, NULL);
+		V_2 = L_4;
+		String_t* L_5;
+		L_5 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_2), NULL);
+		V_1 = L_5;
+		goto IL_0027;
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:25>
+		String_t* L_6 = V_1;
+		return L_6;
+	}
+}
+// Method Definition Index: 131026
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefsCommands_PlayerPrefsSetFloat_mEBC950176A53EFFE565893C0E65B834DB356EC00 (String_t* ___0_key, float ___1_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:30>
+		String_t* L_0 = ___0_key;
+		float L_1 = ___1_value;
+		PlayerPrefs_SetFloat_m1E8EA662BB9D8CF339D7DA2C452FCDFED88C5285(L_0, L_1, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:31>
+		return;
+	}
+}
+// Method Definition Index: 131027
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* PlayerPrefsCommands_PlayerPrefsGetString_mCE180222D82ECB89E8BF1A9E48C6389C22B77114 (String_t* ___0_key, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFFA301E93C47E7C4218CADE5DC51C7C8F9CF76EA);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	String_t* V_1 = NULL;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:36>
+		String_t* L_0 = ___0_key;
+		bool L_1;
+		L_1 = PlayerPrefs_HasKey_mCA5C64BBA6BF8B230BC3BC92B4761DD3B11D4668(L_0, NULL);
+		V_0 = (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:36>
+		V_1 = _stringLiteralFFA301E93C47E7C4218CADE5DC51C7C8F9CF76EA;
+		goto IL_001f;
+	}
+
+IL_0016:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:37>
+		String_t* L_3 = ___0_key;
+		String_t* L_4;
+		L_4 = PlayerPrefs_GetString_mA4C9F842BF77E5572AB20EA087C7048F870D02AE(L_3, NULL);
+		V_1 = L_4;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:38>
+		String_t* L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 131028
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefsCommands_PlayerPrefsSetString_m26219A3CC8842581EBD5F90C41A49904FD0D48CA (String_t* ___0_key, String_t* ___1_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:43>
+		String_t* L_0 = ___0_key;
+		String_t* L_1 = ___1_value;
+		PlayerPrefs_SetString_mF4F457C81BB75F0213547C6287BA36E15E1F0256(L_0, L_1, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:44>
+		return;
+	}
+}
+// Method Definition Index: 131029
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefsCommands_PlayerPrefsDelete_mB0EACD4B5284001E08974A49DE65CE248E1B5A3C (String_t* ___0_key, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:49>
+		String_t* L_0 = ___0_key;
+		PlayerPrefs_DeleteKey_mF3A7857B52DCEF4139843CD28716788624C2AD30(L_0, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:50>
+		return;
+	}
+}
+// Method Definition Index: 131030
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefsCommands_PlayerPrefsClear_m9B307B9BD68A4E9834B639F622109D5D6AAAE7F2 (const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:55>
+		PlayerPrefs_DeleteAll_m7687D47AE64203DB76AC6754EC276DFFD0DFAB0E(NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/PlayerPrefsCommands.cs:56>
+		return;
+	}
+}
+// Method Definition Index: 131031
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerPrefsCommands__ctor_m1E7AD59FC034F092024E8EFB0139E15053EFFF50 (PlayerPrefsCommands_tF5F2E282C801F0F5C1CF7F530FD96CD9B70ECEC0* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 131032
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneCommands_LoadScene_mBAA44F58BB3F283CE354911CB9A48CC0B5DAA181 (String_t* ___0_sceneName, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:11>
+		String_t* L_0 = ___0_sceneName;
+		SceneCommands_LoadSceneInternal_m44750C6CBF099D1649D013DE26C8E6C838AA234B(L_0, (bool)0, 0, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:12>
+		return;
+	}
+}
+// Method Definition Index: 131033
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneCommands_LoadScene_m982EF65D399214FE381233249AE819994B2CAE0E (String_t* ___0_sceneName, int32_t ___1_mode, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:17>
+		String_t* L_0 = ___0_sceneName;
+		int32_t L_1 = ___1_mode;
+		SceneCommands_LoadSceneInternal_m44750C6CBF099D1649D013DE26C8E6C838AA234B(L_0, (bool)0, L_1, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:18>
+		return;
+	}
+}
+// Method Definition Index: 131034
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneCommands_LoadSceneAsync_m4117C64FD6C4645BFA744E942718E5B277602473 (String_t* ___0_sceneName, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:23>
+		String_t* L_0 = ___0_sceneName;
+		SceneCommands_LoadSceneInternal_m44750C6CBF099D1649D013DE26C8E6C838AA234B(L_0, (bool)1, 0, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:24>
+		return;
+	}
+}
+// Method Definition Index: 131035
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneCommands_LoadSceneAsync_mC5B1FC860523EA817017662F94663E7DEA31EF38 (String_t* ___0_sceneName, int32_t ___1_mode, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:29>
+		String_t* L_0 = ___0_sceneName;
+		int32_t L_1 = ___1_mode;
+		SceneCommands_LoadSceneInternal_m44750C6CBF099D1649D013DE26C8E6C838AA234B(L_0, (bool)1, L_1, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:30>
+		return;
+	}
+}
+// Method Definition Index: 131036
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneCommands_LoadSceneInternal_m44750C6CBF099D1649D013DE26C8E6C838AA234B (String_t* ___0_sceneName, bool ___1_isAsync, int32_t ___2_mode, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral14EFC2C6E9EEDD3D7AD722A958977C463EF508F0);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral813C79655CE3ED707AE14612C0DEA0D767D00F51);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	bool V_2 = false;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:34>
+		String_t* L_0 = ___0_sceneName;
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_1;
+		L_1 = SceneManager_GetSceneByName_m2A70CB2D1C586ED6747E82693785CA86F99FA9B9(L_0, NULL);
+		V_1 = L_1;
+		bool L_2;
+		L_2 = Scene_IsValid_m0D5200731D3E26ECBBB55803F9242965A14A4599((&V_1), NULL);
+		V_0 = L_2;
+		bool L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:36>
+		String_t* L_4 = ___0_sceneName;
+		String_t* L_5;
+		L_5 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral813C79655CE3ED707AE14612C0DEA0D767D00F51, L_4, _stringLiteral14EFC2C6E9EEDD3D7AD722A958977C463EF508F0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_5, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:37>
+		goto IL_0043;
+	}
+
+IL_002c:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:40>
+		bool L_6 = ___1_isAsync;
+		V_2 = L_6;
+		bool L_7 = V_2;
+		if (!L_7)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:41>
+		String_t* L_8 = ___0_sceneName;
+		int32_t L_9 = ___2_mode;
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_10;
+		L_10 = SceneManager_LoadSceneAsync_m29D55D2C6CB7A019B26DA3F44C0881FF6AC491EC(L_8, L_9, NULL);
+		goto IL_0043;
+	}
+
+IL_003b:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:43>
+		String_t* L_11 = ___0_sceneName;
+		int32_t L_12 = ___2_mode;
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m2841705C02C450E42A44B5EEE2A6A2C4261FA3AF(L_11, L_12, NULL);
+	}
+
+IL_0043:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:44>
+		return;
+	}
+}
+// Method Definition Index: 131037
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneCommands_UnloadScene_m9436ABF65783D1BF8594C211C75FDBD0865CF111 (String_t* ___0_sceneName, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:49>
+		String_t* L_0 = ___0_sceneName;
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		AsyncOperation_tD2789250E4B098DEDA92B366A577E500A92D2D3C* L_1;
+		L_1 = SceneManager_UnloadSceneAsync_mF6F4161EF48C6622AA1B5BC66B4A2CA736C4D2B2(L_0, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:50>
+		return;
+	}
+}
+// Method Definition Index: 131038
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneCommands_RestartScene_m8B8CE9CE5F643ED7D517B7AD996328429C0ADBCF (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Scene_tA1DC762B79745EB5140F054C884855B922318356 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:55>
+		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
+		Scene_tA1DC762B79745EB5140F054C884855B922318356 L_0;
+		L_0 = SceneManager_GetActiveScene_m0B320EC4302F51A71495D1CCD1A0FF9C2ED1FDC8(NULL);
+		V_0 = L_0;
+		String_t* L_1;
+		L_1 = Scene_get_name_m3C818DFA663E159274DAD823B780C7616C5E2A8C((&V_0), NULL);
+		SceneManager_LoadScene_m2841705C02C450E42A44B5EEE2A6A2C4261FA3AF(L_1, 0, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/SceneCommands.cs:56>
+		return;
+	}
+}
+// Method Definition Index: 131039
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneCommands__ctor_m57CAC8925D540A6EA5DEE203881210F5C935906B (SceneCommands_tD919696B0B3F4F289ECA77E9E677A51579914472* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 131040
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeCommands_SetTimeScale_m24F47A0EF5EF561DDBE978F16B3E787FF5FCBE1A (float ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/TimeCommands.cs:10>
+		float L_0 = ___0_value;
+		float L_1;
+		L_1 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_0, (0.0f), NULL);
+		Time_set_timeScale_mEF84EE4B2376A458387648079B426B267862D331(L_1, NULL);
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/TimeCommands.cs:11>
+		return;
+	}
+}
+// Method Definition Index: 131041
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TimeCommands_GetTimeScale_mB93AE87BA0BCB1562443FCD021301FE0FCFC971B (const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/TimeCommands.cs:16>
+		float L_0;
+		L_0 = Time_get_timeScale_m1F45A413D4EEA08B1E0988022512C137F6C1E616(NULL);
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		//<source_info:C:/FishMMO3/FishMMO/FishMMO-Unity/Assets/Plugins/IngameDebugConsole/Scripts/Commands/TimeCommands.cs:17>
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 131042
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TimeCommands__ctor_m14FCEFDFEC4473F6F5DD7CBEE28B382E495F1534 (TimeCommands_t6DE00ACD4923F4291E15DF7C6CE0C4F9FE100901* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 87505
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_height_mE1AA6C6C725CCD2D317BD2157396D3CF7D47C9D8_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->___m_Height;
+		V_0 = L_0;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		float L_1 = V_0;
+		return L_1;
+	}
+}
+// Method Definition Index: 88983
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_InverseLerp_mBD7EC6A7173CE082226077E1557D5BC2D2AE0D9D_inline (float ___0_a, float ___1_b, float ___2_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		V_0 = (bool)((((int32_t)((((float)L_0) == ((float)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		float L_3 = ___2_value;
+		float L_4 = ___0_a;
+		float L_5 = ___1_b;
+		float L_6 = ___0_a;
+		float L_7;
+		L_7 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(((float)il2cpp_codegen_subtract(L_3, L_4))/((float)il2cpp_codegen_subtract(L_5, L_6)))), NULL);
+		V_1 = L_7;
+		goto IL_0023;
+	}
+
+IL_001b:
+	{
+		V_1 = (0.0f);
+		goto IL_0023;
+	}
+
+IL_0023:
+	{
+		float L_8 = V_1;
+		return L_8;
+	}
+}
+// Method Definition Index: 88976
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	{
+		float L_0 = ___0_value;
+		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		V_1 = (0.0f);
+		goto IL_002d;
+	}
+
+IL_0015:
+	{
+		float L_2 = ___0_value;
+		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		V_1 = (1.0f);
+		goto IL_002d;
+	}
+
+IL_0029:
+	{
+		float L_4 = ___0_value;
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 88960
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		if ((((float)L_0) > ((float)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		float L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		float L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 88996
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		return;
+	}
+}

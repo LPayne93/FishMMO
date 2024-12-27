@@ -1,0 +1,234 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void EmbeddedAttribute__ctor_m2C1631A10790E7E74A56AC53102B4CBE2DDCD317 (void);
+extern void NullableAttribute__ctor_m9AB59F7849E9D66904E8CA3A8D1C76CEC54238C3 (void);
+extern void NullableAttribute__ctor_m00A8A7716408D61501E23C0F75B58F4C9495155C (void);
+extern void NullableContextAttribute__ctor_mEADB8877D5E4A9D26F937EE97BA0BD03D9F7CADB (void);
+extern void NullablePublicOnlyAttribute__ctor_m184D8B62C71A8CAC07D5FD2B2FE999C8EA844B0B (void);
+extern void RefSafetyRulesAttribute__ctor_mC2A8765CE9E4490D36C9B0B9A13A3BEB4344825E (void);
+extern void ThrowHelper_ThrowIfNull_mEA6A53582FA4A5B3E58A9DDA335684D056F77F1B (void);
+extern void ThrowHelper_Throw_mBB84A91A089742B544A800B6A15624DFEF477231 (void);
+extern void SR_UsingResourceKeys_m57412DB50BFFFB2F7D04C5A151FD31757BBFD4C4 (void);
+extern void SR_GetResourceString_mE5EE885A10AF2AB12EB556B970F67CDD22FAB0E1 (void);
+extern void SR_Format_mD18A3DAD68F66F971CA6B573D34831045BE7CF7F (void);
+extern void SR_get_ResourceManager_mDCED040BA4BE9F2AB06DDF206D96234D3AEAC5C7 (void);
+extern void SR_get_NoServiceRegistered_mBE8DAE2E906DD01140C56A47773A4C4344D786AC (void);
+extern void SR_get_ServiceCollectionReadOnly_m01653F2D7BC87471032E67C9C8B4B493CD324CE9 (void);
+extern void SR__cctor_m0CBBBF596A9324D9B5D6116710AF60DE2AE75371 (void);
+extern void DynamicallyAccessedMembersAttribute__ctor_m8DC98DD6330D496C01DFB982D670488D4CB81888 (void);
+extern void CallerArgumentExpressionAttribute__ctor_mE7313B2C785FE89FE15212602238022A3CC3BCEA (void);
+extern void ServiceCollection_get_Count_m05967AB825119F89998DE70777A108D79F6C5F2F (void);
+extern void ServiceCollection_get_IsReadOnly_m103CACAE6CB6341A84670973CD9DA52452E9A1E8 (void);
+extern void ServiceCollection_get_Item_mD28F1FB30F3B9993F8626381158CF0110996DCCE (void);
+extern void ServiceCollection_set_Item_m4F48D76AC1288E701B20E3E5B16EB5C666FCBD66 (void);
+extern void ServiceCollection_Clear_mEBA5417FBF6AE1F29DC82EDD120E3B2F55E9BEAF (void);
+extern void ServiceCollection_Contains_mB9BD9D75AC6F1E378973C60DED3DBF14FA1440E0 (void);
+extern void ServiceCollection_CopyTo_mCBC24B13A7A773430BAD09938EFFC6B5E7B28415 (void);
+extern void ServiceCollection_Remove_m155958DA22E6D320AEB85DE3BCFD1C8C5B22CEAF (void);
+extern void ServiceCollection_GetEnumerator_m82B5BBF14E9C44F14E038DBE1F978272655EF895 (void);
+extern void ServiceCollection_System_Collections_Generic_ICollectionU3CMicrosoft_Extensions_DependencyInjection_ServiceDescriptorU3E_Add_m8CFE196A3E4EE064EAE8D07C4E460D19ECC325A1 (void);
+extern void ServiceCollection_System_Collections_IEnumerable_GetEnumerator_m626893ED7407128291F4E181C1F5328290D410EC (void);
+extern void ServiceCollection_IndexOf_mB2AD2230AFCEF65886C1B4B766CDDF247F60B5C3 (void);
+extern void ServiceCollection_Insert_m8C948BE89FEB80B136D2894EEC36BF7415D064C4 (void);
+extern void ServiceCollection_RemoveAt_mE18CCAAED6EB8A10E0BB7DD68E7DB38849C65311 (void);
+extern void ServiceCollection_CheckReadOnly_mB6DE5CAEEB8526850C78949C2E6B1DCCDB683074 (void);
+extern void ServiceCollection_ThrowReadOnlyException_m7B4FE2C9209C882095436731B7E1F549E15D0EB2 (void);
+extern void ServiceCollection__ctor_mDBDC238024ACED65A928C3C8FA868399C93D2514 (void);
+extern void ServiceCollectionServiceExtensions_AddSingleton_m91BE361EEAE4DDB8EB7E7476130951154B48D1C2 (void);
+extern void ServiceCollectionServiceExtensions_AddSingleton_mC00FF373273DF26BBEA781F28B430B4BE7BFFA90 (void);
+extern void ServiceCollectionServiceExtensions_AddSingleton_m025598643CF82EBD59FC1F2309A0C4EA902F8686 (void);
+extern void ServiceCollectionServiceExtensions_Add_mD5AEDEFB4BFF3A47DDB4DCBD8A6C6D17DEF124B6 (void);
+extern void ServiceDescriptor__ctor_m84A1D0AED0B0E29DF6E5C00A70F46192CD5649DD (void);
+extern void ServiceDescriptor__ctor_m996867A0F3FA2BCF82F21CFA0962362A7B5A5259 (void);
+extern void ServiceDescriptor__ctor_m448E36DAF872D048B24FA894F4D2BA5482A7AF12 (void);
+extern void ServiceDescriptor__ctor_m5EB0C7BC115735ABCBF36C31FE7EB4128C76BCE3 (void);
+extern void ServiceDescriptor_get_Lifetime_mF5CC52F90D7A16272E4AC41ABF857586F5932C61 (void);
+extern void ServiceDescriptor_get_ServiceType_m58594D17CA943A5C935524123890EB2907FD7556 (void);
+extern void ServiceDescriptor_get_ImplementationType_m839719EB654E7A83ACE7596D3805E411D25FEF72 (void);
+extern void ServiceDescriptor_get_ImplementationInstance_m0BA8DD47A6538A8103B569309CE2CA21381F1037 (void);
+extern void ServiceDescriptor_get_ImplementationFactory_mFD0530062F7593DC0E608DEFB06E4CD16CBA0A6D (void);
+extern void ServiceDescriptor_ToString_mA84A2B8C8DC6BCD7E31FDE1D61D2F026AF7BA76D (void);
+extern void ServiceProviderServiceExtensions_GetRequiredService_m7945406B05E18F4E708FF70EC88787E1DCF80A16 (void);
+extern void ServiceProviderServiceExtensions_CreateScope_mBBBBF5B9E7AC1A4B13332DC00FFD9617FA84F7F6 (void);
+extern void ServiceCollectionDescriptorExtensions_TryAdd_m450939AAABAE677BB8FC23BCC85E5C8E11F675D0 (void);
+static Il2CppMethodPointer s_methodPointers[59] = 
+{
+	EmbeddedAttribute__ctor_m2C1631A10790E7E74A56AC53102B4CBE2DDCD317,
+	NullableAttribute__ctor_m9AB59F7849E9D66904E8CA3A8D1C76CEC54238C3,
+	NullableAttribute__ctor_m00A8A7716408D61501E23C0F75B58F4C9495155C,
+	NullableContextAttribute__ctor_mEADB8877D5E4A9D26F937EE97BA0BD03D9F7CADB,
+	NullablePublicOnlyAttribute__ctor_m184D8B62C71A8CAC07D5FD2B2FE999C8EA844B0B,
+	RefSafetyRulesAttribute__ctor_mC2A8765CE9E4490D36C9B0B9A13A3BEB4344825E,
+	ThrowHelper_ThrowIfNull_mEA6A53582FA4A5B3E58A9DDA335684D056F77F1B,
+	ThrowHelper_Throw_mBB84A91A089742B544A800B6A15624DFEF477231,
+	SR_UsingResourceKeys_m57412DB50BFFFB2F7D04C5A151FD31757BBFD4C4,
+	SR_GetResourceString_mE5EE885A10AF2AB12EB556B970F67CDD22FAB0E1,
+	SR_Format_mD18A3DAD68F66F971CA6B573D34831045BE7CF7F,
+	SR_get_ResourceManager_mDCED040BA4BE9F2AB06DDF206D96234D3AEAC5C7,
+	SR_get_NoServiceRegistered_mBE8DAE2E906DD01140C56A47773A4C4344D786AC,
+	SR_get_ServiceCollectionReadOnly_m01653F2D7BC87471032E67C9C8B4B493CD324CE9,
+	SR__cctor_m0CBBBF596A9324D9B5D6116710AF60DE2AE75371,
+	DynamicallyAccessedMembersAttribute__ctor_m8DC98DD6330D496C01DFB982D670488D4CB81888,
+	CallerArgumentExpressionAttribute__ctor_mE7313B2C785FE89FE15212602238022A3CC3BCEA,
+	NULL,
+	NULL,
+	NULL,
+	ServiceCollection_get_Count_m05967AB825119F89998DE70777A108D79F6C5F2F,
+	ServiceCollection_get_IsReadOnly_m103CACAE6CB6341A84670973CD9DA52452E9A1E8,
+	ServiceCollection_get_Item_mD28F1FB30F3B9993F8626381158CF0110996DCCE,
+	ServiceCollection_set_Item_m4F48D76AC1288E701B20E3E5B16EB5C666FCBD66,
+	ServiceCollection_Clear_mEBA5417FBF6AE1F29DC82EDD120E3B2F55E9BEAF,
+	ServiceCollection_Contains_mB9BD9D75AC6F1E378973C60DED3DBF14FA1440E0,
+	ServiceCollection_CopyTo_mCBC24B13A7A773430BAD09938EFFC6B5E7B28415,
+	ServiceCollection_Remove_m155958DA22E6D320AEB85DE3BCFD1C8C5B22CEAF,
+	ServiceCollection_GetEnumerator_m82B5BBF14E9C44F14E038DBE1F978272655EF895,
+	ServiceCollection_System_Collections_Generic_ICollectionU3CMicrosoft_Extensions_DependencyInjection_ServiceDescriptorU3E_Add_m8CFE196A3E4EE064EAE8D07C4E460D19ECC325A1,
+	ServiceCollection_System_Collections_IEnumerable_GetEnumerator_m626893ED7407128291F4E181C1F5328290D410EC,
+	ServiceCollection_IndexOf_mB2AD2230AFCEF65886C1B4B766CDDF247F60B5C3,
+	ServiceCollection_Insert_m8C948BE89FEB80B136D2894EEC36BF7415D064C4,
+	ServiceCollection_RemoveAt_mE18CCAAED6EB8A10E0BB7DD68E7DB38849C65311,
+	ServiceCollection_CheckReadOnly_mB6DE5CAEEB8526850C78949C2E6B1DCCDB683074,
+	ServiceCollection_ThrowReadOnlyException_m7B4FE2C9209C882095436731B7E1F549E15D0EB2,
+	ServiceCollection__ctor_mDBDC238024ACED65A928C3C8FA868399C93D2514,
+	ServiceCollectionServiceExtensions_AddSingleton_m91BE361EEAE4DDB8EB7E7476130951154B48D1C2,
+	NULL,
+	ServiceCollectionServiceExtensions_AddSingleton_mC00FF373273DF26BBEA781F28B430B4BE7BFFA90,
+	NULL,
+	ServiceCollectionServiceExtensions_AddSingleton_m025598643CF82EBD59FC1F2309A0C4EA902F8686,
+	NULL,
+	ServiceCollectionServiceExtensions_Add_mD5AEDEFB4BFF3A47DDB4DCBD8A6C6D17DEF124B6,
+	ServiceDescriptor__ctor_m84A1D0AED0B0E29DF6E5C00A70F46192CD5649DD,
+	ServiceDescriptor__ctor_m996867A0F3FA2BCF82F21CFA0962362A7B5A5259,
+	ServiceDescriptor__ctor_m448E36DAF872D048B24FA894F4D2BA5482A7AF12,
+	ServiceDescriptor__ctor_m5EB0C7BC115735ABCBF36C31FE7EB4128C76BCE3,
+	ServiceDescriptor_get_Lifetime_mF5CC52F90D7A16272E4AC41ABF857586F5932C61,
+	ServiceDescriptor_get_ServiceType_m58594D17CA943A5C935524123890EB2907FD7556,
+	ServiceDescriptor_get_ImplementationType_m839719EB654E7A83ACE7596D3805E411D25FEF72,
+	ServiceDescriptor_get_ImplementationInstance_m0BA8DD47A6538A8103B569309CE2CA21381F1037,
+	ServiceDescriptor_get_ImplementationFactory_mFD0530062F7593DC0E608DEFB06E4CD16CBA0A6D,
+	ServiceDescriptor_ToString_mA84A2B8C8DC6BCD7E31FDE1D61D2F026AF7BA76D,
+	NULL,
+	ServiceProviderServiceExtensions_GetRequiredService_m7945406B05E18F4E708FF70EC88787E1DCF80A16,
+	NULL,
+	ServiceProviderServiceExtensions_CreateScope_mBBBBF5B9E7AC1A4B13332DC00FFD9617FA84F7F6,
+	ServiceCollectionDescriptorExtensions_TryAdd_m450939AAABAE677BB8FC23BCC85E5C8E11F675D0,
+};
+static const int32_t s_InvokerIndices[59] = 
+{
+	6256,
+	5422,
+	5514,
+	5422,
+	5422,
+	5484,
+	10711,
+	12561,
+	13336,
+	12078,
+	10243,
+	13382,
+	13382,
+	13382,
+	13452,
+	5484,
+	5514,
+	-1,
+	-1,
+	-1,
+	6088,
+	6024,
+	5061,
+	3853,
+	6256,
+	4583,
+	3938,
+	4583,
+	6128,
+	5514,
+	6128,
+	4930,
+	3853,
+	5484,
+	6256,
+	13452,
+	6256,
+	9022,
+	-1,
+	10243,
+	-1,
+	9022,
+	-1,
+	8194,
+	2786,
+	3948,
+	2786,
+	3938,
+	6088,
+	6128,
+	6128,
+	6128,
+	6128,
+	6128,
+	-1,
+	10243,
+	-1,
+	12078,
+	10711,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[5] = 
+{
+	{ 0x06000027, { 0, 2 } },
+	{ 0x06000029, { 2, 1 } },
+	{ 0x0600002B, { 3, 2 } },
+	{ 0x06000037, { 5, 2 } },
+	{ 0x06000039, { 7, 2 } },
+};
+extern const uint32_t g_rgctx_TService_tB2ED9732698C3C9B76CBD81779ABD295681BDA3F;
+extern const uint32_t g_rgctx_TImplementation_tAF7C55F3547E861007FD6F3EEE762FD93DB11328;
+extern const uint32_t g_rgctx_TService_tD1A84B23DA451CC1B45C2F5FFB52D14AD5BFBED4;
+extern const uint32_t g_rgctx_TService_tB72CC89B65302FB344B9CBFB97746A4C196B14F6;
+extern const uint32_t g_rgctx_TService_tB72CC89B65302FB344B9CBFB97746A4C196B14F6;
+extern const uint32_t g_rgctx_T_tE59DA7547F4035B5C82A1C9DA47C875F5ECC6D3E;
+extern const uint32_t g_rgctx_T_tE59DA7547F4035B5C82A1C9DA47C875F5ECC6D3E;
+extern const uint32_t g_rgctx_T_tC3F5C67277D6B55AE8715C98C8945A3075EC93E1;
+extern const uint32_t g_rgctx_T_tC3F5C67277D6B55AE8715C98C8945A3075EC93E1;
+static const Il2CppRGCTXDefinition s_rgctxValues[9] = 
+{
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TService_tB2ED9732698C3C9B76CBD81779ABD295681BDA3F },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TImplementation_tAF7C55F3547E861007FD6F3EEE762FD93DB11328 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TService_tD1A84B23DA451CC1B45C2F5FFB52D14AD5BFBED4 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TService_tB72CC89B65302FB344B9CBFB97746A4C196B14F6 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TService_tB72CC89B65302FB344B9CBFB97746A4C196B14F6 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_tE59DA7547F4035B5C82A1C9DA47C875F5ECC6D3E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tE59DA7547F4035B5C82A1C9DA47C875F5ECC6D3E },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_tC3F5C67277D6B55AE8715C98C8945A3075EC93E1 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tC3F5C67277D6B55AE8715C98C8945A3075EC93E1 },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_Extensions_DependencyInjection_Abstractions_CodeGenModule;
+const Il2CppCodeGenModule g_Microsoft_Extensions_DependencyInjection_Abstractions_CodeGenModule = 
+{
+	"Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+	59,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	5,
+	s_rgctxIndices,
+	9,
+	s_rgctxValues,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

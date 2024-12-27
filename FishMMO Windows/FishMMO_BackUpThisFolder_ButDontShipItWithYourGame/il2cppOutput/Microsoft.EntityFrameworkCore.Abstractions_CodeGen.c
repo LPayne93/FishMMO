@@ -1,0 +1,154 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void NotNullAttribute__ctor_mC6C395ADD2952202C3782974ED0688137CC8CEC3 (void);
+extern void CanBeNullAttribute__ctor_m894B41F3EAF908FD393D07A2098F2B9328EA8DC6 (void);
+extern void InvokerParameterNameAttribute__ctor_m6F6C6D3E94870B1925E5D636CBF7962069141131 (void);
+extern void NoEnumerationAttribute__ctor_m56CD58B9921C8E0FF3AAD2BA09E7D73A98A216B2 (void);
+extern void ContractAnnotationAttribute__ctor_m49DD8CBFAA90603D412FBDA3308A0F24EBA87C18 (void);
+extern void ContractAnnotationAttribute__ctor_mF155AB24CEBF5F3BE26351601E5A16B7597578D4 (void);
+extern void BackingFieldAttribute_get_Name_m627FD463EBEDF12A79C207CD112945481A25DC34 (void);
+extern void CommentAttribute_get_Comment_mC0D42C6796721D823704CE2E922B829E1583084D (void);
+extern void DbFunctionAttribute_get_Name_mAF318801008BC97931098C96EC3203EAE4B10713 (void);
+extern void DbFunctionAttribute_get_Schema_m0D2DE8549030BDE5798BED3CF23FEE6CFB4F4458 (void);
+extern void DbFunctionAttribute_get_IsBuiltIn_m61537B5DA70CBC3C941A6F9DBAF69DDA4C6FA3EF (void);
+extern void DbFunctionAttribute_get_IsNullable_mEA6B4F1B3504F4CEA876E13E05E40F45538BE68F (void);
+extern void DbFunctionAttribute_get_IsNullableHasValue_m22EF0169FF009746A8E6BDC4F1BC6C8DDD7E6FBC (void);
+extern void IndexAttribute__ctor_m35B0550DEEDE68570C44A422C0AEA283C4DC7C5F (void);
+extern void IndexAttribute_get_PropertyNames_m6F6C9813373B5CAD6993E5E1399F642160DFF0C9 (void);
+extern void IndexAttribute_get_Name_m76BE725919C32E83AD3604EB8F885D8FC8BB54B7 (void);
+extern void IndexAttribute_get_IsUnique_m1B80EB879DE520FC9355DA7107FD989771DA2B6E (void);
+extern void IndexAttribute_set_IsUnique_m88600B3637D5C6EA464AE03EB8A4EA72015D580A (void);
+extern void IndexAttribute_get_IsUniqueHasValue_m34566298BD1CBEE62C8228F7C6221A538515D071 (void);
+extern void Check_NotEmpty_mBE662211DB61924B9C3A728B9AF1E993D7C7B1D5 (void);
+extern void Check_HasNoEmptyElements_m9FDEB8EE34A4DFA020CB0A8DCC6C189C4840B97E (void);
+extern void U3CU3Ec__cctor_m5AEEAD8FDC01911FB8BF6B57E7695C953CD16A13 (void);
+extern void U3CU3Ec__ctor_m7B469E2591688480343E700CE4680C67C34C4941 (void);
+extern void U3CU3Ec_U3CHasNoEmptyElementsU3Eb__5_0_m9ED61C3EA6DCE7B168E51239B4D71CC341B9792B (void);
+extern void NotParameterizedAttribute__ctor_m200212D779D60F57D7B6A92A868631F392B95BD6 (void);
+extern void AbstractionsStrings_ArgumentIsEmpty_m5DEB324EEEE7AAE36D4B443C77A8F85E64CCF505 (void);
+extern void AbstractionsStrings_CollectionArgumentHasEmptyElements_m2043C48E068806F9C4D3A0744B2F1D5E64C32C6E (void);
+extern void AbstractionsStrings_CollectionArgumentIsEmpty_m6ADA1D038402F7528968AB175DB67E93D6DA3295 (void);
+extern void AbstractionsStrings_GetString_mBCA02481FFE07DCBE7B0BF74307F63ADCCB9019B (void);
+extern void AbstractionsStrings__cctor_m77CB42403A12B688B912363274C0F58EE796A496 (void);
+static Il2CppMethodPointer s_methodPointers[35] = 
+{
+	NotNullAttribute__ctor_mC6C395ADD2952202C3782974ED0688137CC8CEC3,
+	CanBeNullAttribute__ctor_m894B41F3EAF908FD393D07A2098F2B9328EA8DC6,
+	InvokerParameterNameAttribute__ctor_m6F6C6D3E94870B1925E5D636CBF7962069141131,
+	NoEnumerationAttribute__ctor_m56CD58B9921C8E0FF3AAD2BA09E7D73A98A216B2,
+	ContractAnnotationAttribute__ctor_m49DD8CBFAA90603D412FBDA3308A0F24EBA87C18,
+	ContractAnnotationAttribute__ctor_mF155AB24CEBF5F3BE26351601E5A16B7597578D4,
+	BackingFieldAttribute_get_Name_m627FD463EBEDF12A79C207CD112945481A25DC34,
+	CommentAttribute_get_Comment_mC0D42C6796721D823704CE2E922B829E1583084D,
+	DbFunctionAttribute_get_Name_mAF318801008BC97931098C96EC3203EAE4B10713,
+	DbFunctionAttribute_get_Schema_m0D2DE8549030BDE5798BED3CF23FEE6CFB4F4458,
+	DbFunctionAttribute_get_IsBuiltIn_m61537B5DA70CBC3C941A6F9DBAF69DDA4C6FA3EF,
+	DbFunctionAttribute_get_IsNullable_mEA6B4F1B3504F4CEA876E13E05E40F45538BE68F,
+	DbFunctionAttribute_get_IsNullableHasValue_m22EF0169FF009746A8E6BDC4F1BC6C8DDD7E6FBC,
+	IndexAttribute__ctor_m35B0550DEEDE68570C44A422C0AEA283C4DC7C5F,
+	IndexAttribute_get_PropertyNames_m6F6C9813373B5CAD6993E5E1399F642160DFF0C9,
+	IndexAttribute_get_Name_m76BE725919C32E83AD3604EB8F885D8FC8BB54B7,
+	IndexAttribute_get_IsUnique_m1B80EB879DE520FC9355DA7107FD989771DA2B6E,
+	IndexAttribute_set_IsUnique_m88600B3637D5C6EA464AE03EB8A4EA72015D580A,
+	IndexAttribute_get_IsUniqueHasValue_m34566298BD1CBEE62C8228F7C6221A538515D071,
+	NULL,
+	NULL,
+	Check_NotEmpty_mBE662211DB61924B9C3A728B9AF1E993D7C7B1D5,
+	Check_HasNoEmptyElements_m9FDEB8EE34A4DFA020CB0A8DCC6C189C4840B97E,
+	U3CU3Ec__cctor_m5AEEAD8FDC01911FB8BF6B57E7695C953CD16A13,
+	U3CU3Ec__ctor_m7B469E2591688480343E700CE4680C67C34C4941,
+	U3CU3Ec_U3CHasNoEmptyElementsU3Eb__5_0_m9ED61C3EA6DCE7B168E51239B4D71CC341B9792B,
+	NotParameterizedAttribute__ctor_m200212D779D60F57D7B6A92A868631F392B95BD6,
+	AbstractionsStrings_ArgumentIsEmpty_m5DEB324EEEE7AAE36D4B443C77A8F85E64CCF505,
+	AbstractionsStrings_CollectionArgumentHasEmptyElements_m2043C48E068806F9C4D3A0744B2F1D5E64C32C6E,
+	AbstractionsStrings_CollectionArgumentIsEmpty_m6ADA1D038402F7528968AB175DB67E93D6DA3295,
+	AbstractionsStrings_GetString_mBCA02481FFE07DCBE7B0BF74307F63ADCCB9019B,
+	AbstractionsStrings__cctor_m77CB42403A12B688B912363274C0F58EE796A496,
+	NULL,
+	NULL,
+	NULL,
+};
+static const int32_t s_InvokerIndices[35] = 
+{
+	6256,
+	6256,
+	6256,
+	6256,
+	5514,
+	3927,
+	6128,
+	6128,
+	6128,
+	6128,
+	6024,
+	6024,
+	6024,
+	5514,
+	6128,
+	6128,
+	6024,
+	5422,
+	6024,
+	-1,
+	-1,
+	10243,
+	10243,
+	13452,
+	6256,
+	4583,
+	6256,
+	12078,
+	12078,
+	12078,
+	10243,
+	13452,
+	-1,
+	-1,
+	-1,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[2] = 
+{
+	{ 0x06000014, { 0, 1 } },
+	{ 0x06000015, { 1, 4 } },
+};
+extern const uint32_t g_rgctx_T_t8D01816AC12A2D9D4F3C6B4A871473DBD00DBFEA;
+extern const uint32_t g_rgctx_IReadOnlyList_1_tD78A6368A31F75D63D287A90D02ACBB779DBA3CC;
+extern const uint32_t g_rgctx_Check_NotNull_TisIReadOnlyList_1_tD78A6368A31F75D63D287A90D02ACBB779DBA3CC_m4CCCFE8C8F400E6450D571881507AAB7E6A06163;
+extern const uint32_t g_rgctx_IReadOnlyCollection_1_t8D7CDF65CBE768F9C5119301555D6CA1A92840D2;
+extern const uint32_t g_rgctx_IReadOnlyCollection_1_get_Count_m3E97EF92E14643C2A8CE5D881889F6CFE1E6BC74;
+static const Il2CppRGCTXDefinition s_rgctxValues[5] = 
+{
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t8D01816AC12A2D9D4F3C6B4A871473DBD00DBFEA },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IReadOnlyList_1_tD78A6368A31F75D63D287A90D02ACBB779DBA3CC },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Check_NotNull_TisIReadOnlyList_1_tD78A6368A31F75D63D287A90D02ACBB779DBA3CC_m4CCCFE8C8F400E6450D571881507AAB7E6A06163 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IReadOnlyCollection_1_t8D7CDF65CBE768F9C5119301555D6CA1A92840D2 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IReadOnlyCollection_1_get_Count_m3E97EF92E14643C2A8CE5D881889F6CFE1E6BC74 },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_EntityFrameworkCore_Abstractions_CodeGenModule;
+const Il2CppCodeGenModule g_Microsoft_EntityFrameworkCore_Abstractions_CodeGenModule = 
+{
+	"Microsoft.EntityFrameworkCore.Abstractions.dll",
+	35,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	2,
+	s_rgctxIndices,
+	5,
+	s_rgctxValues,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

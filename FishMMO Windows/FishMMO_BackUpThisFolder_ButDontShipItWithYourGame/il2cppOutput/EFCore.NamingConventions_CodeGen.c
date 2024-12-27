@@ -1,0 +1,339 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void CamelCaseNameRewriter__ctor_m0C101EC53FE6C5F77F9AB0A144961ADD1D92A684 (void);
+extern void CamelCaseNameRewriter_RewriteName_m67CF3EA1AA888793FC74A7C67531984D4928DBE3 (void);
+extern void LowerCaseNameRewriter__ctor_m09C1B10ACD103BC7629C5C14815A5CE39CDDD15E (void);
+extern void LowerCaseNameRewriter_RewriteName_m977DC67BA10B6A3BA990E22D935CECB2478231FB (void);
+extern void NameRewritingConvention__ctor_mB54771829B800EC66E871DC516B0E2A4D229FA21 (void);
+extern void NameRewritingConvention_ProcessEntityTypeAdded_m2BD408456CBC1E7E9228F6564EFCF0266195529C (void);
+extern void NameRewritingConvention_ProcessEntityTypeBaseTypeChanged_m3C9A61CE8907F33702E392CCA0B657BC9A6002DE (void);
+extern void NameRewritingConvention_ProcessPropertyAdded_mC55E528B7961EBC0A9F4FEB8A1AD9123CBDA989A (void);
+extern void NameRewritingConvention_ProcessForeignKeyOwnershipChanged_mF93F8BD241F45DFFCF6549CD6A4BB0979F8827EB (void);
+extern void NameRewritingConvention_ProcessEntityTypeAnnotationChanged_m439D820A647B0E99B6B06731EA27A57EDBB03CE3 (void);
+extern void NameRewritingConvention_ProcessForeignKeyAdded_m4B451B38DFBDF9C9CB3D685D02D4A4DFE24C95C6 (void);
+extern void NameRewritingConvention_ProcessKeyAdded_m40D7504A5B9A52F0168872C8F191E2F2F1B914AC (void);
+extern void NameRewritingConvention_ProcessIndexAdded_m375BAAFCD1EE724983B27E17C35643AFA729FD00 (void);
+extern void NameRewritingConvention_ProcessModelFinalizing_m293606152060BBBA8BE739D32784171D0E738E70 (void);
+extern void NameRewritingConvention_RewriteColumnName_m3A415CBEF47040C180F26204972F860B6812F15D (void);
+extern void NameRewritingConvention__cctor_mD2FFCB76ACBA40A8F97DC51D698161F26F7460C4 (void);
+extern void U3CU3Ec__cctor_m3417252BC997B59DCB9AF89668096FFD2D4D3B60 (void);
+extern void U3CU3Ec__ctor_m11AB80E03A07EF96D1B49F934D9C632BC5D83B55 (void);
+extern void U3CU3Ec_U3CProcessEntityTypeAnnotationChangedU3Eb__7_0_m769B61FB4BA4155CF88D15E8335AD260F6270A2B (void);
+extern void NamingConventionSetPlugin__ctor_m8E04E230FE848D2F927BA2FAB6227F98145562C0 (void);
+extern void NamingConventionSetPlugin_ModifyConventions_m71CDA95D944CDD30D56088FB0428BF226B4B1947 (void);
+extern void NamingConventionsOptionsExtension__ctor_mEF06A0933AF79A914F9D6C7D80817120F7A7C12B (void);
+extern void NamingConventionsOptionsExtension__ctor_m9ADF61DF4F89FBEDFCDE8127E8A7413BE73B009E (void);
+extern void NamingConventionsOptionsExtension_get_Info_mED893D8AD7D05ED821F2BBFDCF6BFD0FDBCCDAD1 (void);
+extern void NamingConventionsOptionsExtension_Clone_mEDE12708E33401D34A9830452B08A4D44E866D2B (void);
+extern void NamingConventionsOptionsExtension_get_NamingConvention_mFFE3EBCCF4D374AC0CD6FED473BCE36B9B955596 (void);
+extern void NamingConventionsOptionsExtension_get_Culture_m1EF69710EC679B74F2090DD76C3E9A0468D14B3F (void);
+extern void NamingConventionsOptionsExtension_WithoutNaming_mEDCFD2278F627B682C67D3E19C5BBBAA915A3406 (void);
+extern void NamingConventionsOptionsExtension_WithSnakeCaseNamingConvention_m2D2E27E560D4CC5613C6BB30131EFAB161D7C8D5 (void);
+extern void NamingConventionsOptionsExtension_WithLowerCaseNamingConvention_mA4D4E2BBF1EAA771C66AC00FEBB25C52DE8F72D6 (void);
+extern void NamingConventionsOptionsExtension_WithUpperCaseNamingConvention_mF2720DBCFD17F4D76217E9835D7A1FB874875701 (void);
+extern void NamingConventionsOptionsExtension_WithUpperSnakeCaseNamingConvention_mC93993E6C2EFCE9FC023BA8E951427E41A26969B (void);
+extern void NamingConventionsOptionsExtension_WithCamelCaseNamingConvention_m2CB567D60598DC99D88A24997C77094274558900 (void);
+extern void NamingConventionsOptionsExtension_Validate_m6B506D9892D25201DD78C4C25E31A7B76F6A36E8 (void);
+extern void NamingConventionsOptionsExtension_ApplyServices_mD48EA28D8E16920D71B0873156E75133F58A5499 (void);
+extern void ExtensionInfo__ctor_mCCBAD3EAEAECE1A07DE3D98203AFF78034683D61 (void);
+extern void ExtensionInfo_get_Extension_mB5DAEE01D36D266D27516566F7E64E53AD390EB1 (void);
+extern void ExtensionInfo_get_IsDatabaseProvider_m24F22AD4096B86FAF1678D3E8E8AC4F05F8210BC (void);
+extern void ExtensionInfo_get_LogFragment_mBF4FDBD7B5F5A7B75D65A87B4D467188CE63844E (void);
+extern void ExtensionInfo_GetServiceProviderHashCode_m5EC3B7AA5313E9A8BD48CAD71458AD52176CF885 (void);
+extern void ExtensionInfo_PopulateDebugInfo_m6716C29214EA785E47FB745992290AE830CA5279 (void);
+extern void SnakeCaseNameRewriter__ctor_mCE22A452C54CDEF80DB4973829A65686E6FAF1B3 (void);
+extern void SnakeCaseNameRewriter_RewriteName_m6239BC6E2F91E5167F1A7EF9EB27C8267FF5E63A (void);
+extern void UpperCaseNameRewriter__ctor_mB1B7369E807AD8F4AFC42512940087D778D3EEDB (void);
+extern void UpperCaseNameRewriter_RewriteName_m90B22190488E751A89F12C507A9A465BA6CC129D (void);
+extern void UpperSnakeCaseNameRewriter__ctor_m93A8537A19740A29B90EC0682B30F4ADCEA2DA14 (void);
+extern void UpperSnakeCaseNameRewriter_RewriteName_m7348FA0200B51130B641077D81716A781809B63B (void);
+extern void NotNullAttribute__ctor_m68B063DE7EDBA6B2919DF190F5A843A300D15BE6 (void);
+extern void CanBeNullAttribute__ctor_mB86689FEA05E7A00EA3AC5081EDB317D39837FFF (void);
+extern void InvokerParameterNameAttribute__ctor_m0EEE720E7AC98BAF277DB3B334D76EA67F5D930E (void);
+extern void NoEnumerationAttribute__ctor_m92DF7E580F1A47B98D41DA42BC9B7133ED8C4206 (void);
+extern void ContractAnnotationAttribute_get_Contract_m3BA9DAA1DFF5FCF750676B7CA34071A5F3E96741 (void);
+extern void ContractAnnotationAttribute_get_ForceFullStates_mC1F637F308E4E896007573AAF4DEFA9D422F654D (void);
+extern void ContractAnnotationAttribute__ctor_mEDBAA4CEFC7D32D1A81A851DD6600915E7D06E3F (void);
+extern void ContractAnnotationAttribute__ctor_mF0A59E0584D3A0E8631BF57A62C2F4136E1C89CC (void);
+extern void UsedImplicitlyAttribute__ctor_m657EB7D948DD78E5AE98219CC997D8D6A07DE8F7 (void);
+extern void UsedImplicitlyAttribute__ctor_mD993B8F365EFC61560D495510C094D39AA40BA40 (void);
+extern void UsedImplicitlyAttribute__ctor_m7270AE604A6BD87CFDAA18492699C74C025A7D1B (void);
+extern void UsedImplicitlyAttribute__ctor_m5F15F02E972DD2AA58529BC6069B9493474BC347 (void);
+extern void UsedImplicitlyAttribute_get_UseKindFlags_mBEF5CA6B686CF05F4B33CC9093128B7A119FB92A (void);
+extern void UsedImplicitlyAttribute_get_TargetFlags_m7AA24F21A883F7F103E9CB3D49C5D5BFED39B769 (void);
+extern void StringFormatMethodAttribute__ctor_m1F69C43EB1A1E01442AF5815F214A305E8DAFBAD (void);
+extern void StringFormatMethodAttribute_get_FormatParameterName_m222BE025D1FF9E29604E8B11BA8D0EFBAF8B31D1 (void);
+extern void NamingConventionsServiceCollectionExtensions_AddEntityFrameworkNamingConventions_mE3B25B1CC7C499409ADA368341D7CED7C56D68A6 (void);
+extern void Check_NotEmpty_m62692883EEBFEFC425FBCC001720FDAA544467B3 (void);
+extern void Check_NullButNotEmpty_m12FBC2B3517FB38F4ED762089DD07296C427B289 (void);
+extern void NamingConventionsExtensions_UseSnakeCaseNamingConvention_m2F8241E30C4F3A6C40B79ED25C88DF002760A385 (void);
+extern void NamingConventionsExtensions_UseLowerCaseNamingConvention_mF494B71A4B36618063294E590CCBF5EDDA7F5966 (void);
+extern void NamingConventionsExtensions_UseUpperCaseNamingConvention_mFD4D84D3C7717C0EFD182D7BE41A63C77BFFE7EB (void);
+extern void NamingConventionsExtensions_UseUpperSnakeCaseNamingConvention_mC0D26950C16E5F3990B71B37802A84D65369F5E2 (void);
+extern void NamingConventionsExtensions_UseCamelCaseNamingConvention_m8A440926AD5B4083130883EFDDBC563957DBE78A (void);
+static Il2CppMethodPointer s_methodPointers[84] = 
+{
+	CamelCaseNameRewriter__ctor_m0C101EC53FE6C5F77F9AB0A144961ADD1D92A684,
+	CamelCaseNameRewriter_RewriteName_m67CF3EA1AA888793FC74A7C67531984D4928DBE3,
+	NULL,
+	LowerCaseNameRewriter__ctor_m09C1B10ACD103BC7629C5C14815A5CE39CDDD15E,
+	LowerCaseNameRewriter_RewriteName_m977DC67BA10B6A3BA990E22D935CECB2478231FB,
+	NameRewritingConvention__ctor_mB54771829B800EC66E871DC516B0E2A4D229FA21,
+	NameRewritingConvention_ProcessEntityTypeAdded_m2BD408456CBC1E7E9228F6564EFCF0266195529C,
+	NameRewritingConvention_ProcessEntityTypeBaseTypeChanged_m3C9A61CE8907F33702E392CCA0B657BC9A6002DE,
+	NameRewritingConvention_ProcessPropertyAdded_mC55E528B7961EBC0A9F4FEB8A1AD9123CBDA989A,
+	NameRewritingConvention_ProcessForeignKeyOwnershipChanged_mF93F8BD241F45DFFCF6549CD6A4BB0979F8827EB,
+	NameRewritingConvention_ProcessEntityTypeAnnotationChanged_m439D820A647B0E99B6B06731EA27A57EDBB03CE3,
+	NameRewritingConvention_ProcessForeignKeyAdded_m4B451B38DFBDF9C9CB3D685D02D4A4DFE24C95C6,
+	NameRewritingConvention_ProcessKeyAdded_m40D7504A5B9A52F0168872C8F191E2F2F1B914AC,
+	NameRewritingConvention_ProcessIndexAdded_m375BAAFCD1EE724983B27E17C35643AFA729FD00,
+	NameRewritingConvention_ProcessModelFinalizing_m293606152060BBBA8BE739D32784171D0E738E70,
+	NameRewritingConvention_RewriteColumnName_m3A415CBEF47040C180F26204972F860B6812F15D,
+	NameRewritingConvention__cctor_mD2FFCB76ACBA40A8F97DC51D698161F26F7460C4,
+	U3CU3Ec__cctor_m3417252BC997B59DCB9AF89668096FFD2D4D3B60,
+	U3CU3Ec__ctor_m11AB80E03A07EF96D1B49F934D9C632BC5D83B55,
+	U3CU3Ec_U3CProcessEntityTypeAnnotationChangedU3Eb__7_0_m769B61FB4BA4155CF88D15E8335AD260F6270A2B,
+	NamingConventionSetPlugin__ctor_m8E04E230FE848D2F927BA2FAB6227F98145562C0,
+	NamingConventionSetPlugin_ModifyConventions_m71CDA95D944CDD30D56088FB0428BF226B4B1947,
+	NamingConventionsOptionsExtension__ctor_mEF06A0933AF79A914F9D6C7D80817120F7A7C12B,
+	NamingConventionsOptionsExtension__ctor_m9ADF61DF4F89FBEDFCDE8127E8A7413BE73B009E,
+	NamingConventionsOptionsExtension_get_Info_mED893D8AD7D05ED821F2BBFDCF6BFD0FDBCCDAD1,
+	NamingConventionsOptionsExtension_Clone_mEDE12708E33401D34A9830452B08A4D44E866D2B,
+	NamingConventionsOptionsExtension_get_NamingConvention_mFFE3EBCCF4D374AC0CD6FED473BCE36B9B955596,
+	NamingConventionsOptionsExtension_get_Culture_m1EF69710EC679B74F2090DD76C3E9A0468D14B3F,
+	NamingConventionsOptionsExtension_WithoutNaming_mEDCFD2278F627B682C67D3E19C5BBBAA915A3406,
+	NamingConventionsOptionsExtension_WithSnakeCaseNamingConvention_m2D2E27E560D4CC5613C6BB30131EFAB161D7C8D5,
+	NamingConventionsOptionsExtension_WithLowerCaseNamingConvention_mA4D4E2BBF1EAA771C66AC00FEBB25C52DE8F72D6,
+	NamingConventionsOptionsExtension_WithUpperCaseNamingConvention_mF2720DBCFD17F4D76217E9835D7A1FB874875701,
+	NamingConventionsOptionsExtension_WithUpperSnakeCaseNamingConvention_mC93993E6C2EFCE9FC023BA8E951427E41A26969B,
+	NamingConventionsOptionsExtension_WithCamelCaseNamingConvention_m2CB567D60598DC99D88A24997C77094274558900,
+	NamingConventionsOptionsExtension_Validate_m6B506D9892D25201DD78C4C25E31A7B76F6A36E8,
+	NamingConventionsOptionsExtension_ApplyServices_mD48EA28D8E16920D71B0873156E75133F58A5499,
+	ExtensionInfo__ctor_mCCBAD3EAEAECE1A07DE3D98203AFF78034683D61,
+	ExtensionInfo_get_Extension_mB5DAEE01D36D266D27516566F7E64E53AD390EB1,
+	ExtensionInfo_get_IsDatabaseProvider_m24F22AD4096B86FAF1678D3E8E8AC4F05F8210BC,
+	ExtensionInfo_get_LogFragment_mBF4FDBD7B5F5A7B75D65A87B4D467188CE63844E,
+	ExtensionInfo_GetServiceProviderHashCode_m5EC3B7AA5313E9A8BD48CAD71458AD52176CF885,
+	ExtensionInfo_PopulateDebugInfo_m6716C29214EA785E47FB745992290AE830CA5279,
+	SnakeCaseNameRewriter__ctor_mCE22A452C54CDEF80DB4973829A65686E6FAF1B3,
+	SnakeCaseNameRewriter_RewriteName_m6239BC6E2F91E5167F1A7EF9EB27C8267FF5E63A,
+	UpperCaseNameRewriter__ctor_mB1B7369E807AD8F4AFC42512940087D778D3EEDB,
+	UpperCaseNameRewriter_RewriteName_m90B22190488E751A89F12C507A9A465BA6CC129D,
+	UpperSnakeCaseNameRewriter__ctor_m93A8537A19740A29B90EC0682B30F4ADCEA2DA14,
+	UpperSnakeCaseNameRewriter_RewriteName_m7348FA0200B51130B641077D81716A781809B63B,
+	NotNullAttribute__ctor_m68B063DE7EDBA6B2919DF190F5A843A300D15BE6,
+	CanBeNullAttribute__ctor_mB86689FEA05E7A00EA3AC5081EDB317D39837FFF,
+	InvokerParameterNameAttribute__ctor_m0EEE720E7AC98BAF277DB3B334D76EA67F5D930E,
+	NoEnumerationAttribute__ctor_m92DF7E580F1A47B98D41DA42BC9B7133ED8C4206,
+	ContractAnnotationAttribute_get_Contract_m3BA9DAA1DFF5FCF750676B7CA34071A5F3E96741,
+	ContractAnnotationAttribute_get_ForceFullStates_mC1F637F308E4E896007573AAF4DEFA9D422F654D,
+	ContractAnnotationAttribute__ctor_mEDBAA4CEFC7D32D1A81A851DD6600915E7D06E3F,
+	ContractAnnotationAttribute__ctor_mF0A59E0584D3A0E8631BF57A62C2F4136E1C89CC,
+	UsedImplicitlyAttribute__ctor_m657EB7D948DD78E5AE98219CC997D8D6A07DE8F7,
+	UsedImplicitlyAttribute__ctor_mD993B8F365EFC61560D495510C094D39AA40BA40,
+	UsedImplicitlyAttribute__ctor_m7270AE604A6BD87CFDAA18492699C74C025A7D1B,
+	UsedImplicitlyAttribute__ctor_m5F15F02E972DD2AA58529BC6069B9493474BC347,
+	UsedImplicitlyAttribute_get_UseKindFlags_mBEF5CA6B686CF05F4B33CC9093128B7A119FB92A,
+	UsedImplicitlyAttribute_get_TargetFlags_m7AA24F21A883F7F103E9CB3D49C5D5BFED39B769,
+	StringFormatMethodAttribute__ctor_m1F69C43EB1A1E01442AF5815F214A305E8DAFBAD,
+	StringFormatMethodAttribute_get_FormatParameterName_m222BE025D1FF9E29604E8B11BA8D0EFBAF8B31D1,
+	NamingConventionsServiceCollectionExtensions_AddEntityFrameworkNamingConventions_mE3B25B1CC7C499409ADA368341D7CED7C56D68A6,
+	NULL,
+	NULL,
+	NULL,
+	Check_NotEmpty_m62692883EEBFEFC425FBCC001720FDAA544467B3,
+	Check_NullButNotEmpty_m12FBC2B3517FB38F4ED762089DD07296C427B289,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NamingConventionsExtensions_UseSnakeCaseNamingConvention_m2F8241E30C4F3A6C40B79ED25C88DF002760A385,
+	NULL,
+	NamingConventionsExtensions_UseLowerCaseNamingConvention_mF494B71A4B36618063294E590CCBF5EDDA7F5966,
+	NULL,
+	NamingConventionsExtensions_UseUpperCaseNamingConvention_mFD4D84D3C7717C0EFD182D7BE41A63C77BFFE7EB,
+	NULL,
+	NamingConventionsExtensions_UseUpperSnakeCaseNamingConvention_mC0D26950C16E5F3990B71B37802A84D65369F5E2,
+	NULL,
+	NamingConventionsExtensions_UseCamelCaseNamingConvention_m8A440926AD5B4083130883EFDDBC563957DBE78A,
+	NULL,
+};
+static const int32_t s_InvokerIndices[84] = 
+{
+	5514,
+	5067,
+	-1,
+	5514,
+	5067,
+	5514,
+	3948,
+	1834,
+	3948,
+	3948,
+	1150,
+	3948,
+	3948,
+	3948,
+	3948,
+	5514,
+	13452,
+	13452,
+	6256,
+	4583,
+	5514,
+	5067,
+	6256,
+	5514,
+	6128,
+	6128,
+	6088,
+	6128,
+	6128,
+	5067,
+	5067,
+	5067,
+	5067,
+	5067,
+	5514,
+	5514,
+	5514,
+	6128,
+	6024,
+	6128,
+	6089,
+	5514,
+	5514,
+	5067,
+	5514,
+	5067,
+	5514,
+	5067,
+	6256,
+	6256,
+	6256,
+	6256,
+	6128,
+	6024,
+	5514,
+	3927,
+	6256,
+	5484,
+	5484,
+	3844,
+	6088,
+	6088,
+	5514,
+	6128,
+	12078,
+	-1,
+	-1,
+	-1,
+	10243,
+	10243,
+	-1,
+	-1,
+	-1,
+	-1,
+	10243,
+	-1,
+	10243,
+	-1,
+	10243,
+	-1,
+	10243,
+	-1,
+	10243,
+	-1,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[10] = 
+{
+	{ 0x02000019, { 15, 4 } },
+	{ 0x06000042, { 0, 1 } },
+	{ 0x06000043, { 1, 1 } },
+	{ 0x06000044, { 2, 4 } },
+	{ 0x06000047, { 6, 9 } },
+	{ 0x0600004C, { 19, 1 } },
+	{ 0x0600004E, { 20, 1 } },
+	{ 0x06000050, { 21, 1 } },
+	{ 0x06000052, { 22, 1 } },
+	{ 0x06000054, { 23, 1 } },
+};
+extern const uint32_t g_rgctx_T_tA063AC0F6B78B9ED847B27E6712446DDCFEE4A1D;
+extern const uint32_t g_rgctx_T_t45F46AC0FB00ACB68C4FB1B6187CDEC357F3E475;
+extern const uint32_t g_rgctx_IReadOnlyList_1_tD6A01DE6443B271AB7B6F675A1D8994ED8795BDA;
+extern const uint32_t g_rgctx_Check_NotNull_TisIReadOnlyList_1_tD6A01DE6443B271AB7B6F675A1D8994ED8795BDA_m846E98DE9271C9BE9BF06902499C996974FAA0D6;
+extern const uint32_t g_rgctx_IReadOnlyCollection_1_t87FA28414B2C4BF225ECA29E869484B3BBCBBB29;
+extern const uint32_t g_rgctx_IReadOnlyCollection_1_get_Count_mA0CC191CFF62E68A8DC8CB06075E88B2FB6DE4C8;
+extern const uint32_t g_rgctx_IReadOnlyList_1_t8D2D837C3B4C9156665B7FF308F4D3095AC681A0;
+extern const uint32_t g_rgctx_Check_NotNull_TisIReadOnlyList_1_t8D2D837C3B4C9156665B7FF308F4D3095AC681A0_mBB830B8770476414C3EF21CB52FE2E63A14991F0;
+extern const uint32_t g_rgctx_U3CU3Ec__5_1_t145037C444C9E70FF2C2EC5EAAAE0F246D4DFDB5;
+extern const uint32_t g_rgctx_Func_2_t7B92F4080C73A0E6A4CA7AE9F1135AE3066B00C3;
+extern const uint32_t g_rgctx_U3CU3Ec__5_1_t145037C444C9E70FF2C2EC5EAAAE0F246D4DFDB5;
+extern const uint32_t g_rgctx_U3CU3Ec__5_1_U3CHasNoNullsU3Eb__5_0_m0ECDE7C04E9FAB3F116241D18C46266007F0A83A;
+extern const uint32_t g_rgctx_Func_2__ctor_m18804647FE43501075295EB846C8354F1F3B19C8;
+extern const uint32_t g_rgctx_Enumerable_Any_TisT_tA6DB63C481CC8D000127150AEAE9315B401910B3_m3734274D863D2D3EF163C402E821F056DE3FB8C2;
+extern const uint32_t g_rgctx_IEnumerable_1_tC5A3A0D549F68A48A73C59F52984DDCCCAFABE45;
+extern const uint32_t g_rgctx_U3CU3Ec__5_1_tDD9FA8880FAB9D3CE4E190CB8C60A59CE07697D7;
+extern const uint32_t g_rgctx_U3CU3Ec__5_1__ctor_m421CADCE3C91C5F574DFA694FD336BEF38FCC394;
+extern const uint32_t g_rgctx_U3CU3Ec__5_1_tDD9FA8880FAB9D3CE4E190CB8C60A59CE07697D7;
+extern const uint32_t g_rgctx_T_t000398873571F5E8474BDE6E978C61B39B3808B2;
+extern const uint32_t g_rgctx_DbContextOptionsBuilder_1_t4969F529C44539C93C92D8FB04B468F925DE1E7C;
+extern const uint32_t g_rgctx_DbContextOptionsBuilder_1_t8C961FA32E44CF33C550EC77C4EC04A61ACA3EF8;
+extern const uint32_t g_rgctx_DbContextOptionsBuilder_1_t1D43EFEC04C086A37A5FF61E7856F1FB8BE37D9B;
+extern const uint32_t g_rgctx_DbContextOptionsBuilder_1_t5448100C9BC082F1F11727C81EA77B7FD168C863;
+extern const uint32_t g_rgctx_DbContextOptionsBuilder_1_tFB6F1F23FE1B1C04692CAD6FC2F4FA4A17B81C55;
+static const Il2CppRGCTXDefinition s_rgctxValues[24] = 
+{
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tA063AC0F6B78B9ED847B27E6712446DDCFEE4A1D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t45F46AC0FB00ACB68C4FB1B6187CDEC357F3E475 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IReadOnlyList_1_tD6A01DE6443B271AB7B6F675A1D8994ED8795BDA },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Check_NotNull_TisIReadOnlyList_1_tD6A01DE6443B271AB7B6F675A1D8994ED8795BDA_m846E98DE9271C9BE9BF06902499C996974FAA0D6 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IReadOnlyCollection_1_t87FA28414B2C4BF225ECA29E869484B3BBCBBB29 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IReadOnlyCollection_1_get_Count_mA0CC191CFF62E68A8DC8CB06075E88B2FB6DE4C8 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IReadOnlyList_1_t8D2D837C3B4C9156665B7FF308F4D3095AC681A0 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Check_NotNull_TisIReadOnlyList_1_t8D2D837C3B4C9156665B7FF308F4D3095AC681A0_mBB830B8770476414C3EF21CB52FE2E63A14991F0 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__5_1_t145037C444C9E70FF2C2EC5EAAAE0F246D4DFDB5 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Func_2_t7B92F4080C73A0E6A4CA7AE9F1135AE3066B00C3 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__5_1_t145037C444C9E70FF2C2EC5EAAAE0F246D4DFDB5 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__5_1_U3CHasNoNullsU3Eb__5_0_m0ECDE7C04E9FAB3F116241D18C46266007F0A83A },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Func_2__ctor_m18804647FE43501075295EB846C8354F1F3B19C8 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Enumerable_Any_TisT_tA6DB63C481CC8D000127150AEAE9315B401910B3_m3734274D863D2D3EF163C402E821F056DE3FB8C2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_IEnumerable_1_tC5A3A0D549F68A48A73C59F52984DDCCCAFABE45 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__5_1_tDD9FA8880FAB9D3CE4E190CB8C60A59CE07697D7 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__5_1__ctor_m421CADCE3C91C5F574DFA694FD336BEF38FCC394 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__5_1_tDD9FA8880FAB9D3CE4E190CB8C60A59CE07697D7 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t000398873571F5E8474BDE6E978C61B39B3808B2 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_DbContextOptionsBuilder_1_t4969F529C44539C93C92D8FB04B468F925DE1E7C },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_DbContextOptionsBuilder_1_t8C961FA32E44CF33C550EC77C4EC04A61ACA3EF8 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_DbContextOptionsBuilder_1_t1D43EFEC04C086A37A5FF61E7856F1FB8BE37D9B },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_DbContextOptionsBuilder_1_t5448100C9BC082F1F11727C81EA77B7FD168C863 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_DbContextOptionsBuilder_1_tFB6F1F23FE1B1C04692CAD6FC2F4FA4A17B81C55 },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_EFCore_NamingConventions_CodeGenModule;
+const Il2CppCodeGenModule g_EFCore_NamingConventions_CodeGenModule = 
+{
+	"EFCore.NamingConventions.dll",
+	84,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	10,
+	s_rgctxIndices,
+	24,
+	s_rgctxValues,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

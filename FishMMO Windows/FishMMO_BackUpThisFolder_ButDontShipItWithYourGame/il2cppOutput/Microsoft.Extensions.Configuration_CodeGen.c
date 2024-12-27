@@ -1,0 +1,147 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void EmbeddedAttribute__ctor_m5EED903EE432225564C107AF8C08DAAFD0E2298C (void);
+extern void NullableAttribute__ctor_m818C9A17033052EA2B4B7C38237DAF62C877CE80 (void);
+extern void NullableAttribute__ctor_mE1F6EE9625D1B3D8E0BFCC588657F9AEF3E44D9B (void);
+extern void NullableContextAttribute__ctor_mA6ABFC1BB29CD26910ACBEBCE0B60578067F1C1D (void);
+extern void NullablePublicOnlyAttribute__ctor_mEB8EE1A28F1644F7B1FB57E516118F97AB9A6DAA (void);
+extern void RefSafetyRulesAttribute__ctor_m740ABE2E677CC806C68E8F14CB8AC4C35C536663 (void);
+extern void ThrowHelper_ThrowIfNull_m8228925D2B380125093A57A86F8F1DA881A485AC (void);
+extern void ThrowHelper_Throw_mE404C3DBA3903B597E255C20A9F7CABF0192ED61 (void);
+extern void CallerArgumentExpressionAttribute__ctor_m1A22E9D1729972EB7E73D6DB7C65A710564E5C71 (void);
+extern void ConfigurationBuilder_get_Sources_mBD2F96DD880655F64D99D3580D9070786BC7B0BE (void);
+extern void ConfigurationBuilder_get_Properties_mA8C0A7D8556796C6090D6781CD5E18290B4206EE (void);
+extern void ConfigurationBuilder_Add_m0DEAA70EF2DC15FADC10B0977F147851393DF40D (void);
+extern void ConfigurationBuilder_Build_m9DB1FAE7AE75285435023D736E3E2D0293CB4F92 (void);
+extern void ConfigurationBuilder__ctor_mCDC94D38BD4DD4A9E5BE94165C83A226C640ACDE (void);
+extern void ConfigurationProvider__ctor_m3FF1DA5907543066769F26EFC5F1DF7CD96E0625 (void);
+extern void ConfigurationProvider_get_Data_m9A8D856D414FEA5F7775ABAE32E5AB2D5F2A6D0F (void);
+extern void ConfigurationProvider_set_Data_m7ABB970036825E893B9AF95610CFC377604EFAFD (void);
+extern void ConfigurationProvider_TryGet_mA3CAE9F30C2174B80D3A65B297F7F280DBE331B0 (void);
+extern void ConfigurationProvider_Load_mAD762764F4DE9C4213C9A6A2F66E73FD99D93B1F (void);
+extern void ConfigurationProvider_GetReloadToken_mA125C8C10AC7B0D090F07872AE53337527B519C5 (void);
+extern void ConfigurationProvider_OnReload_mC92121AFD35F8A7CB35C4A2A3A8CAA3EF75C3A97 (void);
+extern void ConfigurationProvider_ToString_mEC24DAD553D18EEC59BF248160A0B94CA5DBEE0F (void);
+extern void ConfigurationReloadToken_get_ActiveChangeCallbacks_m69FF44D64B4BD2DEAEFC0B2524F2373C89726253 (void);
+extern void ConfigurationReloadToken_get_HasChanged_m2734B38F72AC279F44944709D27995991B0000F9 (void);
+extern void ConfigurationReloadToken_RegisterChangeCallback_m030B60715F8406CCB37BB39C86327D9C316496FB (void);
+extern void ConfigurationReloadToken_OnReload_mDE6FBA8430DDFBBF384AF56D76D93D43F8ABE410 (void);
+extern void ConfigurationReloadToken__ctor_mF066F9DD1C8860EC4859DF679B56F1626C17B1A6 (void);
+extern void ConfigurationRoot__ctor_m1EB75FB807443C6ED41CAF2050E6E94D273A9946 (void);
+extern void ConfigurationRoot_get_Item_m18FD1DF4B408DE55E3CBE328A00DD67807DD16EE (void);
+extern void ConfigurationRoot_GetSection_mFF463A1791E616E1C8C0DA4A6D24B59CFAEABAA9 (void);
+extern void ConfigurationRoot_RaiseChanged_m82102F7AC2F27B9F622A065895874690462F44CD (void);
+extern void ConfigurationRoot_Dispose_mD6452A4E2C9E3846DB732C7FACDADF6E18306ECE (void);
+extern void ConfigurationRoot_GetConfiguration_m99520131A1C6CF05150DDC92A085EEE283161DC8 (void);
+extern void ConfigurationSection__ctor_mB6022BF3C1D9140F20F639B55FA6F3093B274E40 (void);
+extern void ConfigurationSection_get_Path_mAAF24F25B855068CF7C5727D5E770EE8C752E731 (void);
+extern void ConfigurationSection_get_Item_m8F0EB5BA999A0BF8C1A3C622B3C9E0861E9CEE9C (void);
+extern void ConfigurationSection_GetSection_m245EC44D57F2E489BE558BB33579D646B9B1900F (void);
+static Il2CppMethodPointer s_methodPointers[37] = 
+{
+	EmbeddedAttribute__ctor_m5EED903EE432225564C107AF8C08DAAFD0E2298C,
+	NullableAttribute__ctor_m818C9A17033052EA2B4B7C38237DAF62C877CE80,
+	NullableAttribute__ctor_mE1F6EE9625D1B3D8E0BFCC588657F9AEF3E44D9B,
+	NullableContextAttribute__ctor_mA6ABFC1BB29CD26910ACBEBCE0B60578067F1C1D,
+	NullablePublicOnlyAttribute__ctor_mEB8EE1A28F1644F7B1FB57E516118F97AB9A6DAA,
+	RefSafetyRulesAttribute__ctor_m740ABE2E677CC806C68E8F14CB8AC4C35C536663,
+	ThrowHelper_ThrowIfNull_m8228925D2B380125093A57A86F8F1DA881A485AC,
+	ThrowHelper_Throw_mE404C3DBA3903B597E255C20A9F7CABF0192ED61,
+	CallerArgumentExpressionAttribute__ctor_m1A22E9D1729972EB7E73D6DB7C65A710564E5C71,
+	ConfigurationBuilder_get_Sources_mBD2F96DD880655F64D99D3580D9070786BC7B0BE,
+	ConfigurationBuilder_get_Properties_mA8C0A7D8556796C6090D6781CD5E18290B4206EE,
+	ConfigurationBuilder_Add_m0DEAA70EF2DC15FADC10B0977F147851393DF40D,
+	ConfigurationBuilder_Build_m9DB1FAE7AE75285435023D736E3E2D0293CB4F92,
+	ConfigurationBuilder__ctor_mCDC94D38BD4DD4A9E5BE94165C83A226C640ACDE,
+	ConfigurationProvider__ctor_m3FF1DA5907543066769F26EFC5F1DF7CD96E0625,
+	ConfigurationProvider_get_Data_m9A8D856D414FEA5F7775ABAE32E5AB2D5F2A6D0F,
+	ConfigurationProvider_set_Data_m7ABB970036825E893B9AF95610CFC377604EFAFD,
+	ConfigurationProvider_TryGet_mA3CAE9F30C2174B80D3A65B297F7F280DBE331B0,
+	ConfigurationProvider_Load_mAD762764F4DE9C4213C9A6A2F66E73FD99D93B1F,
+	ConfigurationProvider_GetReloadToken_mA125C8C10AC7B0D090F07872AE53337527B519C5,
+	ConfigurationProvider_OnReload_mC92121AFD35F8A7CB35C4A2A3A8CAA3EF75C3A97,
+	ConfigurationProvider_ToString_mEC24DAD553D18EEC59BF248160A0B94CA5DBEE0F,
+	ConfigurationReloadToken_get_ActiveChangeCallbacks_m69FF44D64B4BD2DEAEFC0B2524F2373C89726253,
+	ConfigurationReloadToken_get_HasChanged_m2734B38F72AC279F44944709D27995991B0000F9,
+	ConfigurationReloadToken_RegisterChangeCallback_m030B60715F8406CCB37BB39C86327D9C316496FB,
+	ConfigurationReloadToken_OnReload_mDE6FBA8430DDFBBF384AF56D76D93D43F8ABE410,
+	ConfigurationReloadToken__ctor_mF066F9DD1C8860EC4859DF679B56F1626C17B1A6,
+	ConfigurationRoot__ctor_m1EB75FB807443C6ED41CAF2050E6E94D273A9946,
+	ConfigurationRoot_get_Item_m18FD1DF4B408DE55E3CBE328A00DD67807DD16EE,
+	ConfigurationRoot_GetSection_mFF463A1791E616E1C8C0DA4A6D24B59CFAEABAA9,
+	ConfigurationRoot_RaiseChanged_m82102F7AC2F27B9F622A065895874690462F44CD,
+	ConfigurationRoot_Dispose_mD6452A4E2C9E3846DB732C7FACDADF6E18306ECE,
+	ConfigurationRoot_GetConfiguration_m99520131A1C6CF05150DDC92A085EEE283161DC8,
+	ConfigurationSection__ctor_mB6022BF3C1D9140F20F639B55FA6F3093B274E40,
+	ConfigurationSection_get_Path_mAAF24F25B855068CF7C5727D5E770EE8C752E731,
+	ConfigurationSection_get_Item_m8F0EB5BA999A0BF8C1A3C622B3C9E0861E9CEE9C,
+	ConfigurationSection_GetSection_m245EC44D57F2E489BE558BB33579D646B9B1900F,
+};
+static const int32_t s_InvokerIndices[37] = 
+{
+	6256,
+	5422,
+	5514,
+	5422,
+	5422,
+	5484,
+	10711,
+	12561,
+	5514,
+	6128,
+	6128,
+	5067,
+	6128,
+	6256,
+	6256,
+	6128,
+	5514,
+	3159,
+	6256,
+	6128,
+	6256,
+	6128,
+	6024,
+	6024,
+	3466,
+	6256,
+	6256,
+	5514,
+	5067,
+	5067,
+	6256,
+	6256,
+	10243,
+	3948,
+	6128,
+	5067,
+	5067,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_Extensions_Configuration_CodeGenModule;
+const Il2CppCodeGenModule g_Microsoft_Extensions_Configuration_CodeGenModule = 
+{
+	"Microsoft.Extensions.Configuration.dll",
+	37,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
