@@ -292,12 +292,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dontRoute: 0
   _unreliableMtu: 1023
-  _ipv4BindAddress: 0.0.0.0
+  _ipv4BindAddress: 172.86.113.170
   _enableIpv6: 1
-  _ipv6BindAddress: 0.0.0.0
+  _ipv6BindAddress: 
   _port: 7781
   _maximumClients: 5000
-  _clientAddress: 172.86.113.170
+  _clientAddress: 127.0.0.1
 --- !u!114 &363288935454560800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -552,7 +552,7 @@ MonoBehaviour:
   _mtu: 1023
   _port: 7781
   _maximumClients: 2000
-  _clientAddress: 172.86.113.170
+  _clientAddress: 127.0.0.1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
