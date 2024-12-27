@@ -176,9 +176,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _dontRoute: 0
   _unreliableMtu: 1023
-  _ipv4BindAddress: 
+  _ipv4BindAddress: 0.0.0.0
   _enableIpv6: 1
-  _ipv6BindAddress: 
+  _ipv6BindAddress: 0.0.0.0
   _port: 7780
   _maximumClients: 5000
   _clientAddress: 172.86.113.170
