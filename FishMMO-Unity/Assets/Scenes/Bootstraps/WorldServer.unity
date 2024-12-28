@@ -505,7 +505,7 @@ MonoBehaviour:
   _mtu: 1023
   _port: 7780
   _maximumClients: 2000
-  _clientAddress: localhost
+  _clientAddress: 127.0.0.1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
