@@ -5438,8 +5438,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1040231679}
   m_HandleRect: {fileID: 1040231678}
   m_Direction: 0
-  m_Value: -0.000045776367
-  m_Size: 0.9973958
+  m_Value: 0.000015257392
+  m_Size: 0.9973956
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7339,57 +7339,6 @@ MonoBehaviour:
   Progress: {fileID: 1191252421}
   ProgressFillImage: {fileID: 190197087}
   Value: {fileID: 1509822295}
---- !u!1 &807510993
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 807510995}
-  - component: {fileID: 807510994}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &807510994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 807510993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2c95dfde7d73b54dbbdc23155d35d36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _refreshDefaultPrefabs: 0
-  _runInBackground: 1
-  _dontDestroyOnLoad: 1
-  _objectPool: {fileID: 0}
-  _persistence: 0
-  _logging: {fileID: 0}
-  _spawnablePrefabs: {fileID: 11400000, guid: 2ccf38a23b919bc4e9fc8406834e4a29, type: 2}
---- !u!4 &807510995
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 807510993}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &815470461
 GameObject:
   m_ObjectHideFlags: 0
@@ -10679,7 +10628,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0.000045776367, y: 191.50006}
+  m_AnchoredPosition: {x: 0.000045776367, y: 191.5}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1123188957
@@ -15002,7 +14951,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 656819719}
   m_HandleRect: {fileID: 656819718}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -15632,7 +15581,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1182307136}
   m_HandleRect: {fileID: 1182307135}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -27373,8 +27322,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 576255705292366939}
   m_HandleRect: {fileID: 47324463555991374}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 1
+  m_Value: 0
+  m_Size: 0.5
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -28021,7 +27970,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 689114121}
   m_HandleRect: {fileID: 689114120}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -29779,10 +29728,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f48f002b825cbd45a19bd96d90f9edb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dontRoute: 0
+  _dontRoute: 1
   _unreliableMtu: 1023
   _ipv4BindAddress: 172.86.113.170
-  _enableIpv6: 1
+  _enableIpv6: 0
   _ipv6BindAddress: 
   _port: 7770
   _maximumClients: 5000
@@ -32960,7 +32909,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -0.00061035156, y: 91.49999}
+  m_AnchoredPosition: {x: -0.00061035156, y: 91.50001}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1044085219738693208
@@ -48948,8 +48897,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6502274748234620734}
   m_HandleRect: {fileID: 7479644878855407370}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 0.9999999
+  m_Value: 1
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -56629,7 +56578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 362dfd7e6009fb44c90beec3df0ad853, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _useWss: 0
+  _useWss: 1
   _sslConfiguration:
     Enabled: 0
     CertificatePath: 
@@ -56638,7 +56587,7 @@ MonoBehaviour:
   _mtu: 1023
   _port: 7770
   _maximumClients: 2000
-  _clientAddress: 127.0.0.1
+  _clientAddress: localhost
 --- !u!114 &6789225648064425146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61487,7 +61436,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7893287529803971337}
   m_HandleRect: {fileID: 7893287529803971336}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -67352,4 +67301,3 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 668720057}
   - {fileID: 1509889812}
-  - {fileID: 807510995}
