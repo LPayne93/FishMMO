@@ -48,6 +48,9 @@ namespace FishMMO.Database.Npgsql
 		public DbSet<PartyUpdateEntity> PartyUpdates { get; set; }
 		public DbSet<ChatEntity> Chat { get; set; }
 
+		//custom tables
+		public DbSet<TesttableEntity> Test { get; set; }
+
 		// game data (?)
 		//public DbSet<QuestEntity> Quests { get; set; }
 
