@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FishMMO.Database.Npgsql.Entities
 {
-	[Table("characters", Schema = "fish_mmo_postgresql")]
-	[Index(nameof(Name))]
-	[Index(nameof(Account))]
+	[Table("Testtable", Schema = "fish_mmo_postgresql")]
+	[Index(nameof(firstString))]
+	[Index(nameof(secondString))]
 	public class TesttableEntity
     {
 		[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
