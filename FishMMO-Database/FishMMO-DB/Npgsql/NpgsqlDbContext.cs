@@ -50,6 +50,7 @@ namespace FishMMO.Database.Npgsql
 
 		//custom tables
 		public DbSet<TesttableEntity> Test { get; set; }
+		public DbSet<AdditionalTableEntity> AdditionalTable { get; set; }
 
 		// game data (?)
 		//public DbSet<QuestEntity> Quests { get; set; }
