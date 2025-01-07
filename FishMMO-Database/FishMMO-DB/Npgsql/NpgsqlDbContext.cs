@@ -51,11 +51,12 @@ namespace FishMMO.Database.Npgsql
 		//custom tables
 		public DbSet<TesttableEntity> Test { get; set; }
 		public DbSet<AdditionalTableEntity> AdditionalTable { get; set; }
+		public DbSet<YetAnotherTableEntity> YetAnotherTable { get; set; }
 
-		// game data (?)
-		//public DbSet<QuestEntity> Quests { get; set; }
+        // game data (?)
+        //public DbSet<QuestEntity> Quests { get; set; }
 
-		protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
 		{
 			base.OnModelCreating(modelBuilder);
 
